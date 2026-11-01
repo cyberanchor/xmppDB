@@ -1,0 +1,30 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.weimarnetz.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '77.87.48.37'
+asn: AS44194 Foerderverein Freie Netzwerke e.V.
+isp: Foerderverein Freie Netzwerke e.V
+org: Freifunk Berlin
+srv_client: jabber.weimarnetz.de:5222
+srv_server: jabber.weimarnetz.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+provider:
+  category: D
+  updated: '2026-05-18'
+  software: ejabberd 24.12-3+deb13u2
+  green_hosting: false
+  inband: false
+  registration_web:
+    en: https://jabber.weimarnetz.de:5443/register/new
+  captcha: false
+  email_required: false
+  upload_file_mb: 25
+  compliance: 91
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

@@ -1,0 +1,6 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.gobler.net
+dead: true
+srv_server: im.gobler.net:5269
+sources: [list]
+last_checked: '2026-11-01'

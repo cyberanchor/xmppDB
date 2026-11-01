@@ -1,0 +1,6 @@
+{{- /* (dict "text" "yes" "color" "green" "title" "") → a small coloured label; empty text → a muted dash. */ -}}
+{{- with .text -}}
+<span class="xdb-pill xdb-{{ $.color | default "none" }}"{{ with $.title }} title="{{ . }}"{{ end }}>{{ . }}</span>
+{{- else -}}
+<span class="xdb-na">—</span>
+{{- end -}}

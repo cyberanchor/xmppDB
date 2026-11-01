@@ -1,0 +1,44 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chapril.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '88.99.233.240'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+srv_client: xmpp.chapril.org:5222
+srv_server: xmpp.chapril.org:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+provider:
+  category: A
+  since: '2021-02-18'
+  updated: '2026-11-01'
+  organization: non-governmental
+  software: ejabberd 24.12-3+deb13u2
+  locations: [de]
+  website:
+    fr: https://www.chapril.org
+  legal_notice:
+    fr: https://www.chapril.org/cgu.html
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 2
+  inband: true
+  captcha: true
+  email_required: false
+  archive_days: 1096
+  upload_file_mb: 262
+  upload_total_mb: 500
+  upload_days: 380
+  compliance: 100
+  support_email:
+  - xmpp-support@chapril.org
+  support_groupchat:
+  - chapril@muc.chapril.org
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

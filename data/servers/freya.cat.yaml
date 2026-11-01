@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: freya.cat
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '98.13.39.250'
+asn: AS11351 Charter Communications Inc
+isp: Charter Communications
+org: Spectrum
+srv_client: xmpp.freya.cat:5222
+srv_server: xmpp.freya.cat:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

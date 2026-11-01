@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.kai.cz
+flag: 🇨🇿
+country: Czechia
+ip: '37.205.8.133'
+asn: AS24971 MasterDC s.r.o.
+isp: RELBIT-VPSFREE
+srv_client: jabber.kai.cz:5222
+srv_server: jabber.kai.cz:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

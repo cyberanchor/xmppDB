@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: impa.me
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '178.62.201.39'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: Digital Ocean
+ptr: '1681046.cloudwaysapps.com'
+srv_client: impa.me:5222
+srv_server: impa.me:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

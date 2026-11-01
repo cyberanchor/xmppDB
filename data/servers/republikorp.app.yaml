@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: republikorp.app
+flag: 🇮🇩
+country: Indonesia
+ip: '202.80.113.214'
+asn: AS23699 IP Teknologi Komunikasi, PT.
+isp: IP Teknologi Komunikasi, PT.
+org: Nextline
+srv_client: republikorp.app:5222
+srv_server: republikorp.app:5269
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+errors:
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

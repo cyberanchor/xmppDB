@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: relaychat.eu
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '85.13.152.174'
+asn: AS34788 Neue Medien Muennich GmbH
+isp: Neue Medien Muennich
+org: Neue Medien Muennich GmbH
+ptr: dd35722.kasserver.com
+srv_client: xmpp.relaychat.eu:5222
+srv_server: xmpp.relaychat.eu:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: m120.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '37.120.177.48'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: xmpp.m120.de:5222
+srv_server: xmpp.m120.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

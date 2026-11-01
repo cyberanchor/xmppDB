@@ -1,0 +1,27 @@
+# xmppDB server record; fields are described in data/README.md
+domain: libre-chat.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '46.41.28.197'
+asn: AS15987 Portunity GmbH
+isp: Portunity GmbH
+org: PTY Hh0mburg
+srv_client: xmpp.libre-chat.net:5222
+srv_server: xmpp.libre-chat.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: D
+  updated: '2026-10-23'
+  software: ejabberd 21.01-2~bpo10+1
+  green_hosting: false
+  inband: false
+  captcha: true
+  email_required: false
+  compliance: 91
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

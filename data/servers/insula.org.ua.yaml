@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: insula.org.ua
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '178.79.134.196'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+srv_client: insula.org.ua:5222
+srv_server: insula.org.ua:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,12 @@
+# xmppDB server record; fields are described in data/README.md
+domain: malze.eu
+ip: '188.68.59.146'
+srv_client: xmpp.knop.info:5222
+srv_server: xmpp.knop.info:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.nlnet.nl
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '145.220.53.129'
+asn: AS1101 IP-EEND BV
+isp: SURFnet III d
+org: SURFnet bv
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

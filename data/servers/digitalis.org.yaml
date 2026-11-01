@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: digitalis.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '212.12.48.27'
+asn: AS13135 Wieske's Crew GmbH
+isp: Wieske's Crew GmbH
+org: Wieskes Crew GmbH
+srv_client: bone.digitalis.org:5222
+srv_server: bone.digitalis.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

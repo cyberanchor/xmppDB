@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jid.pl
+flag: 🇵🇱
+country: Poland
+ip: '51.83.253.204'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH Sp. z o. o
+srv_client: jid.pl:5222
+srv_server: jid.pl:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

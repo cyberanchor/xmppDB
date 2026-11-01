@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mps.org.uy
+flag: 🇺🇾
+country: Uruguay
+ip: '186.50.220.184'
+asn: AS6057 Administracion Nacional de Telecomunicaciones
+isp: Administracion Nacional de Telecomunicaciones
+org: Administracion Nacional de Telecomunicaciones
+srv_client: mps.org.uy:5222
+srv_server: mps.org.uy:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.quakestyle.com
+flag: 🇵🇱
+country: Poland
+ip: '79.133.210.156'
+asn: AS20853 eTOP sp. z o.o.
+isp: eTOP sp. z o.o.
+org: Etopvps5
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

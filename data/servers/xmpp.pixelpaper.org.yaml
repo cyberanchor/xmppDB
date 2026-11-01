@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.pixelpaper.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '217.160.188.203'
+asn: AS8560 IONOS SE
+isp: IONOS SE
+org: De Rhr Bap Ngcs Public
+srv_client: xmpp.pixelpaper.org:5222
+srv_server: xmpp.pixelpaper.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

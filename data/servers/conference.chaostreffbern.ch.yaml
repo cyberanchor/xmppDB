@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: conference.chaostreffbern.ch
+flag: 🇨🇭
+country: Switzerland
+ip: '217.197.129.239'
+asn: AS15576 NTS workspace AG
+isp: Cirrax GmbH NTS Workspace AG
+org: Cirrax GmbH
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

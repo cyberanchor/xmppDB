@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ontomars.spacetechnology.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '2.59.132.109'
+asn: AS58212 dataforest GmbH
+isp: dataforest GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

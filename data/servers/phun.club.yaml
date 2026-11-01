@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: phun.club
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '172.245.228.125'
+asn: AS36352 HostPapa
+isp: HostPapa
+org: RackNerd LLC
+srv_client: phun.club:5222
+srv_server: phun.club:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

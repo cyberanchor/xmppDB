@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.nck1236.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '72.34.98.2'
+asn: AS30041 Race Tech, LLC
+isp: Race Tech, LLC
+org: Race Technologies, Inc
+srv_client: xmpp.nck1236.com:5222
+srv_server: xmpp.nck1236.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

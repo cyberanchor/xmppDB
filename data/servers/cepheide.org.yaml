@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: cepheide.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '49.13.50.26'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+ptr: hsl.cepheide.org
+srv_client: cepheide.org:5222
+srv_server: cepheide.org:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

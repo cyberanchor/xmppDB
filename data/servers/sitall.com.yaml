@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: sitall.com
+flag: 🇷🇺
+country: Russia
+ip: '185.81.182.137'
+asn: AS33991 IGRA-SERVICE LLC
+isp: Igra-Service LLC
+org: Iphome LLC
+srv_client: chat.sitall.com:5222
+srv_server: chat.sitall.com:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

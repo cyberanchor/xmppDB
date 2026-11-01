@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.sum7.eu
+dead: true
+errors:
+- dns:nxdomain
+provider:
+  category: D
+  updated: '2025-12-31'
+  software: ejabberd 24.10.0
+  green_hosting: false
+  inband: false
+  captcha: false
+  email_required: false
+  compliance: 95
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

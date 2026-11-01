@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: wyrddreams.org
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '213.138.100.58'
+asn: AS35425 Iomart Managed Services Limited
+isp: Iomart Hosting Limited
+org: Bigv VM Access1
+srv_client: secure.wyrddreams.org:5222
+srv_server: secure.wyrddreams.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: plainview.se
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '149.210.172.171'
+asn: AS20857 Signet B.V.
+isp: Signet B.V.
+org: TransIP BV
+srv_client: xmpp.plainview.se:5222
+srv_server: xmpp.plainview.se:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

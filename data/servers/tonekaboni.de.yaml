@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tonekaboni.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '217.197.80.132'
+asn: AS29670 Individual Network Berlin (IN-Berlin) e.V.
+isp: IN-BERLIN
+srv_client: xmpp-hosting.conversations.im:5222
+srv_server: xmpp-hosting.conversations.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

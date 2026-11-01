@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabb.li
+flag: 🇨🇭
+country: Switzerland
+ip: '185.72.67.185'
+asn: AS13030 Init7 (Switzerland) Ltd.
+isp: Init7 (Switzerland) Ltd.
+org: Hybrid7
+srv_client: xmpp.jabb.li:5222
+srv_server: xmpp.jabb.li:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-512, SCRAM-SHA-512-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

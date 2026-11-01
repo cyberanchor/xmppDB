@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: varriale.eu
+flag: 🇮🇹
+country: Italy
+alliance: 14
+ip: '77.241.2.29'
+asn: AS31263 MYNET S.R.L.
+isp: Mynet
+org: MNET s.r.l
+srv_client: xmpp-hosting.conversations.im:5222
+srv_server: xmpp-hosting.conversations.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

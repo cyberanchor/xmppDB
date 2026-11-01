@@ -1,0 +1,45 @@
+# xmppDB server record; fields are described in data/README.md
+domain: projectsegfau.lt
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '45.145.41.226'
+asn: AS58212 dataforest GmbH
+isp: dataforest GmbH
+org: dataforest GmbH
+srv_client: xmpp.projectsegfau.lt:5222
+srv_server: xmpp.projectsegfau.lt:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: A
+  since: '2023-02-07'
+  updated: '2026-08-23'
+  organization: private person
+  software: ejabberd 26.7.0
+  locations: [in, ch]
+  website:
+    en: https://projectsegfau.lt
+  legal_notice:
+    en: https://projectsegfau.lt/legal
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 2
+  inband: true
+  captcha: true
+  email_required: false
+  password_reset:
+    en: https://xmpp.projectsegfau.lt/account
+  archive_days: 0
+  upload_file_mb: 104
+  upload_total_mb: 0
+  upload_days: 0
+  compliance: 100
+  support_chat:
+  - sysadmin@projectsegfau.lt
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

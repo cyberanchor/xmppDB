@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: skyeto.com
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.111.111.154'
+asn: AS212238 Datacamp Limited
+isp: Datacamp Limited
+org: DataCamp Limited
+srv_client: xmpp.mailbox.org:5222
+srv_server: xmpp.mailbox.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

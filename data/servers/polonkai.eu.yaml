@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: polonkai.eu
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '64.226.114.156'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

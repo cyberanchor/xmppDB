@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: api.coredial.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '54.164.185.109'
+asn: AS14618 Amazon.com, Inc.
+isp: Amazon.com, Inc.
+org: AWS EC2 (us-east-1)
+srv_client: east-1.api.coredial.com:5222
+srv_server: east-1.api.coredial.com:5269
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

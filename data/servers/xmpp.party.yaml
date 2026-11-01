@@ -1,0 +1,54 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.party
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '67.217.240.178'
+asn: AS8560 IONOS SE
+isp: IONOS SE
+org: IONOS Inc
+srv_client: xmpp.party:5222
+srv_server: xmpp.party:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: A
+  since: '2018-04-30'
+  updated: '2026-10-19'
+  organization: private person
+  software: Prosody 0.12.4
+  locations: [us]
+  website:
+    en: https://xmpp.party
+  legal_notice:
+    en: https://xmpp.party/legal.html
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: true
+  captcha: false
+  email_required: false
+  archive_days: 30
+  upload_file_mb: 20
+  upload_total_mb: 100
+  upload_days: 7
+  compliance: 100
+  support_email:
+  - jeff@xmpp.party
+  support_chat:
+  - jeff@xmpp.party
+  support_groupchat:
+  - public@chat.xmpp.party
+  alternative_jids:
+  - '4ept.net'
+  - jabber.nu
+  - jabberafrica.org
+  - meckerspace.de
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

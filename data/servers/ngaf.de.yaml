@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ngaf.de
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '38.242.204.132'
+asn: AS51167 Contabo GmbH
+isp: Contabo GmbH
+org: Contabo GmbH
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

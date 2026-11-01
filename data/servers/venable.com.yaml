@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: venable.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '202.136.78.84'
+asn: AS30622 Venable LLP
+isp: Venable LLP
+org: DACS Cloud
+srv_server: pvbcucm-ewaye01.venable.com:5269
+c2s: false
+s2s: false
+errors:
+- c2s:no-response
+- s2s:no-response
+sources: [list]
+last_checked: '2026-11-01'

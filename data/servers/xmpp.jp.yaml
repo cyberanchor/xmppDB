@@ -1,0 +1,62 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.jp
+flag: 🇯🇵
+country: Japan
+ip: '153.126.201.59'
+asn: AS7684 SAKURA Internet Inc.
+isp: SAKURA Internet Inc.
+org: SAKURA Internet Inc.
+srv_client: gw.xmpp.jp:5222
+srv_server: gw.xmpp.jp:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+provider:
+  category: D
+  since: '2008-01-01'
+  updated: '2026-10-31'
+  organization: non-governmental
+  software: XMPP.JP 1
+  locations: [jp]
+  website:
+    de: https://www.xmpp.jp/?lang=de
+    en: https://www.xmpp.jp/?lang=en
+    id: https://www.xmpp.jp/?lang=id
+    ja: https://www.xmpp.jp/?lang=ja
+    nl: https://www.xmpp.jp/?lang=nl
+    ru: https://www.xmpp.jp/?lang=ru
+    zh: https://www.xmpp.jp/?lang=zh-cn
+  legal_notice:
+    de: https://www.xmpp.jp/policy?lang=de
+    en: https://www.xmpp.jp/policy?lang=en
+    ja: https://www.xmpp.jp/policy?lang=ja
+    nl: https://www.xmpp.jp/policy?lang=nl
+    ru: https://www.xmpp.jp/policy?lang=ru
+    zh: https://www.xmpp.jp/policy?lang=zh-tw
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 3
+  inband: false
+  registration_web:
+    en: https://www.xmpp.jp/signup
+  captcha: false
+  email_required: false
+  password_reset:
+    de: https://www.xmpp.jp/forgot_password?lang=de
+    en: https://www.xmpp.jp/forgot_password?lang=en
+    id: https://www.xmpp.jp/forgot_password?lang=id
+    ja: https://www.xmpp.jp/forgot_password?lang=ja
+    nl: https://www.xmpp.jp/forgot_password?lang=nl
+    ru: https://www.xmpp.jp/forgot_password?lang=ru
+    zh: https://www.xmpp.jp/forgot_password?lang=zh-cn
+  archive_days: 365
+  upload_total_mb: 100
+  upload_days: 365
+  compliance: 100
+  support_email:
+  - support@xmpp.jp
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

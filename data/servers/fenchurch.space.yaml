@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: fenchurch.space
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '195.201.237.64'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+srv_client: xmpp.fenchurch.space:5222
+srv_server: xmpp.fenchurch.space:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

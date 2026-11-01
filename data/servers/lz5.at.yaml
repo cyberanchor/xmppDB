@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: lz5.at
+flag: 🇦🇹
+country: Austria
+ip: '88.117.255.205'
+asn: AS8447 A1 Telekom Austria AG
+isp: HIGHWAY194
+org: Magistrat der Stadt Steyr
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

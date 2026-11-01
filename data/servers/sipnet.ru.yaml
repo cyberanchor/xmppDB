@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: sipnet.ru
+flag: 🇷🇺
+country: Russia
+ip: '212.53.40.40'
+asn: AS12335 Tario Communications LLC
+isp: Tario Communications LLC
+org: SIPNET ru Ltd
+srv_client: sipnet.ru:5222
+srv_server: sipnet.ru:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [CRAM-MD5, DIGEST-MD5, LOGIN, PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

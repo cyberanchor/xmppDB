@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tueftel-labor.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '78.47.74.149'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+ptr: static.149.74.47.78.clients.your-server.de
+srv_client: tueftel-labor.de:5222
+srv_server: tueftel-labor.de:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: under.net.pl
+flag: 🇵🇱
+country: Poland
+ip: '80.72.36.194'
+asn: AS20853 eTOP sp. z o.o.
+isp: eTOP Sp. z o.o.
+org: eTOP
+srv_client: under.net.pl:5222
+srv_server: under.net.pl:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,45 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '5222.de'
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.107.67.222'
+asn: AS30962 comtrance service GmbH
+isp: comtrance service GmbH
+org: comtrance service GmbH
+srv_client: xmpp.5222.de:5222
+srv_server: xmpp.5222.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+provider:
+  category: B
+  since: '2012-01-15'
+  updated: '2026-01-04'
+  organization: private person
+  software: ejabberd git
+  locations: [de]
+  website:
+    de: https://5222.de
+  legal_notice:
+    de: https://5222.de/tos/
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 2
+  inband: false
+  registration_web:
+    en: https://5222.de/register-on-5222.de/
+  captcha: false
+  email_required: false
+  archive_days: 7
+  upload_file_mb: 104
+  upload_total_mb: 100
+  upload_days: 30
+  compliance: 100
+  support_email:
+  - admin@5222.de
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

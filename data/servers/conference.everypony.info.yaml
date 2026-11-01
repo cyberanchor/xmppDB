@@ -1,0 +1,12 @@
+# xmppDB server record; fields are described in data/README.md
+domain: conference.everypony.info
+ip: '93.95.229.251'
+srv_client: server.xmpp.everypony.info:5222
+srv_server: server.xmpp.everypony.info:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: vucica.net
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '178.62.213.136'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: Digital Ocean
+srv_client: colorful.vucica.net:5222
+srv_server: colorful.vucica.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: w4eg.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.163.119.143'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: w4eg.de:5222
+srv_server: w4eg.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

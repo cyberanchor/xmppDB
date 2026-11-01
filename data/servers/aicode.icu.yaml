@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: aicode.icu
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '87.99.131.1'
+asn: AS213230 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: HETZNER-DC
+srv_client: xmpp.aicode.icu:5222
+srv_server: xmpp.aicode.icu:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.airvpn.org
+flag: 🇮🇪
+country: Ireland
+ip: '54.77.207.75'
+asn: AS16509 Amazon.com, Inc.
+isp: Amazon.com, Inc.
+org: AWS EC2 (eu-west-1)
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

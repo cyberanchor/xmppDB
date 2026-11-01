@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: eng1ums.lab.nextiva.im
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '208.89.108.225'
+asn: AS22103 Nextiva, Inc.
+isp: Nextiva, Inc.
+org: Nextiva, Inc.
+srv_client: ums1eng1s1.lab.nextiva.im:5222
+srv_server: ums1eng1s1.lab.nextiva.im:5269
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [ANONYMOUS, PLAIN]
+errors:
+- 's2s:stream-error: invalid-from'
+sources: [list]
+last_checked: '2026-11-01'

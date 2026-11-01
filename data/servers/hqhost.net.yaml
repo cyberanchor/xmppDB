@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: hqhost.net
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '88.214.192.160'
+asn: AS46636 NatCoWeb Corp.
+isp: hqhost-NB
+org: Overoptic Systems LTD
+srv_client: jabber.hqhost.net:5222
+srv_server: jabber.hqhost.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

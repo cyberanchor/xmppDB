@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: forsen-cock.duckdns.org
+flag: 🇺🇦
+country: Ukraine
+ip: '91.245.123.18'
+asn: AS43258 Centr Servisnogo Oblslugovuvannya Ltd
+isp: Centr Servisnogo Oblslugovuvannya Ltd
+org: Centr Servisnogo Oblslugovuvannya Ltd
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

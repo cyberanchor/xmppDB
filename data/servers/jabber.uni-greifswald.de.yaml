@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.uni-greifswald.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '141.53.10.29'
+asn: AS680 Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+org: Ernst-Moritz-Arndt-Universitaet Greifswald
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [JIVE-SHAREDSECRET, PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

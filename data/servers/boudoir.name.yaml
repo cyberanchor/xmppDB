@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: boudoir.name
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '2001:41d0:2:c908::1'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH SAS
+srv_client: xmpp.boudoir.name:5222
+srv_server: xmpp.boudoir.name:5269
+errors:
+- 'c2s:ipv6-only, not checked: the checking host has no IPv6'
+- 's2s:ipv6-only, not checked: the checking host has no IPv6'
+sources: [list]
+last_checked: '2026-11-01'

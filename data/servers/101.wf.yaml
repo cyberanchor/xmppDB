@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '101.wf'
+flag: 🇵🇹
+country: Portugal
+ip: '185.236.231.205'
+asn: AS47674 Net Solutions - Consultoria Em Tecnologias De Informacao, Sociedade Unipessoal LDA
+isp: Net Solutions - Consultoria Em Tecnologias De Informacao, Sociedade Unipessoal
+org: BlazingFast - A.S.A.S.S.U. Lda
+srv_client: '101.wf:5222'
+srv_server: '101.wf:5269'
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: d4m.fr
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '45.67.83.9'
+asn: AS207910 Damien Lacoste
+isp: Damien Lacoste
+org: Damien Lacoste
+srv_client: xmpp.d4m.fr:5222
+srv_server: xmpp.d4m.fr:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

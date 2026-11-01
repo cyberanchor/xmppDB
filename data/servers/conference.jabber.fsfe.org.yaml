@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: conference.jabber.fsfe.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '31.24.147.89'
+asn: AS49855 PLUTEX GmbH
+isp: PLUTEX GmbH
+org: PLUTEX GmbH
+srv_server: jabber.fsfe.org:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

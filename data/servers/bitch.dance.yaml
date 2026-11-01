@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: bitch.dance
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '165.22.193.163'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_client: xmpp.bitch.dance:5222
+srv_server: xmpp.bitch.dance:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

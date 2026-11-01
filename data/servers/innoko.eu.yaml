@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: innoko.eu
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '213.186.33.19'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH SAS
+srv_client: im.innoko.eu:5222
+srv_server: im.innoko.eu:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

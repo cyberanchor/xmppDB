@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: schupen.net
+flag: 🇧🇬
+country: Bulgaria
+ip: '84.238.225.229'
+asn: AS31435 Medicom Bulgaria Ltd.
+isp: Medicom Bulgaria Ltd.
+org: Medicom Bulgaria Ltd.
+srv_client: xmpp.schupen.net:5222
+srv_server: xmpp.schupen.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

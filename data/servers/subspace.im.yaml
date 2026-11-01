@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: subspace.im
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '23.142.136.15'
+asn: AS398415 EPEC Technologies, LLC
+isp: EPEC Technologies, LLC
+org: EPEC Technologies, LLC
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

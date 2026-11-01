@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: wehns.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.37.144.146'
+asn: AS34549 meerfarbig GmbH & Co. KG
+isp: meerfarbig GmbH & Co. KG
+srv_client: xmpp.b-5.de:5222
+srv_server: xmpp.b-5.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

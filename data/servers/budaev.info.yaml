@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: budaev.info
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '51.38.112.128'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH GmbH
+srv_client: budaev.info:5222
+srv_server: budaev.info:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

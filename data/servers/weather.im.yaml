@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: weather.im
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '212.227.240.181'
+asn: AS8560 IONOS SE
+isp: IONOS SE
+org: Us Pil Ionos Cloud Ewr
+srv_client: xmpp.weather.im:5222
+srv_server: xmpp.weather.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [ANONYMOUS, CRAM-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

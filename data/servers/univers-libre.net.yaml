@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: univers-libre.net
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '89.234.141.122'
+asn: AS60630 Association Alsace Reseau Neutre
+isp: Association Alsace Reseau Neutre
+org: Alsace Reseau Neutre network
+srv_client: yggdrasil.univers-libre.net:5222
+srv_server: yggdrasil.univers-libre.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

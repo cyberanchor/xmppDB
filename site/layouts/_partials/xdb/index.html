@@ -1,0 +1,5 @@
+{{- /* The servers of xdb/data.html as a map page address (slug) -> server, for the server pages.
+       Call it as partialCached "xdb/index.html" . "xdb-index". */ -}}
+{{- $by := newScratch -}}
+{{- range partialCached "xdb/data.html" . "xdb" -}}{{- $by.SetInMap "s" .slug . -}}{{- end -}}
+{{- return $by.Get "s" -}}

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.skyshanty.xyz
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '209.141.49.216'
+asn: AS53667 FranTech Solutions
+isp: FranTech Solutions
+org: FranTech Solutions
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

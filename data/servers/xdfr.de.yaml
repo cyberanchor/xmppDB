@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xdfr.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '46.226.127.194'
+asn: AS212567 Freie Netze Muenchen e.V.
+isp: Freie Netze Muenchen e.V.
+org: Wormsign Fnmuc
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

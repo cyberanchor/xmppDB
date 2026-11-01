@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.jabb.im
+flag: 🇨🇿
+country: Czechia
+ip: '95.168.217.72'
+asn: AS39392 SH.cz s.r.o.
+isp: SuperNetwork s.r.o.
+org: BackupLife s.r.o
+srv_server: lb.jabb.im:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

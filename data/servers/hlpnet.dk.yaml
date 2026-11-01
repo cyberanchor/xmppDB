@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: hlpnet.dk
+flag: 🇩🇰
+country: Denmark
+alliance: 9
+ip: '87.52.104.138'
+asn: AS3292 TDC Holding A/S
+isp: TDC Holding A/S
+org: Fastspeed Aps
+srv_client: hlpnet.dk:5222
+srv_server: hlpnet.dk:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

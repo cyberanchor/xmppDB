@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: kristof.cz
+flag: 🇨🇿
+country: Czechia
+ip: '84.42.133.30'
+asn: AS16019 Vodafone Czech Republic a.s.
+isp: Vodafone Czech Republic
+org: Vodafone Czech Republic a.s.
+srv_client: kristof.cz:5222
+srv_server: kristof.cz:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

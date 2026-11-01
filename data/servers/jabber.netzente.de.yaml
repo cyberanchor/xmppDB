@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.netzente.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '87.106.235.74'
+asn: AS8560 IONOS SE
+isp: IONOS SE ber.de
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-256]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

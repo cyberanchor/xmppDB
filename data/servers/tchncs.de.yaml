@@ -1,0 +1,43 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tchncs.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.58.62.32'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: Netcup Kvm At
+srv_client: tchncs.de:5222
+srv_server: tchncs.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: D
+  since: '2014-05-01'
+  updated: '2026-10-23'
+  organization: private person
+  software: Prosody 13.0.7
+  locations: [at, nl]
+  website:
+    de: https://tchncs.de/xmpp
+    en: https://tchncs.de/xmpp
+  legal_notice:
+    en: https://tchncs.de/tos
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  inband: false
+  captcha: false
+  email_required: false
+  archive_days: 32
+  upload_file_mb: 10
+  upload_total_mb: 20
+  upload_days: 32
+  compliance: 100
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

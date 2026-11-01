@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: linuxrocks.online
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '208.53.33.98'
+asn: AS13767 DataBank Holdings, Ltd.
+isp: DataBank Holdings, Ltd.
+org: C7 Data Centers
+srv_client: xmpp.linuxrocks.online:5222
+srv_server: xmpp.linuxrocks.online:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: stage.apicanet.com
+flag: 🇦🇿
+country: Azerbaijan
+ip: '194.213.119.236'
+asn: AS213881 OUR Technology LLC
+isp: OUR Technology LLC
+org: OUR Technology LLC
+srv_client: stage.ctrl6.apicanet.com:5222
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+errors:
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

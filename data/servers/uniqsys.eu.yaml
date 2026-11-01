@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: uniqsys.eu
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.102.21.14'
+asn: AS8648 dogado GmbH
+isp: dogado GmbH
+org: Webglobe, s.r.o
+srv_client: xmpp.uniqsys.eu:5222
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

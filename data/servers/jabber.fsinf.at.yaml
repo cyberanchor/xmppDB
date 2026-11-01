@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.fsinf.at
+flag: 🇦🇹
+country: Austria
+ip: '128.130.95.47'
+asn: AS679 Technische Universitat Wien
+isp: Technische Universitat Wien
+org: Technische Universitat Wien
+srv_client: xmpp.fsinf.at:5222
+srv_server: xmpp.fsinf.at:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

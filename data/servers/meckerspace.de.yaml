@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: meckerspace.de
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '67.217.240.178'
+asn: AS8560 IONOS SE
+isp: IONOS SE
+org: IONOS Inc
+srv_client: xmpp.party:5222
+srv_server: xmpp.party:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

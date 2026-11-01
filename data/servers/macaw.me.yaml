@@ -1,0 +1,51 @@
+# xmppDB server record; fields are described in data/README.md
+domain: macaw.me
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '151.80.18.179'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH SAS
+srv_client: xmpp.macaw.me:5222
+srv_server: xmpp.macaw.me:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+provider:
+  category: D
+  since: '2019-03-14'
+  updated: '2026-10-24'
+  organization: private person
+  software: ejabberd 26.9.0
+  locations: [fr]
+  website:
+    en: https://macaw.me
+  legal_notice:
+    en: https://macaw.me/tos
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: false
+  captcha: true
+  email_required: false
+  password_reset:
+    en: https://macaw.me/services/chat
+  archive_days: 0
+  upload_file_mb: 104
+  upload_total_mb: 2000
+  upload_days: 0
+  compliance: 100
+  support_email:
+  - administrator@macaw.me
+  - blue@macaw.me
+  support_chat:
+  - administrator@macaw.me
+  - blue@macaw.me
+  support_groupchat:
+  - support@conference.macaw.me
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

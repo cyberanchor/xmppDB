@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: hrc-stream-viott.vianeos.com
+flag: 🇦🇪
+country: United Arab Emirates
+ip: '217.165.211.143'
+asn: AS5384 Emirates Internet
+isp: Emirates Telecommunications Corporation
+org: Emirates Telecommunications Corporation
+c2s: false
+s2s: false
+errors:
+- c2s:no-response
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

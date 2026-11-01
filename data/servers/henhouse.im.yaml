@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: henhouse.im
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '188.114.96.3'
+asn: AS13335 Cloudflare, Inc.
+isp: Cloudflare, Inc.
+org: CloudFlare, Inc.
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

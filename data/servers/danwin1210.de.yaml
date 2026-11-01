@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: danwin1210.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '116.202.17.147'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+srv_client: danwin1210.de:5222
+srv_server: danwin1210.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

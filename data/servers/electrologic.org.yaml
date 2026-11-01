@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: electrologic.org
+flag: 🇫🇮
+country: Finland
+ip: '95.217.86.134'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: HETZNER-DC
+srv_client: xmpp.electrologic.org:5222
+srv_server: xmpp.electrologic.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: zhaba.space
+flag: 🇷🇺
+country: Russia
+ip: '51.250.109.119'
+asn: AS200350 Yandex.Cloud LLC
+isp: Yandex.Cloud LLC
+org: Yandex.Cloud LLC
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: phrozen.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '46.4.11.11'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: uc.pbx.speakup-telecom.com
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '51.15.79.122'
+asn: AS12876 Scaleway SAS
+isp: SCALEWAY
+srv_server: xmpp3.pbx.speakup-telecom.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

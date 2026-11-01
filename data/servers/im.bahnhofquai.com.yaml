@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.bahnhofquai.com
+flag: 🇨🇭
+country: Switzerland
+ip: '80.218.74.190'
+asn: AS6730 Sunrise GmbH
+isp: UPC Schweiz GmbH
+org: UPC Schweiz GmbH
+srv_client: karakat.no-ip.biz:5222
+srv_server: karakat.no-ip.biz:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

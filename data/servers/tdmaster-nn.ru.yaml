@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tdmaster-nn.ru
+flag: 🇷🇺
+country: Russia
+ip: '146.185.235.177'
+asn: AS50340 JSC Selectel
+isp: JSC Selectel
+org: LLC IksFayvIks
+srv_client: tdmaster-nn.ru:5222
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

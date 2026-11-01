@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: cybre.city
+flag: 🇫🇮
+country: Finland
+ip: '85.9.223.134'
+asn: AS202053 UpCloud Ltd
+isp: UpCloud Ltd
+org: Upcloud FI Hel2
+srv_client: xmpp.cybre.city:5222
+srv_server: xmpp.cybre.city:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

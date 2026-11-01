@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.missuweit.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.245.229.159'
+asn: AS8881 1&1 Versatel GmbH
+isp: '1&1 Versatel Deutschland GmbH'
+org: VT-DYNAMICPOOL East
+srv_client: mis.goip.de:5222
+srv_server: mis.goip.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

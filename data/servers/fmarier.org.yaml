@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: fmarier.org
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '172.105.6.87'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies
+org: Linode
+srv_client: jabber-gw.fmarier.org:5222
+srv_server: jabber-gw.fmarier.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-512, SCRAM-SHA-512-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

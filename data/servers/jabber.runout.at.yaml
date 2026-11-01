@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.runout.at
+flag: 🇦🇹
+country: Austria
+ip: '77.237.55.2'
+asn: AS1764 Next Layer Telekommunikationsdienstleistungs- und Beratungs GmbH
+isp: Next Layer Telekommunikationsdienstleistungs- und Beratungs GmbH
+org: Nextlayer
+srv_client: xmpp01.runout.at:5222
+srv_server: xmpp01.runout.at:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

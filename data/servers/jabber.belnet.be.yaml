@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.belnet.be
+flag: 🇧🇪
+country: Belgium
+alliance: 14
+ip: '193.190.198.23'
+asn: AS2611 BELNET
+isp: BELNET
+org: Belnet Services
+srv_client: jabber.belnet.be:5222
+srv_server: jabber.belnet.be:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

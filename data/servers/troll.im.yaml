@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: troll.im
+flag: 🇷🇺
+country: Russia
+ip: '84.54.56.161'
+asn: AS208677 Cloud Technologies LLC trading as Cloud.ru
+isp: '"Cloud Technologies" LLC trading as Cloud.ru'
+org: Cloud.ru
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: gruni.selfhost.eu
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '82.165.251.46'
+asn: AS8560 IONOS SE
+isp: IONOS SE
+org: De Rhr Bap Ngcs Public
+srv_client: gruni.selfhost.eu:5222
+srv_server: gruni.selfhost.eu:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

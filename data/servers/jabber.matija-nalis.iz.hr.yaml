@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.matija-nalis.iz.hr
+flag: 🇭🇷
+country: Croatia
+ip: '149.5.190.60'
+asn: AS174 Cogent Communications, LLC
+isp: Cogent Communications
+org: RIFIN d.o.o
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

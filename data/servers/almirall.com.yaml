@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: almirall.com
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '149.126.72.207'
+asn: AS19551 Incapsula Inc
+isp: Incapsula Inc
+org: Thales Imperva EU4
+srv_client: alm-expwy-e-glb.almirall.com:5222
+srv_server: alm-expwy-e-glb.almirall.com:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Name or service not known'
+- 's2s:connect-error: Name or service not known'
+sources: [list]
+last_checked: '2026-11-01'

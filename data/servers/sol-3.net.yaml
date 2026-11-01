@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: sol-3.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.11.138.205'
+asn: AS48823 Hosting.de GmbH
+isp: Hosting.de GmbH
+org: Twooit GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

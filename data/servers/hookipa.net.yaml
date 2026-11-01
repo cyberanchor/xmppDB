@@ -1,0 +1,48 @@
+# xmppDB server record; fields are described in data/README.md
+domain: hookipa.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '31.172.31.196'
+asn: AS50629 LWLcom GmbH
+isp: rrbone
+org: rrbone GmbH
+srv_client: xmpp.hookipa.net:5222
+srv_server: xmpp.hookipa.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: A
+  since: '2008-05-28'
+  updated: '2026-10-23'
+  organization: private person
+  software: ejabberd 26.9.0
+  locations: [de]
+  website:
+    de: https://hookipa.net
+    en: https://hookipa.net/en/front-page/
+  legal_notice:
+    de: https://hookipa.net/impressum/
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 2
+  inband: true
+  captcha: true
+  email_required: false
+  archive_days: 365
+  upload_file_mb: 104
+  upload_total_mb: 0
+  upload_days: 30
+  compliance: 100
+  support_email:
+  - support@hookipa.net
+  support_groupchat:
+  - support@chat.hookipa.net
+  alternative_jids:
+  - xmpp.social
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

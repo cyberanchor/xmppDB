@@ -1,0 +1,8 @@
+{{- /* Labels and colours of the server states, shared by every template (same order as the filter). */ -}}
+{{- return dict
+  "online" (dict "label" "Online" "long" "Clients can connect: a client stream (C2S) opened" "color" "green" "icon" "🟢")
+  "federation" (dict "label" "Federation only" "long" "Only the server-to-server port (S2S) answered; clients cannot connect (often a group chat or upload component)" "color" "yellow" "icon" "🟡")
+  "offline" (dict "label" "Offline" "long" "The domain resolves, but no XMPP stream opened" "color" "red" "icon" "🔴")
+  "gone" (dict "label" "Gone" "long" "The domain does not resolve (NXDOMAIN, SERVFAIL or no address)" "color" "grey" "icon" "❌")
+  "unchecked" (dict "label" "Not checked" "long" "No result: not checked yet, or the server has only IPv6 and the checking host has none" "color" "blue" "icon" "⏳")
+-}}

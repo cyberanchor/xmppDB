@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: domob.eu
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '51.75.22.122'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

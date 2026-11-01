@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.rattakete.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '157.90.19.214'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

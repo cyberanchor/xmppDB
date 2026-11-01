@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: amadeus.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '107.154.251.68'
+asn: AS19551 Incapsula Inc
+isp: Incapsula Inc
+org: Incapsula Inc
+srv_client: c2s.amadeus.com.webexconnect.com:5222
+srv_server: rtc.amadeus.net:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Name or service not known'
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

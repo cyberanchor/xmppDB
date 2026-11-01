@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.otr.im
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '37.218.243.2'
+asn: AS47172 Greenhost BV
+isp: Greenhost BV
+org: GH AMS
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

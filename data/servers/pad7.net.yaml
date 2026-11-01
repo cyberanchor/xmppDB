@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pad7.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '195.90.219.71'
+asn: AS42730 EVANZO e-commerce GmbH
+isp: EVANZO e-commerce GmbH
+org: BusinessOnline GmbH
+srv_client: pad7.net:5222
+srv_server: pad7.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

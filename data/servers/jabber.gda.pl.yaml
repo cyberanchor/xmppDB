@@ -1,0 +1,14 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.gda.pl
+flag: 🇵🇱
+country: Poland
+ip: '153.19.250.228'
+asn: AS5550 Technical University of Gdansk, Academic Computer Center TASK
+isp: Technical University of Gdansk, Academic Computer Center TASK
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

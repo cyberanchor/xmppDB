@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pressenter.com.ar
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '38.123.149.49'
+asn: AS396839 TekTonic
+isp: TekTonic
+org: TekTonic, LLC
+srv_client: pressenter.com.ar:5222
+srv_server: pressenter.com.ar:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

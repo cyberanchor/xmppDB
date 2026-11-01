@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.ibs.dn.ua
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '116.203.87.93'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: im.ibs.dn.ua:5222
+srv_server: im.ibs.dn.ua:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

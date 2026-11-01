@@ -1,0 +1,27 @@
+# xmppDB server record; fields are described in data/README.md
+domain: citw.lgbt
+dead: true
+errors:
+- dns:nxdomain
+provider:
+  category: D
+  since: '2024-06-12'
+  updated: '2025-11-11'
+  organization: private person
+  software: Prosody 13.0.2
+  locations: [de]
+  website:
+    en: https://citw.lgbt
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  inband: false
+  captcha: false
+  email_required: false
+  archive_days: 7
+  upload_file_mb: 1073
+  upload_total_mb: 20
+  upload_days: 7
+  compliance: 100
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

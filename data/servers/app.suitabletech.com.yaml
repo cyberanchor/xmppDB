@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: app.suitabletech.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '35.208.41.192'
+asn: AS43515 Google Ireland Limited
+isp: Google Ireland Limited
+org: Google Cloud (us-central1)
+c2s: true
+s2s: false
+starttls: false
+registration: false
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

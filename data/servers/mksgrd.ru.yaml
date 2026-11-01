@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mksgrd.ru
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '94.156.102.13'
+asn: AS215439 PLAY2GO INTERNATIONAL LIMITED
+isp: Play2go International Limited
+org: Play2go International Limited
+srv_client: xmpp.mksgrd.ru:5222
+srv_server: xmpp.mksgrd.ru:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

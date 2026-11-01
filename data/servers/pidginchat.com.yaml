@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pidginchat.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '157.230.66.28'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_client: pidginchat.com:5222
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: policy-violation'
+sources: [list]
+last_checked: '2026-11-01'

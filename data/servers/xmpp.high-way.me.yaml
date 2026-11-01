@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.high-way.me
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '194.8.133.19'
+asn: AS216333 NetDev UG (haftungsbeschraenkt)
+isp: NetDev UG (haftungsbeschraenkt)
+org: NetDev UG (haftungsbeschraenkt)
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

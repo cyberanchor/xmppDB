@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: adamflott.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '95.133.231.44'
+asn: AS219399 servinga GmbH
+isp: servinga GmbH
+org: servinga GmbH
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

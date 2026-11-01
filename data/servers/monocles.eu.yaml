@@ -1,0 +1,61 @@
+# xmppDB server record; fields are described in data/README.md
+domain: monocles.eu
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.58.6.162'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: xmpp.monocles.eu:5222
+srv_server: xmpp.monocles.eu:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: B
+  since: '2021-08-21'
+  updated: '2026-10-27'
+  organization: commercial person
+  software: Prosody 13.0.7
+  locations: [de]
+  website:
+    de: https://monocles.eu/more/de.html
+    en: https://monocles.eu/more
+    es: https://monocles.eu/more/es.html
+    fr: https://monocles.eu/more/fr.html
+    he: https://monocles.eu/more/he.html
+  legal_notice:
+    de: https://monocles.eu/legal-privacy/de.html
+    en: https://monocles.eu/legal-privacy/
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 3
+  inband: false
+  registration_web:
+    en: https://ocean.monocles.eu/apps/registration/
+  captcha: false
+  email_required: false
+  password_reset:
+    de: https://ocean.monocles.eu/login
+    en: https://ocean.monocles.eu/login
+    es: https://ocean.monocles.eu/login
+    fr: https://ocean.monocles.eu/login
+  archive_days: 60
+  upload_file_mb: 209
+  upload_total_mb: 3221
+  upload_days: 30
+  compliance: 100
+  support_email:
+  - support@monocles.eu
+  support_chat:
+  - support@monocles.eu
+  support_groupchat:
+  - support@conference.monocles.eu
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

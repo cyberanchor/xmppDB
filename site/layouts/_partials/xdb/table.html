@@ -1,0 +1,102 @@
+{{- /* The server table: search, filters, sortable columns, export of the shown domains. Filters, sorting and the
+       export run in xdb.js, which reads the values from the cells; the state is in the address
+       (#state=online&reg=open&sort=auth). Without JavaScript the full table is still there.
+       Cells are plain text with a colour class (see "Table cells" in xdb.css): 2500 rows stay light. */ -}}
+{{- $d := partialCached "xdb/data.html" . "xdb" -}}
+{{- $meta := partial "xdb/meta.html" . -}}
+{{- $states := slice "online" "federation" "offline" "gone" "unchecked" -}}
+{{- $countries := dict -}}
+{{- range $d -}}{{- with .country -}}{{- $countries = merge $countries (dict . (add (index $countries . | default 0) 1)) -}}{{- end -}}{{- end -}}
+{{- $yn := dict "true" "<td class=y>yes</td>" "false" "<td class=n>no</td>" -}}
+{{- $eyes := dict "5" "<td class=e5>5 Eyes</td>" "9" "<td class=e9>9 Eyes</td>" "14" "<td class=e14>14 Eyes</td>" -}}
+{{- $authClass := dict "green" "y" "yellow" "w" "red" "n" "none" "" -}}
+<section class="xdb-servers" id="servers" aria-label="XMPP servers">
+  <div class="xdb-toolbar">
+    <label class="xdb-search">
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <span class="xdb-sr">Search servers</span>
+      <input type="search" data-xdb-q placeholder="Search: domain, country, network, software…" autocomplete="off" spellcheck="false">
+      <kbd aria-hidden="true">/</kbd>
+    </label>
+    <label class="xdb-select"><span class="xdb-sr">Status</span>
+      <select data-xdb-f="state">
+        <option value="">Any status ({{ len $d }})</option>
+        {{- range $s := $states }}{{ with where $d "state" $s }}
+        <option value="{{ $s }}">{{ (index $meta $s).label }} ({{ len . }})</option>
+        {{- end }}{{ end }}
+      </select>
+    </label>
+    <label class="xdb-select"><span class="xdb-sr">Registration</span>
+      <select data-xdb-f="reg">
+        <option value="">Any registration</option>
+        <option value="open">In-band open ({{ len (where $d "reg" "open") }})</option>
+        <option value="web">Web page only ({{ len (where $d "reg" "web") }})</option>
+        <option value="closed">Closed ({{ len (where $d "reg" "closed") }})</option>
+      </select>
+    </label>
+    <label class="xdb-select"><span class="xdb-sr">XMPP Providers category</span>
+      <select data-xdb-f="cat">
+        <option value="">Any category</option>
+        <option value="listed">XMPP Providers: all ({{ len (where $d "category" "ne" "") }})</option>
+        {{- range $c := slice "A" "B" "C" "D" }}
+        <option value="{{ $c }}">Category {{ $c }} ({{ len (where $d "category" $c) }})</option>
+        {{- end }}
+        <option value="none">Not listed ({{ len (where $d "category" "") }})</option>
+      </select>
+    </label>
+    <label class="xdb-select"><span class="xdb-sr">Country</span>
+      <select data-xdb-f="country">
+        <option value="">All countries</option>
+        {{- range $c, $n := $countries }}
+        <option value="{{ $c }}">{{ $c }} ({{ $n }})</option>
+        {{- end }}
+      </select>
+    </label>
+    <button type="button" class="xdb-btn" data-xdb-export title="Download the domains shown in the table as a text file">
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="15" height="15"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0-4.5-4.5M12 15l4.5-4.5M4 17v3h16v-3"/></svg>
+      domains.txt
+    </button>
+  </div>
+  <p class="xdb-count" aria-live="polite"><span data-xdb-count>{{ len $d }}</span> of {{ len $d }} servers <button type="button" class="xdb-reset" data-xdb-reset hidden>reset filters</button></p>
+
+  <div class="xdb-table-wrap">
+    <table class="xdb-table">
+      <thead>
+        <tr>
+          <th scope="col"><button type="button" data-xdb-sort="text" data-xdb-key="server">Server</button></th>
+          <th scope="col"><button type="button" data-xdb-sort="country" data-xdb-key="country">Country</button></th>
+          <th scope="col"><button type="button" data-xdb-sort="eyes" data-xdb-key="alliance" title="Five / Nine / Fourteen Eyes membership of the server's country">Alliance</button></th>
+          <th scope="col"><button type="button" data-xdb-sort="yn" data-xdb-key="clients" title="A client stream (C2S) opened: apps can connect">Clients</button></th>
+          <th scope="col"><button type="button" data-xdb-sort="yn" data-xdb-key="federation" title="A server stream (S2S) opened: the server federates">Federation</button></th>
+          <th scope="col"><button type="button" data-xdb-sort="reg" data-xdb-key="registration" title="In-band registration (XEP-0077) from an app, or a web sign-up page listed by XMPP Providers">Registration</button></th>
+          <th scope="col"><button type="button" data-xdb-sort="yn" data-xdb-key="starttls" title="STARTTLS offered and the TLS handshake worked">STARTTLS</button></th>
+          <th scope="col"><button type="button" data-xdb-sort="auth" data-xdb-key="auth" title="Strongest SASL mechanism offered after TLS; -PLUS adds channel binding">Auth</button></th>
+          <th scope="col"><button type="button" data-xdb-sort="text" data-xdb-key="category" title="Category on providers.xmpp.net: A and B are recommended for sign-up, D is any listed provider">Category</button></th>
+          <th scope="col"><button type="button" data-xdb-sort="text" data-xdb-key="network" title="Network (autonomous system) of the server's address">Network</button></th>
+        </tr>
+      </thead>
+      <tbody data-xdb-list>
+        {{- range $s := $d }}
+        <tr data-st="{{ .state }}"{{ with index .p "software" }} data-sw="{{ lower . }}"{{ end }}{{ if .dead }} class="xdb-dead"{{ end }}>
+          {{- /* relative link: the table is on the home page */ -}}
+          <td><a href="servers/{{ .slug }}/">{{ .domain }}</a></td>
+          <td>{{ with .flag }}{{ . }} {{ end }}{{ .country }}</td>
+          {{- with .eyes }}{{ index $eyes . | safeHTML }}{{ else }}{{ if $s.country }}<td class=u>no</td>{{ else }}<td></td>{{ end }}{{ end }}
+          {{- index $yn (string .c2s) | default "<td></td>" | safeHTML }}
+          {{- index $yn (string .s2s) | default "<td></td>" | safeHTML }}
+          <td>
+            {{- if eq .reg "open" }}<a class=y href="xmpp:{{ .domain }}?register">in-band</a>{{ end }}
+            {{- with .regWeb }}{{ if eq $s.reg "open" }} {{ end }}<a href="{{ . }}" rel="noopener nofollow">web</a>{{ end }}
+            {{- if eq .reg "closed" }}<span class=u>closed</span>{{ end -}}
+          </td>
+          {{- index $yn (string .starttls) | default "<td></td>" | safeHTML }}
+          <td{{ with index $authClass .cAuth }} class="{{ . }}"{{ end }}>{{ .auth }}</td>
+          <td>{{ with .category }}<a class="xdb-cat xdb-cat-{{ lower . }}" href="https://providers.xmpp.net/provider/{{ $s.domain }}/" rel="noopener">{{ . }}</a>{{ end }}</td>
+          <td>{{ .network }}</td>
+        </tr>
+        {{- end }}
+      </tbody>
+    </table>
+    <p class="xdb-empty" hidden>No server matches these filters.</p>
+  </div>
+</section>

@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: cloud.nosarcun.net
+flag: 🇨🇭
+country: Switzerland
+ip: '46.127.101.251'
+asn: AS6730 Sunrise GmbH
+isp: UPC Schweiz GmbH
+org: UPC Schweiz GmbH
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

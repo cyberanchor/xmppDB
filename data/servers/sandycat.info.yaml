@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: sandycat.info
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '146.185.164.188'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: Digital Ocean
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

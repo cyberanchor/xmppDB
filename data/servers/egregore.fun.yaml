@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: egregore.fun
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '78.120.86.132'
+asn: AS15557 Societe Francaise Du Radiotelephone - SFR SA
+isp: Societe Francaise Du Radiotelephone - SFR SA
+srv_client: xmpp.egregore.fun:5232
+srv_server: xmpp.egregore.fun:5279
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: t-8ch.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '159.69.126.157'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: xmpp.t-8ch.de:5222
+srv_server: xmpp.t-8ch.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: imp.comwave.net
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '192.235.198.26'
+asn: AS15128 Comwave Telecom Inc.
+isp: Comwave Telecom Inc.
+org: Comwave Telecom Inc
+srv_client: imp-01.comwave.net:5222
+srv_server: imp-01.comwave.net:5269
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [ANONYMOUS, PLAIN]
+errors:
+- 's2s:stream-error: invalid-from'
+sources: [list]
+last_checked: '2026-11-01'

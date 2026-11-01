@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: yggdrasil.link
+flag: 🇸🇰
+country: Slovakia
+ip: '77.247.225.234'
+asn: AS43248 ISPER, s.r.o.
+isp: ISPER, s.r.o.
+org: ISPER, s.r.o
+ptr: server.zbin.eu
+srv_client: xmpp.yggdrasil.link:5222
+srv_server: xmpp-ygg.yggdrasil.link:5269
+c2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:ipv6-only, not checked: the checking host has no IPv6'
+sources: [list]
+last_checked: '2026-11-01'

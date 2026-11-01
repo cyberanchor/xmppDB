@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.sapib.ca
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '162.250.191.174'
+asn: AS26832 Rica Web Services
+isp: Rica Web Services
+org: Rica Web Services
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

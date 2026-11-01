@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '5cht.xyz'
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '45.79.79.111'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+srv_client: '5cht.xyz:5222'
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mage.party
+flag: 🇮🇳
+country: India
+ip: '217.217.248.165'
+asn: AS141995 Contabo Asia Private Limited
+isp: Contabo Asia Private Limited
+org: Contabo GmbH
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

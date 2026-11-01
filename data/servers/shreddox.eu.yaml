@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: shreddox.eu
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '37.221.193.44'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: NETCUP-GMBH
+srv_client: asterix.shreddox.eu:5222
+srv_server: asterix.shreddox.eu:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

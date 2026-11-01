@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: abzieher.net
+flag: 🇨🇭
+country: Switzerland
+ip: '185.221.61.34'
+asn: AS205929 Abzieher GmbH
+isp: Abzieher GmbH
+org: Abzieher GmbH
+srv_client: node10.abzieher.it:5222
+srv_server: node10.abzieher.it:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

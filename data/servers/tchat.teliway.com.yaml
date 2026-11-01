@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tchat.teliway.com
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '87.98.179.136'
+asn: AS16276 OVH SAS
+isp: MCPECloud SAS
+org: MCPECloud ISP
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

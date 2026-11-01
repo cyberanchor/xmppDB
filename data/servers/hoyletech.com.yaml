@@ -1,0 +1,12 @@
+# xmppDB server record; fields are described in data/README.md
+domain: hoyletech.com
+ip: '10.31.41.1'
+srv_client: phoenix.hoyletech.com:5222
+srv_server: phoenix.hoyletech.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

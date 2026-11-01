@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: alterednarrative.net
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '85.119.82.241'
+asn: AS8943 Jump Networks Ltd
+isp: Bitfolk Ltd
+org: BitFolk Ltd
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

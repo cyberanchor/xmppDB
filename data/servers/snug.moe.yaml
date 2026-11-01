@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: snug.moe
+flag: 🇦🇹
+country: Austria
+ip: '152.53.17.147'
+asn: AS197540 netcup GmbH
+isp: ANX
+srv_client: xmpp.snug.moe:5222
+srv_server: xmpp.snug.moe:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

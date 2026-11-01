@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pade.chat
+flag: 🇨🇭
+country: Switzerland
+ip: '94.103.99.222'
+asn: AS49457 Openbusiness S.A.
+isp: OpenBusiness Ltd / SwissCenter / SwissLink
+srv_client: pade.chat:5227
+srv_server: pade.chat:5569
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [ANONYMOUS, CRAM-MD5, DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

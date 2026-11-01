@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: d-a-x.ru
+flag: 🇷🇺
+country: Russia
+ip: '82.146.55.129'
+asn: AS29182 JSC IOT
+isp: JSC IOT
+org: JSC IOT
+srv_client: htmvt.d-a-x.ru:5222
+srv_server: htmvt.d-a-x.ru:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

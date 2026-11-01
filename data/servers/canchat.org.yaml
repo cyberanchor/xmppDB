@@ -1,0 +1,47 @@
+# xmppDB server record; fields are described in data/README.md
+domain: canchat.org
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '170.75.161.175'
+asn: AS174 Cogent Communications, LLC
+isp: Cogent Communications
+org: Lunanode Hosting Inc.
+srv_client: xmpp.canchat.org:5222
+srv_server: xmpp.canchat.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: D
+  since: '2022-02-22'
+  updated: '2026-10-11'
+  organization: private person
+  software: Prosody 13.0.7
+  locations: [ca]
+  website:
+    en: https://canchat.org
+  legal_notice:
+    en: https://canchat.org/terms-of-service/
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 1
+  inband: false
+  captcha: false
+  email_required: false
+  archive_days: 28
+  upload_file_mb: 52
+  upload_total_mb: 0
+  upload_days: 7
+  compliance: 100
+  support_email:
+  - sam@pavot.ca
+  support_chat:
+  - sam@canchat.org
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

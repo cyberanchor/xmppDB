@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.absturztau.be
+flag: 🇨🇭
+country: Switzerland
+ip: '81.201.202.100'
+asn: AS25353 BAR Informatik AG
+isp: BAR Informatik AG
+org: BAR Access
+srv_client: jabber.absturztau.be:5222
+srv_server: jabber.absturztau.be:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

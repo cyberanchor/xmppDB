@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: rfly.org
+flag: 🇷🇺
+country: Russia
+ip: '91.217.77.200'
+asn: AS50113 FIRST SERVER LIMITED
+isp: First Server Limited
+org: FIRST SERVER, SOCIEDAD LIMITADA
+srv_client: rfly.org:5222
+srv_server: rfly.org:5269
+c2s: false
+s2s: true
+errors:
+- c2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

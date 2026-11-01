@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: laberzentrale.de
+dead: true
+errors:
+- dns:nxdomain
+provider:
+  category: D
+  updated: '2026-05-09'
+  software: ejabberd 23.01-1
+  green_hosting: false
+  inband: false
+  captcha: false
+  email_required: false
+  compliance: 95
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

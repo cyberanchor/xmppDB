@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: talk.planetjabber.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '195.90.219.71'
+asn: AS42730 EVANZO e-commerce GmbH
+isp: EVANZO e-commerce GmbH
+org: BusinessOnline GmbH
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

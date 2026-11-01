@@ -1,0 +1,5 @@
+# xmppDB server record; fields are described in data/README.md
+domain: a-z.win
+dead: true
+sources: [list]
+last_checked: '2026-11-01'

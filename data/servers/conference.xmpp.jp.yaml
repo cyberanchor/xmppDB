@@ -1,0 +1,14 @@
+# xmppDB server record; fields are described in data/README.md
+domain: conference.xmpp.jp
+flag: 🇯🇵
+country: Japan
+ip: '153.126.201.59'
+asn: AS7684 SAKURA Internet Inc.
+isp: SAKURA Internet Inc.
+org: SAKURA Internet Inc.
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

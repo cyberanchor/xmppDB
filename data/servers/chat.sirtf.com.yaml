@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.sirtf.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '128.151.167.196'
+asn: AS20 University of Rochester
+isp: University of Rochester
+org: University of Rochester
+srv_client: cassis1.sirtf.com:5222
+srv_server: cassis1.sirtf.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-256]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

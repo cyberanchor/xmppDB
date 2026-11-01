@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: caser.es
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '45.60.123.21'
+asn: AS19551 Incapsula Inc
+isp: Incapsula Inc
+org: Incapsula Inc
+c2s: false
+s2s: false
+errors:
+- c2s:not-xmpp
+- s2s:no-response
+sources: [list]
+last_checked: '2026-11-01'

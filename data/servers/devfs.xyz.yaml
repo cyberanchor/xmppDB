@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: devfs.xyz
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '67.22.162.144'
+asn: AS36728 Emery Telcom
+isp: Emery Telcom
+org: Emery Telcom
+ptr: dynamic.etv.net
+srv_client: xmpp.devfs.xyz:5222
+srv_server: xmpp.devfs.xyz:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,50 @@
+# xmppDB server record; fields are described in data/README.md
+domain: suchat.org
+flag: 🇫🇮
+country: Finland
+ip: '204.168.174.103'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: HETZNER-DC
+srv_client: suchat.org:5222
+srv_server: suchat.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+provider:
+  category: B
+  since: '2012-06-11'
+  updated: '2026-10-01'
+  organization: private person
+  software: ejabberd 26.9.4
+  locations: [es, fi]
+  website:
+    es: https://www.suchat.org
+  legal_notice:
+    es: https://www.suchat.org/terminos-de-servicio/
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://www.suchat.org/crear-una-cuenta/
+  captcha: false
+  email_required: false
+  password_reset:
+    es: https://www.suchat.org/restablecer-contrasena/
+  archive_days: 30
+  upload_file_mb: 104
+  upload_total_mb: 500
+  upload_days: 30
+  compliance: 100
+  support_email:
+  - info@suchat.org
+  support_chat:
+  - info@suchat.org
+  support_groupchat:
+  - suchat@salas.suchat.org
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

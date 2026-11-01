@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.denx.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '85.214.49.3'
+asn: AS6724 Strato GmbH
+isp: Strato AG
+org: Strato AG
+srv_client: theia.denx.de:5222
+srv_server: theia.denx.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

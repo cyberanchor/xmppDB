@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: gfaclan.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '85.215.90.68'
+asn: AS6724 Strato GmbH
+isp: Strato AG
+org: Strato RZG Dedi
+srv_client: xmpp.gfaclan.de:5222
+srv_server: xmpp.gfaclan.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

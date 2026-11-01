@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: friendshipismagicsquad.com
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '104.21.63.9'
+asn: AS13335 Cloudflare, Inc.
+isp: Cloudflare, Inc.
+org: Cloudflare, Inc.
+srv_client: _dc-srv.079982161138._xmpp-client._tcp.friendshipismagicsquad.com:5222
+srv_server: _dc-srv.079982161138._xmpp-server._tcp.friendshipismagicsquad.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

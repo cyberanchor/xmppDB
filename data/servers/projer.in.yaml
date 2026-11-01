@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: projer.in
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '49.12.0.50'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: projer.in:80
+srv_server: projer.in:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: puffyan.us
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '159.203.137.109'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: Digital Ocean
+srv_client: chat.puffyan.us:5222
+srv_server: chat.puffyan.us:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

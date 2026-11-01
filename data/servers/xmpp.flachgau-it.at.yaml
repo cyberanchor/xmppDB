@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.flachgau-it.at
+flag: 🇦🇹
+country: Austria
+ip: '195.192.208.86'
+asn: AS5404 ASN conova communications GmbH
+isp: conova communications GmbH
+org: conova communications GmbH
+c2s: false
+s2s: false
+errors:
+- c2s:no-response
+- s2s:no-response
+sources: [list]
+last_checked: '2026-11-01'

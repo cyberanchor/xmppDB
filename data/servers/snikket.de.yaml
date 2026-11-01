@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: snikket.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '142.132.189.65'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+ptr: snikket.de
+srv_client: xmpp.snikket.de:5222
+srv_server: xmpp6.snikket.de:2
+c2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:ipv6-only, not checked: the checking host has no IPv6'
+sources: [list]
+last_checked: '2026-11-01'

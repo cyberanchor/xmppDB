@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: fam01.net
+flag: 🇨🇭
+country: Switzerland
+ip: '185.250.56.75'
+asn: AS200601 SwissNeutralNet
+isp: SwissNeutralNet
+org: Swissneutralnet VPN Interco
+srv_client: fam01.net:5222
+srv_server: fam01.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

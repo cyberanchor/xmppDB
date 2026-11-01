@@ -2,6 +2,7 @@
 00dani.me
 01337.io
 076.moe
+07f.de
 0day.best
 0nj4bs3c.at
 0nl1ne.cc
@@ -29,6 +30,7 @@
 4gh.eu
 4nuts.de
 4safety.cz
+5222.de
 5222.im
 5cht.xyz
 616.pub
@@ -101,6 +103,7 @@ annih.de
 anon.jabberfr.org
 anoncloud.link
 anonymitaet-im-inter.net
+anoxinon.me
 anrc.mooo.com
 antilockdown.org
 antipoul.fr
@@ -149,6 +152,7 @@ bananach.space
 bandrate.org
 bangpath.net
 banliq.fr
+based.pt
 bastardi.net
 bastelbude.eu
 batista.in
@@ -194,6 +198,7 @@ blabla.itopie.ch
 blackjabber.ru
 blackseo.pro
 blackteam.org
+blah.im
 blesmrt.net
 blinkenbunt.org
 blitzmessage.eu
@@ -238,6 +243,7 @@ canadatux.org
 canary.city
 canchat.org
 canvon.de
+carnetnoir.fr
 casablanca.cz
 cascarilla.social
 caser.es
@@ -355,6 +361,7 @@ chat.trueelena.org
 chat.ttstudio-services.de
 chat.unicornuniverse.eu
 chat.wiva.com
+chat.xmpp.uy
 chat.youdabomb.social
 chat.zapto.org
 chat.zcyph.cc
@@ -389,6 +396,7 @@ chronowerks.de
 chtisurel.net
 ciernik.sk
 cigliola.com
+citw.lgbt
 cloud.fosszone.org
 cloud.nosarcun.net
 cloudfiles.at
@@ -1031,6 +1039,7 @@ jabber.chaostreff-bern.ch
 jabber.chaostreff-osnabrueck.de
 jabber.chaostreffbern.ch
 jabber.chrstn.eu
+jabber.club
 jabber.coding4.coffee
 jabber.coding4coffee.org
 jabber.colgarra.priv.at
@@ -1041,6 +1050,7 @@ jabber.darkosphere.fr
 jabber.darmstadt.ccc.de
 jabber.datahaven.in
 jabber.datatravel.org
+jabber.de
 jabber.debrouillonet.org
 jabber.demter.com
 jabber.denx.de
@@ -1059,6 +1069,7 @@ jabber.fjd.de
 jabber.fly-aurich.de
 jabber.fm
 jabber.foebud.org
+jabber.foo
 jabber.foulab.org
 jabber.fr
 jabber.franciliens.net
@@ -1078,6 +1089,7 @@ jabber.himbeeraffairs.de
 jabber.holaschke.net
 jabber.home.vdlinde.org
 jabber.hot-chilli.eu
+jabber.hot-chilli.net
 jabber.hs-regensburg.de
 jabber.icb.at
 jabber.im
@@ -1202,6 +1214,7 @@ jabber.wavecon.de
 jabber.weimarnetz.de
 jabber.windfluechter.net
 jabber.woffs.de
+jabber.world
 jabber.xdelatour.fr
 jabber.zlatk0.net
 jabber.zone
@@ -1239,6 +1252,7 @@ jabbim.rocks
 jabbim.ru
 jabbim.sk
 jabbtech.net
+jabbxi.de
 jabeo.net
 jabjab.de
 jabme.cloud
@@ -1262,6 +1276,7 @@ jeve.rs
 jezekus.net
 jiaxu.site
 jid.pl
+jix.im
 jmessanger.ml
 jmp.chat
 joinjabber.org
@@ -1349,6 +1364,7 @@ laeti.de
 lahokanto.fi
 lain.church
 lain.day
+lain.rocks
 landofkittens.club
 larima77767.ddns.net
 larma.de
@@ -1428,6 +1444,7 @@ mail.emhmki.org
 mail.kohlmorgen.net
 mail.uni-kl.de
 mailbox.bz
+mailbox.org
 maildist.ro
 mailfr.com
 mailtopf.de
@@ -1591,6 +1608,7 @@ niemands.space
 nikel.me
 nils-zajac.de
 ninetailed.net
+nixnet.services
 nixnet.xyz
 niyawe.de
 njs.netlab.cz
@@ -1649,6 +1667,7 @@ openalgeria.org
 openfire01.tdis.sk
 openim.de
 openim.eu
+openim.nl
 openjabber.org
 openrandomsolutions.org
 openvoipalliance.org
@@ -1694,6 +1713,7 @@ pdlkrft.eu
 penpalafrica.com
 pentagon.im
 pepta.net
+peripheria.org
 petrovitsch.at
 pfefferle.online
 pfluegi.ch
@@ -1750,6 +1770,7 @@ praschnig.com
 praten.intranet.doccheck.ag
 pressenter.com.ar
 primis.org
+priv.vc
 privacypolicy.fyi
 project.im
 projectsegfau.lt
@@ -1773,6 +1794,7 @@ proxy.jabber.ru
 proyectozero.org
 prv.st
 pseudocyber.com
+psifactor.pl
 ptitgnu.be
 pub.k7m.de
 pube.tk
@@ -1831,6 +1853,7 @@ rfa.cz
 rfly.org
 rhansen.org
 riccardi.pro
+rimkus.it
 riotcat.org
 riseup.net
 riva.capital
@@ -2284,6 +2307,7 @@ xm88.me
 xmakina.org
 xmamsg.ukwest.cloudapp.azure.com
 xmmg.ru
+xmp.pm
 xmpme.xyz
 xmpp-hosting.conversations.im
 xmpp-hosting.de
@@ -2424,6 +2448,7 @@ xmpp.sapib.ca
 xmpp.saveality.net
 xmpp.sg
 xmpp.si
+xmpp.sinelabs.ca
 xmpp.someodd.zip
 xmpp.srv.rep.pm
 xmpp.steinmann.cx
@@ -2504,6 +2529,7 @@ zeit.brain-it.us
 zemarmot.net
 zhaba.space
 zijndomein.nl
+zinthos.dev
 zircon.org.uk
 zknt.org
 zloy.im

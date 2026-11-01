@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: monanderos.fr
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '109.234.162.102'
+asn: AS50474 O2SWITCH SAS
+isp: o2switch Internet
+srv_client: talk.monanderos.fr:5222
+srv_server: talk.monanderos.fr:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

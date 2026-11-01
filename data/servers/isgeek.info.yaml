@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: isgeek.info
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '138.201.25.9'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner
+org: Transit Telecom Global
+srv_client: marvin.isgeek.info:5222
+srv_server: marvin.isgeek.info:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

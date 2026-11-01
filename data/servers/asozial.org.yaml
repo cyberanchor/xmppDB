@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: asozial.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.58.50.219'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: stanley.guerteltier.asozial.org:5222
+srv_server: stanley.guerteltier.asozial.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

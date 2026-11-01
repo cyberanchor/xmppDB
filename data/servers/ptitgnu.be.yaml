@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ptitgnu.be
+flag: 🇧🇪
+country: Belgium
+alliance: 14
+ip: '2a0f:69c0:0:860a:40ca:feff:fe63:a601'
+asn: AS209725 Localitel bvba
+isp: Localitel bvba
+org: Fastfiber
+srv_client: lore.bra.it4freedom.net:5222
+srv_server: lore.bra.it4freedom.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

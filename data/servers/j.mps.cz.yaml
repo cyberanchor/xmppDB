@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: j.mps.cz
+flag: 🇨🇿
+country: Czechia
+ip: '81.30.230.13'
+asn: AS15935 ha-vel internet s.r.o.
+isp: ha-vel internet s.r.o.
+org: HA VEL Web
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: workhost.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '45.139.156.2'
+asn: AS29014 ScaleUp Technologies GmbH & Co. KG
+isp: ScaleUp Technologies GmbH & Co. KG
+org: Systola GmbH
+srv_client: jab01.workhost.de:5222
+srv_server: jab01.workhost.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [CRAM-MD5, DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

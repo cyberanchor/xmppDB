@@ -1,0 +1,45 @@
+# xmppDB server record; fields are described in data/README.md
+domain: disroot.org
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '178.21.23.139'
+asn: AS50673 Serverius
+isp: Serverius Holding B.V.
+org: Serveriuscustomer
+srv_client: disroot.org:5222
+srv_server: disroot.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, X-OAUTH2]
+provider:
+  category: D
+  since: '2015-08-04'
+  updated: '2026-10-27'
+  organization: non-governmental
+  software: ejabberd 26.9.0
+  locations: [nl]
+  website:
+    en: https://disroot.org
+  legal_notice:
+    en: https://disroot.org/tos
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 2
+  inband: false
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://user.disroot.org
+  archive_days: 30
+  upload_file_mb: 512
+  upload_total_mb: 512
+  upload_days: 30
+  compliance: 86
+  support_email:
+  - support@disroot.org
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

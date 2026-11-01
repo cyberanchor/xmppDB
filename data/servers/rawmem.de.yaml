@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: rawmem.de
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '207.180.192.67'
+asn: AS51167 Contabo GmbH
+isp: Contabo GmbH
+org: Contabo GmbH
+srv_client: xmpp.rawmem.de:5222
+srv_server: xmpp.rawmem.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

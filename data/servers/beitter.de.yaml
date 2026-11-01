@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: beitter.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '152.53.179.11'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: xmpp.beitter.de:5222
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+errors:
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

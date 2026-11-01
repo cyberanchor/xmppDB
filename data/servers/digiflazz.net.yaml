@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: digiflazz.net
+flag: 🇸🇬
+country: Singapore
+ip: '18.136.159.156'
+asn: AS16509 Amazon.com, Inc.
+isp: Amazon Technologies Inc.
+org: AWS EC2 (ap-southeast-1)
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [CRAM-MD5, DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

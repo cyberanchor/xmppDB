@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ulukai.org
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '37.148.207.113'
+asn: AS21499 Host Europe GmbH
+isp: Host Europe GmbH
+org: Go Daddy Netherlands B.V
+srv_client: xmpp.ulukai.org:5222
+srv_server: xmpp.ulukai.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

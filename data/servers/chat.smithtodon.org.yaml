@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.smithtodon.org
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '198.22.162.137'
+asn: AS36007 Kamatera, Inc.
+isp: Kamatera, Inc.
+org: Cloud Web Manage
+srv_client: chat.smithtodon.org:5222
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

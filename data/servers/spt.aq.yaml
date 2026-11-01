@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: spt.aq
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '192.170.231.187'
+asn: AS160 The University of Chicago
+isp: The University of Chicago
+org: The University of Chicago
+srv_client: conference.spt.aq:5222
+srv_server: conference.spt.aq:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

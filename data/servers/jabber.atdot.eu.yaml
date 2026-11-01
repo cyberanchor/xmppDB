@@ -1,0 +1,14 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.atdot.eu
+flag: 🇱🇺
+country: Luxembourg
+ip: '213.167.241.229'
+asn: AS29169 GANDI SAS
+isp: GANDI is an ICANN accredited registrar
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

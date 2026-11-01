@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.coldfeet.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '46.224.116.153'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [CRAM-MD5, DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

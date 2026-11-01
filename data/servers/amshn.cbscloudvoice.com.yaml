@@ -1,0 +1,13 @@
+# xmppDB server record; fields are described in data/README.md
+domain: amshn.cbscloudvoice.com
+ip: '186.73.192.201'
+srv_client: amshn1.cbscloudvoice.com:5222
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [MAX-PLAIN, PLAIN, X-OAUTH]
+errors:
+- s2s:no-target
+sources: [list]
+last_checked: '2026-11-01'

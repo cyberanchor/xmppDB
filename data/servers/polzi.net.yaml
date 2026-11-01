@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: polzi.net
+flag: 🇪🇪
+country: Estonia
+ip: '46.36.219.183'
+asn: AS198068 CLOUD.DOG OU
+isp: PAGM network
+org: Hosting Services
+srv_client: xmpp.polzi.net:5222
+srv_server: xmpp.polzi.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [ANONYMOUS, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

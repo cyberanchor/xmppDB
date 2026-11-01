@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.odin.ws
+flag: 🇦🇹
+country: Austria
+ip: '91.143.99.13'
+asn: AS29056 Citycom Telekommunikation GmbH
+isp: Citycom Telekommunikation GmbH
+org: Citycom Telekommunikation GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

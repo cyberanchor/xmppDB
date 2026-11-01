@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.wajer.org
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '45.80.170.139'
+asn: AS206238 Freedom Internet BV
+isp: Freedom Internet BV
+org: Freedom Internet B.V
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

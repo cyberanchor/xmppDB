@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pullbit.gr
+flag: 🇬🇷
+country: Greece
+ip: '62.38.66.97'
+asn: AS3329 Vodafone-panafon Hellenic Telecommunications Company SA
+isp: Vodafone Greece Fixed
+org: HOL
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

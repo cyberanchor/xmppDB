@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.tw.juiker.net
+flag: 🇹🇼
+country: Taiwan
+ip: '175.99.81.90'
+asn: AS9924 Taiwan Fixed Network, Telco and Network Service Provider.
+isp: Taiwan Fixed Network
+org: Taiwan Fixed Network CO., LTD.
+srv_client: pro-bk-im-1.tw.juiker.net:443
+srv_server: pro-bk-im-1.tw.juiker.net:5269
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, X-OAUTH2]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

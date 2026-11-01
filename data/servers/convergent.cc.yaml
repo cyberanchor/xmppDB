@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: convergent.cc
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '51.210.247.94'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH
+ptr: fsb.convergent.cc
+srv_client: xmpp.convergent.cc:5222
+srv_server: xmpp.convergent.cc:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

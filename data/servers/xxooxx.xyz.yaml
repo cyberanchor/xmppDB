@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xxooxx.xyz
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '66.98.115.209'
+asn: AS25820 IT7 Networks Inc
+isp: IT7 Networks Inc
+org: Cluster Logic Inc
+srv_client: xxooxx.xyz:5222
+srv_server: xxooxx.xyz:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

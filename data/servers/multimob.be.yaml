@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: multimob.be
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '45.157.178.115'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: multimob.be:5222
+srv_server: multimob.be:5270
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

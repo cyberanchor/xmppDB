@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.neurosoft.pl
+flag: 🇵🇱
+country: Poland
+ip: '95.143.255.253'
+asn: AS209802 Neurosoft Sp. z o.o.
+isp: Neurosoft Sp. z o.o
+org: Neurosoft Sp. z o.o.
+ptr: mx.neurosoft.pl
+srv_client: jabber.neurosoft.pl:5222
+srv_server: jabber.neurosoft.pl:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

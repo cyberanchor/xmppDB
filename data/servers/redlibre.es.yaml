@@ -1,0 +1,50 @@
+# xmppDB server record; fields are described in data/README.md
+domain: redlibre.es
+flag: 🇫🇮
+country: Finland
+ip: '135.181.195.2'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: redlibre.es:5222
+srv_server: redlibre.es:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+provider:
+  category: B
+  since: '2023-07-09'
+  updated: '2026-10-01'
+  organization: private person
+  software: ejabberd 26.9.4
+  locations: [es, fi]
+  website:
+    es: https://www.redlibre.es
+  legal_notice:
+    es: https://www.redlibre.es/terminos-de-servicio/
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://www.redlibre.es/registro/
+  captcha: false
+  email_required: false
+  password_reset:
+    es: https://www.redlibre.es/restablecer-contrasena/
+  archive_days: 14
+  upload_file_mb: 104
+  upload_total_mb: 500
+  upload_days: 30
+  compliance: 100
+  support_email:
+  - info@redlibre.es
+  support_chat:
+  - info@redlibre.es
+  support_groupchat:
+  - soporte@salas.redlibre.es
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

@@ -1,0 +1,12 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.aplika.me
+ip: '192.168.1.69'
+srv_client: chat.aplika.me:5222
+srv_server: chat.aplika.me:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

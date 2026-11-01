@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: hribhrib.at
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '91.151.16.163'
+asn: AS47692 Nessus GmbH
+isp: Nessus GmbH
+org: Profihost AG
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

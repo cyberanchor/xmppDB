@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: lain.church
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '54.39.98.219'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH Hosting, Inc
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

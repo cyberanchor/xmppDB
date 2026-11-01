@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.foulab.org
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '198.96.117.131'
+asn: AS14843 1610851 Ontario Inc.
+isp: '1610851 Ontario Inc.'
+org: Reptilian Research
+srv_client: jabber.foulab.org:5222
+srv_server: jabber.foulab.org:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

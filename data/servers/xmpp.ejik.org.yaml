@@ -1,0 +1,14 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.ejik.org
+flag: 🇷🇺
+country: Russia
+ip: '79.98.184.84'
+asn: AS50340 JSC Selectel
+isp: Selectel
+c2s: false
+s2s: true
+errors:
+- c2s:connect-timeout
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

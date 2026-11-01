@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.ant.gliwice.pl
+flag: 🇵🇱
+country: Poland
+ip: '195.66.73.63'
+asn: AS13000 Leon Sp. z o.o.
+isp: Leon Sp. z o.o.
+org: Leon Sp. z o.o
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

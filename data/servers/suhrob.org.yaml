@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: suhrob.org
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '93.115.18.101'
+asn: AS202448 MVPS LTD
+isp: Mvps LTD
+org: Mvps LTD
+srv_client: suhrob.org:5222
+srv_server: suhrob.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

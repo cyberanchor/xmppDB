@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: nya-nya.com
+flag: 🇯🇵
+country: Japan
+ip: '202.182.117.65'
+asn: AS20473 The Constant Company, LLC
+isp: The Constant Company, LLC
+org: TYO Vultr
+srv_client: xmpp.nya-nya.com:5222
+srv_server: xmpp.nya-nya.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: cubieserver.de
+flag: 🇨🇭
+country: Switzerland
+ip: '31.164.185.33'
+asn: AS6730 Sunrise GmbH
+isp: Sunrise GmbH
+org: sunrise Communications AG
+srv_client: xmpp.cubieserver.de:5222
+srv_server: xmpp.cubieserver.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

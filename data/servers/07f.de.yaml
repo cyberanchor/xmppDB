@@ -1,0 +1,48 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '07f.de'
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '45.9.2.234'
+asn: AS214677 Matteo Martelloni trading as DELUXHOST
+isp: Matteo Martelloni trading as DELUXHOST
+org: DELUXHOST
+ptr: mail.07f.de
+srv_client: xmpp.07f.de:5222
+srv_server: xmpp.07f.de:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+provider:
+  category: A
+  since: '2021-02-24'
+  updated: '2026-10-02'
+  organization: private person
+  software: ejabberd 26.9.0
+  locations: [de]
+  website:
+    en: https://07f.de
+  legal_notice:
+    en: https://07f.de/xmpp.html
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 1
+  inband: true
+  captcha: true
+  email_required: false
+  password_reset:
+    en: https://07f.de/xmpp.html
+  archive_days: 0
+  upload_file_mb: 5368
+  upload_total_mb: 10737
+  upload_days: 30
+  compliance: 100
+  support_email:
+  - xmpp@07f.de
+  support_chat:
+  - marzzzello@07f.de
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: katchat.ddns.net
+flag: 🇦🇷
+country: Argentina
+ip: '181.12.35.59'
+asn: AS7303 Telecom Argentina S.A.
+isp: Telecom Argentina S.A.
+org: Telecom Personal Bs
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

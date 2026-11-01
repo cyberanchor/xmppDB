@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: gbdj.ru
+flag: 🇷🇺
+country: Russia
+ip: '91.122.56.74'
+asn: AS12389 PJSC Rostelecom
+isp: OJSC "North-West Telecom"
+org: JSC North-West Telecom
+srv_client: xmpp.gbdj.ru:5222
+srv_server: xmpp.gbdj.ru:5269
+c2s: true
+s2s: true
+starttls: false
+registration: false
+errors:
+- c2s:tls-failed:SSLError
+sources: [list]
+last_checked: '2026-11-01'

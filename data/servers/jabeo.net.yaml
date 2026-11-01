@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabeo.net
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '54.36.34.91'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: Cugnet Jean-Philippe
+srv_client: xmpp.ejpcmac.net:5222
+srv_server: xmpp.ejpcmac.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

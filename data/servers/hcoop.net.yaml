@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: hcoop.net
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '68.183.54.165'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_client: xmpp0.hcoop.net:5222
+srv_server: xmpp0.hcoop.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

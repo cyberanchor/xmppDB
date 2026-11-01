@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.cdn.whatsapp.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '57.144.245.33'
+asn: AS32934 Facebook, Inc.
+isp: Facebook, Inc.
+org: Facebook, Inc
+c2s: false
+s2s: false
+errors:
+- c2s:no-response
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

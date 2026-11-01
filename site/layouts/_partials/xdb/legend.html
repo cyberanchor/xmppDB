@@ -1,0 +1,22 @@
+{{- /* Under the table: what the states, columns and colours mean. */ -}}
+{{- $meta := partial "xdb/meta.html" . -}}
+<section class="xdb-legend" aria-label="Legend">
+  <div>
+    <h2>Status</h2>
+    <dl>
+      {{- range $s := slice "online" "federation" "offline" "gone" "unchecked" }}{{ $m := index $meta $s }}
+      <div><dt><span class="xdb-dot xdb-{{ $m.color }}"></span>{{ $m.label }}</dt><dd>{{ $m.long }}</dd></div>
+      {{- end }}
+    </dl>
+  </div>
+  <div>
+    <h2>Columns</h2>
+    <dl>
+      <div><dt>Alliance</dt><dd><span class="xdb-pill xdb-red">5 Eyes</span> <span class="xdb-pill xdb-yellow">9 Eyes</span> <span class="xdb-pill xdb-purple">14 Eyes</span> of the country the server's address is in</dd></div>
+      <div><dt>Registration</dt><dd><span class="xdb-pill xdb-green">in-band</span> sign up from an XMPP app (XEP-0077 advertised; the server may still ask for a CAPTCHA or limit sign-ups) · <span class="xdb-pill xdb-blue">web ↗</span> sign-up page · <span class="xdb-pill xdb-grey">closed</span> none advertised</dd></div>
+      <div><dt>Auth</dt><dd>strongest SASL mechanism offered after TLS: <span class="xdb-pill xdb-green">SCRAM-…-PLUS</span> with channel binding · <span class="xdb-pill xdb-yellow">SCRAM</span> password not sent · <span class="xdb-pill xdb-red">PLAIN</span> password sent inside TLS</dd></div>
+      <div><dt>Category</dt><dd><a href="https://providers.xmpp.net/" rel="noopener">XMPP Providers</a>: <span class="xdb-cat xdb-cat-a">A</span> <span class="xdb-cat xdb-cat-b">B</span> recommended for sign-up, <span class="xdb-cat xdb-cat-c">C</span> average, <span class="xdb-cat xdb-cat-d">D</span> any listed provider</dd></div>
+    </dl>
+    <p class="xdb-note">Checks: DNS and SRV records, a client and a server stream, STARTTLS, SASL mechanisms and in-band registration. No account is created and no login is attempted. A server that blocks the checking host shows as offline.</p>
+  </div>
+</section>

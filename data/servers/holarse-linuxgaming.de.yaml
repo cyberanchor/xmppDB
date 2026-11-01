@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: holarse-linuxgaming.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '168.119.139.26'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: xmpp.holarse-linuxgaming.de:5222
+srv_server: xmpp.holarse-linuxgaming.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

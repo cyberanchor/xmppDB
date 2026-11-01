@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.foebud.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '212.8.198.144'
+asn: AS8925 teuto.net Netzdienste GmbH
+isp: teuto.net Netzdienste GmbH
+srv_client: jabber.foebud.org:5222
+srv_server: jabber.foebud.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

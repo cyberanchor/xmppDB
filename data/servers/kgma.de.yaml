@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: kgma.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '85.114.145.74'
+asn: AS24961 WIIT AG
+isp: MYLOC-NORPLEX
+ptr: gate.dnet.de
+srv_client: kgma.de:5222
+srv_server: kgma.de:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

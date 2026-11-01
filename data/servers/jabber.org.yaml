@@ -1,0 +1,29 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.org
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '54.39.46.213'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH Hosting, Inc
+srv_client: scarlet.jabber.org:5222
+srv_server: scarlet.jabber.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: D
+  updated: '2026-04-28'
+  software: Prosody 13.0 nightly build 90 (2026-04-21, 1d028f9473c2)
+  green_hosting: true
+  inband: false
+  captcha: false
+  email_required: false
+  compliance: 78
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

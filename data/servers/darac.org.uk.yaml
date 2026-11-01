@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: darac.org.uk
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '217.169.13.212'
+asn: AS20712 Andrews & Arnold Ltd
+isp: Andrews & Arnold Ltd
+org: Penwood Systems Limited
+srv_client: xmpp.darac.org.uk:5222
+srv_server: xmpp.darac.org.uk:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [CRAM-MD5, PLAIN, SCRAM-SHA-256]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

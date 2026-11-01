@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: x.autkin.net
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '94.4.192.49'
+asn: AS5607 Sky UK Limited
+isp: Sky UK Limited
+org: Sky Broadband
+ptr: '5e04c031.bb.isp.sky.com'
+srv_client: x.autkin.net:5222
+srv_server: x.autkin.net:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

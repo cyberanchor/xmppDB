@@ -1,0 +1,45 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.sinelabs.ca
+flag: 🇮🇸
+country: Iceland
+ip: '89.127.232.158'
+asn: AS44925 1984 ehf
+isp: '1984 ehf'
+org: '1984 ehf'
+ptr: mail.sinelabs.ca
+srv_client: xmpp.sinelabs.ca:5222
+srv_server: xmpp.sinelabs.ca:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+provider:
+  category: D
+  since: '2026-09-01'
+  updated: '2026-10-25'
+  organization: company
+  software: ejabberd 26.09
+  locations: [ca, is]
+  website:
+    en: https://xmpp.sinelabs.ca
+  legal_notice:
+    en: https://sinelabs.ca/privacy
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 3
+  inband: false
+  registration_web:
+    en: https://sinelabs.ca/xmpp
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://sinelabs.ca/contact
+  archive_days: 0
+  upload_file_mb: 536
+  upload_total_mb: 1000
+  upload_days: 0
+  compliance: 100
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

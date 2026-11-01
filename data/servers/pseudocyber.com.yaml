@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pseudocyber.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '73.205.194.93'
+asn: AS7922 Comcast Cable Communications, LLC
+isp: Comcast Cable Communications
+org: Comcast IP Services, L.L.C.
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

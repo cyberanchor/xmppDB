@@ -1,0 +1,45 @@
+# xmppDB server record; fields are described in data/README.md
+domain: trashserver.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '5.1.72.132'
+asn: AS34549 meerfarbig GmbH & Co. KG
+isp: meerfarbig GmbH & Co. KG
+org: Netzfabrik CUS Leister
+srv_client: xmpp.650thz.de:5222
+srv_server: xmpp.650thz.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: D
+  since: '2012-01-01'
+  updated: '2026-10-17'
+  organization: private person
+  software: ejabberd 26.09
+  locations: [de]
+  website:
+    de: https://trashserver.net
+    en: https://trashserver.net/en/
+  legal_notice:
+    de: https://trashserver.net/datenschutz/
+    en: https://trashserver.net/en/privacy/
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 1
+  inband: false
+  captcha: false
+  email_required: false
+  archive_days: 28
+  upload_file_mb: 104
+  upload_total_mb: 0
+  upload_days: 28
+  compliance: 100
+  support_email:
+  - xmpp@trashserver.net
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

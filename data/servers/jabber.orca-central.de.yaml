@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.orca-central.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '2a01:4f8:171:121d::212'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Privex Inc
+srv_server: jabber.orca-central.de:5222
+errors:
+- 'c2s:ipv6-only, not checked: the checking host has no IPv6'
+- 's2s:ipv6-only, not checked: the checking host has no IPv6'
+sources: [list]
+last_checked: '2026-11-01'

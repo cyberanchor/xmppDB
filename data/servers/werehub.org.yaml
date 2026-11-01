@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: werehub.org
+flag: 🇨🇿
+country: Czechia
+ip: '212.24.158.227'
+asn: AS29208 Quantcom, a.s.
+isp: Quantcom, a.s.
+org: ZS Kresomyslova
+srv_client: xmpp.werehub.org:5222
+srv_server: xmpp.werehub.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-256]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

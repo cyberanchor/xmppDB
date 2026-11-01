@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: gramelspacher.ch
+flag: 🇨🇭
+country: Switzerland
+ip: '85.195.206.197'
+asn: AS13030 Init7 (Switzerland) Ltd.
+isp: Init7 (Switzerland) Ltd.
+org: Init7 (Switzerland) Ltd
+srv_client: gramelspacher.ch:5222
+srv_server: gramelspacher.ch:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.uni-konstanz.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '134.34.246.201'
+asn: AS553 BelWue-Koordination
+isp: Universitaet Konstanz
+org: UNI-KONSTANZ
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

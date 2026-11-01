@@ -1,0 +1,56 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabjab.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '195.90.219.71'
+asn: AS42730 EVANZO e-commerce GmbH
+isp: EVANZO e-commerce GmbH
+org: BusinessOnline GmbH
+srv_client: jabjab.de:5222
+srv_server: jabjab.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+provider:
+  category: A
+  since: '2005-08-29'
+  updated: '2026-10-01'
+  organization: private person
+  software: ejabberd 26.9.0
+  locations: [de]
+  website:
+    de: https://www.jabjab.de
+    en: https://www.jabjab.de/?lang=en
+    es: https://www.jabjab.de/?lang=es
+    fr: https://www.jabjab.de/?lang=fr
+    ru: https://www.jabjab.de/?lang=ru
+    tr: https://www.jabjab.de/?lang=tr
+    uk: https://www.jabjab.de/?lang=ua
+  legal_notice:
+    de: https://www.jabjab.de/terms
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  inband: true
+  captcha: true
+  email_required: false
+  password_reset:
+    de: https://www.jabjab.de/resetpassword
+    en: https://www.jabjab.de/resetpassword?lang=en
+    es: https://www.jabjab.de/resetpassword?lang=es
+    fr: https://www.jabjab.de/resetpassword?lang=fr
+    ru: https://www.jabjab.de/resetpassword?lang=ru
+    tr: https://www.jabjab.de/resetpassword?lang=tr
+    uk: https://www.jabjab.de/resetpassword?lang=ua
+  archive_days: 90
+  upload_file_mb: 209
+  upload_total_mb: 256
+  upload_days: 30
+  compliance: 100
+  support_email:
+  - admin@jabjab.de
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

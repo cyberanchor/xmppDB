@@ -1,0 +1,50 @@
+# xmppDB server record; fields are described in data/README.md
+domain: psifactor.pl
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '195.201.203.35'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+ptr: psifactor.pl
+srv_client: psifactor.pl:5222
+srv_server: psifactor.pl:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, X-OAUTH2]
+provider:
+  category: B
+  since: '2014-07-01'
+  updated: '2026-10-07'
+  organization: private person
+  software: ejabberd 26.07
+  locations: [de, pl, nl]
+  website:
+    pl: https://psifactor.pl
+  legal_notice:
+    pl: https://psifactor.pl/?go=regulamin
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://psifactor.pl/?go=newaccount
+  captcha: false
+  email_required: false
+  password_reset:
+    pl: https://psifactor.pl
+  archive_days: 0
+  upload_file_mb: 158
+  upload_total_mb: 1555
+  upload_days: 3700
+  compliance: 100
+  support_email:
+  - kkw@psifactor.pl
+  support_chat:
+  - kkw@psifactor.pl
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

@@ -1,0 +1,15 @@
+{{- /* One page per server file in data/servers/, at /servers/<domain-with-dashes>/. The page carries only the slug
+       and a description; the template reads the full record through the xdb/data.html partial. */ -}}
+{{- $meta := partial "xdb/meta.html" . -}}
+{{- range partialCached "xdb/data.html" . "xdb" -}}
+  {{- $m := index $meta .state -}}
+  {{- $where := cond (ne .country "") (printf " in %s" .country) "" -}}
+  {{- $reg := index (dict "open" "in-band registration open" "web" "registration on the web" "closed" "registration closed") .reg | default "" -}}
+  {{- $desc := printf "XMPP server %s%s: %s%s." .domain $where (lower $m.label) (cond (ne $reg "") (printf ", %s" $reg) "") -}}
+  {{- $.AddPage (dict
+      "path" .slug
+      "title" .domain
+      "kind" "page"
+      "params" (dict "slug" .slug "description" $desc)
+    ) -}}
+{{- end -}}

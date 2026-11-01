@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: socially.drinkingatmy.computer
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '45.56.113.23'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+srv_client: socially.drinkingatmy.computer:5222
+srv_server: socially.drinkingatmy.computer:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

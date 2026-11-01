@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: s2s.biz
+flag: 🇮🇳
+country: India
+ip: '103.175.23.170'
+asn: AS147199 Bsoft India Technologies Private Limited
+isp: Bsoft India Technologies Private Limited
+org: Bsoft India Technologies Private Limited
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

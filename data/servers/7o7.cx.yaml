@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '7o7.cx'
+flag: 🇵🇱
+country: Poland
+ip: '95.160.51.250'
+asn: AS29314 VECTRA S.A.
+isp: Broadband users of Vectra S.A.
+org: Core Net. Broadband
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

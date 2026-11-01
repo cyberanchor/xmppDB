@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: bent.io
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '45.77.147.241'
+asn: AS20473 The Constant Company, LLC
+isp: The Constant Company
+org: Vultr Holdings, LLC
+srv_client: taz.dbb.computer:5222
+srv_server: taz.dbb.computer:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

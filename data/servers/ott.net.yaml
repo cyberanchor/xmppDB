@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ott.net
+flag: 🇨🇭
+country: Switzerland
+ip: '77.109.144.131'
+asn: AS13030 Init7 (Switzerland) Ltd.
+isp: Init7 (Switzerland) Ltd.
+org: Init7 (Switzerland) Ltd
+srv_client: talk.ott.net:5222
+srv_server: talk.ott.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

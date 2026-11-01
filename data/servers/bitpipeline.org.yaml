@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: bitpipeline.org
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '94.208.119.14'
+asn: AS33915 Vodafone Libertel B.V.
+isp: Vodafone Ziggo
+srv_client: xmpp.bitpipeline.org:5222
+srv_server: xmpp.bitpipeline.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.ralfj.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '109.230.236.95'
+asn: AS197071 active-servers.com
+isp: iNTERWERK.de
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

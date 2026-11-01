@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: van-emmerich.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '178.13.86.91'
+asn: AS3209 Vodafone GmbH
+isp: Vodafone GmbH
+org: Vodafone D2 GmbH
+srv_client: jabber.van-emmerich.de:5222
+srv_server: jabber.van-emmerich.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

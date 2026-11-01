@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: securechat.su
+flag: 🇷🇺
+country: Russia
+ip: '31.177.76.32'
+asn: AS48287 JSC RU-CENTER
+isp: SERVICE-NETWORK
+org: JSC Ru-center
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

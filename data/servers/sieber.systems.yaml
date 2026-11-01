@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: sieber.systems
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '116.203.126.98'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: chat.sieber.systems:5222
+srv_server: chat.sieber.systems:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

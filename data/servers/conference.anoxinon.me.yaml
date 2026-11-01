@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: conference.anoxinon.me
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '142.132.217.98'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

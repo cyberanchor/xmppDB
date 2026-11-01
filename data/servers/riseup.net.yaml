@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: riseup.net
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '198.252.153.106'
+asn: AS16652 Riseup Networks
+isp: Riseup Networks
+org: Riseup Networks
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: canadatux.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '46.183.101.99'
+asn: AS34953 RelAix Networks GmbH
+isp: RelAix Networks GmbH
+org: Relaix Sklempert
+srv_client: xmpp.canadatux.org:5222
+srv_server: xmpp.canadatux.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

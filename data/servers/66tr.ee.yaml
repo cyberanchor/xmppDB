@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '66tr.ee'
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '73.53.120.164'
+asn: AS7922 Comcast Cable Communications, LLC
+isp: Comcast Cable Communications
+org: Comcast IP Services, L.L.C.
+srv_server: xmpp.66tr.ee:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- 's2s:connect-error: Name or service not known'
+sources: [list]
+last_checked: '2026-11-01'

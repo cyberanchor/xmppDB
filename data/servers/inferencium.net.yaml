@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: inferencium.net
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '185.241.226.159'
+asn: AS204731 FIBRENEST LIMITED
+isp: Fibrenest Limited
+org: Horsebridge Network Systems Ltd
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: paulchevalier.org
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '107.161.164.78'
+asn: AS58305 SYN LTD
+isp: SYN LTD
+org: SYN LTD
+srv_client: hydrogen.paulchevalier.org:5222
+srv_server: hydrogen.paulchevalier.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

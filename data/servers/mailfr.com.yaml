@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mailfr.com
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '91.194.60.2'
+asn: AS28855 Octopuce s.a.r.l.
+isp: Octopuce s.a.r.l.
+org: Octopuce s.a.r.l
+srv_client: mailfr.com:5222
+srv_server: mailfr.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

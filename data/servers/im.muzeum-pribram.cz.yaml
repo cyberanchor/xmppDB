@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.muzeum-pribram.cz
+flag: 🇨🇿
+country: Czechia
+ip: '109.72.9.230'
+asn: AS49767 O2 Czech Republic, a.s.
+isp: O2 Czech Republic, a.s.
+org: IPB
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [JIVE-SHAREDSECRET, PLAIN]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

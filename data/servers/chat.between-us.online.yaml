@@ -1,0 +1,48 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.between-us.online
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '206.189.198.175'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_server: chat.between-us.online:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: A
+  since: '2024-11-16'
+  updated: '2026-09-26'
+  organization: private person
+  software: Prosody 13.0.7
+  locations: [us]
+  website:
+    en: https://between-us.online
+  legal_notice:
+    en: https://between-us.online/legalnotice.html
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 1
+  inband: true
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://between-us.online
+  archive_days: 7
+  upload_file_mb: 1258
+  upload_total_mb: 1200
+  upload_days: 31
+  compliance: 100
+  support_email:
+  - support@between-us.online
+  support_chat:
+  - support@chat.between-us.online
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

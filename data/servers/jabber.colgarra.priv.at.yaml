@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.colgarra.priv.at
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.238.64.244'
+asn: AS34240 manitu GmbH
+isp: manitu GmbH
+org: manitu GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

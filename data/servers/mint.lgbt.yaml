@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mint.lgbt
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '46.23.81.157'
+asn: AS60131 High5! B.V.
+isp: High5! B.V.
+org: High5
+srv_client: f15161c1f18101f1218100f1e19191f141f1f1e1.sha1.dipat.eu:5222
+srv_server: f15161c1f18101f1218100f1e19191f141f1f1e1.sha1.dipat.eu:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

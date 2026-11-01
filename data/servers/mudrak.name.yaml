@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mudrak.name
+flag: 🇨🇿
+country: Czechia
+ip: '93.190.52.74'
+asn: AS47317 Web4ce, s.r.o.
+isp: Web4ce, s.r.o.
+org: Web4ce, s.r.o
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

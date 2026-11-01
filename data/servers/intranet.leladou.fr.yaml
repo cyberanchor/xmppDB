@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: intranet.leladou.fr
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '51.254.221.90'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH
+srv_client: intranet.leladou.fr:5222
+srv_server: intranet.leladou.fr:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

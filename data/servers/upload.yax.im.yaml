@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: upload.yax.im
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '194.150.168.92'
+asn: AS250 AS250.net Foundation
+isp: AS250.net Foundation
+org: SACREDCHAO
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: policy-violation'
+sources: [list]
+last_checked: '2026-11-01'

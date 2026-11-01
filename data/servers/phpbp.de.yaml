@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: phpbp.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '178.32.234.0'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: DIetrich Matthias
+srv_client: chat01.woodden-infrastructure.de:5222
+srv_server: chat01.woodden-infrastructure.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

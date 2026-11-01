@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xbot.at
+flag: 🇦🇹
+country: Austria
+ip: '213.163.245.52'
+asn: AS29545 iPlace Internet & Network Services GmbH
+isp: iPlace Internet & Network Services GmbH
+org: iPlace Internet & Network Services GmbH
+srv_client: xmpp.xbot.at:5222
+srv_server: xmpp.xbot.at:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

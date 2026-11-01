@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: velik.wang
+flag: 🇸🇮
+country: Slovenia
+ip: '146.212.213.240'
+asn: AS21283 A1 Slovenija telekomunikacijske storitve,d.d.
+isp: A1 Slovenija
+org: A1 Slovenija telekomunikacijske storitve, d.d
+srv_client: filaks.strangled.net:5222
+srv_server: filaks.strangled.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

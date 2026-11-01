@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: paiges.net
+flag: 🇯🇵
+country: Japan
+ip: '103.29.71.146'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+srv_client: ann.paiges.net:5222
+srv_server: ann.paiges.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

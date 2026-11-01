@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: blesmrt.net
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '84.46.245.73'
+asn: AS51167 Contabo GmbH
+isp: Contabo GmbH
+org: SC "Lithuanian Radio and TV Center"
+srv_server: jabber.blesmrt.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

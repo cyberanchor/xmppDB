@@ -1,0 +1,45 @@
+# xmppDB server record; fields are described in data/README.md
+domain: rimkus.it
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.26.156.66'
+asn: AS58010 uvensys GmbH
+isp: JonasPasche
+ptr: finlay.uberspace.de
+srv_client: rimkus.it:46783
+srv_server: rimkus.it:46785
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+provider:
+  category: D
+  since: '2019-06-15'
+  updated: '2026-10-25'
+  organization: private person
+  software: ejabberd 26.9.11
+  locations: [de]
+  website:
+    de: https://rimkus.it
+  legal_notice:
+    de: https://rimkus.it/de/legal
+  free: true
+  professional_hosting: false
+  green_hosting: true
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://rimkus.it/xmpp/register
+  captcha: false
+  email_required: false
+  password_reset:
+    de: https://rimkus.it/xmpp/password-reset
+  archive_days: 180
+  upload_file_mb: 268
+  upload_total_mb: 2500
+  upload_days: 180
+  compliance: 100
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

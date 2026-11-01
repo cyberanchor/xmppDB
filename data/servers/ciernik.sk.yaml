@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ciernik.sk
+flag: 🇸🇰
+country: Slovakia
+ip: '46.229.234.5'
+asn: AS29405 VNET a.s.
+isp: VNET
+org: VNET-org
+srv_client: xmpp.ciernik.sk:5222
+srv_server: xmpp.ciernik.sk:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

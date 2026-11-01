@@ -1,0 +1,14 @@
+# xmppDB server record; fields are described in data/README.md
+domain: paranoid.scarab.name
+flag: 🇱🇻
+country: Latvia
+ip: '87.110.228.149'
+asn: AS48113 SIA PRIME TECHNOLOGY
+isp: LATTELEKOM
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: nicfab.chat
+flag: 🇦🇹
+country: Austria
+ip: '188.172.228.151'
+asn: AS197540 netcup GmbH
+isp: ANX
+srv_client: nicfab.chat:5222
+srv_server: nicfab.chat:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: handskemager.xyz
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '193.108.130.24'
+asn: AS965 Webhosting Holdings LLC
+isp: Webhosting Holdings LLC
+org: Francisco Dias
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

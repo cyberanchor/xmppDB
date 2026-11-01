@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: escander.ru
+flag: 🇷🇺
+country: Russia
+ip: '81.200.241.25'
+asn: AS41148 Zolotaya Linia JSC.
+isp: Zolotaya Linia Ltd.
+org: ZL Dynamic
+srv_client: escander.ru:5222
+srv_server: escander.ru:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

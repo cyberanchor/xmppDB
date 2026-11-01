@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.apinc.org
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '178.170.40.189'
+asn: AS21409 Ikoula Net SAS
+isp: Ikoula Ripe
+srv_client: im.apinc.org:5222
+srv_server: im.apinc.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

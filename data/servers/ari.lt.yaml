@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ari.lt
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '45.86.125.63'
+asn: AS200462 Lennart Seitz trading as ETH-Services
+isp: ETH-VOX
+srv_client: xmpp.ari.lt:5222
+srv_server: xmpp.ari.lt:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

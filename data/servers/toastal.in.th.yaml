@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: toastal.in.th
+flag: 🇹🇭
+country: Thailand
+ip: '134.236.99.237'
+asn: AS131090 National Telecom Public Company Limited
+isp: CAT-BB
+srv_client: toastal.in.th:5222
+srv_server: toastal.in.th:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

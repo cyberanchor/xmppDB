@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: vxempire.xyz
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '212.92.104.3'
+asn: AS43350 NForce Entertainment B.V.
+isp: NForce Entertainment B.V.
+org: NForce Entertainment B.V
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

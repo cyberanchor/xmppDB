@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: achern23.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '152.53.186.39'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: NETCUP-KVM
+srv_client: achern23.org:5222
+srv_server: achern23.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

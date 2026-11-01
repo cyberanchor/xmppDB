@@ -1,0 +1,47 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chatrix.one
+flag: 🇨🇭
+country: Switzerland
+ip: '140.238.214.118'
+asn: AS31898 Oracle Corporation
+isp: Oracle Corporation
+org: Oracle Cloud Infrastructure (eu-zurich-1)
+srv_client: chatrix.one:5222
+srv_server: chatrix.one:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: D
+  since: '2018-10-30'
+  updated: '2026-10-25'
+  organization: private person
+  software: ejabberd 26.9.0
+  locations: [ch, bg]
+  website:
+    bg: https://chatrix.one/bg/
+    en: https://chatrix.one
+  legal_notice:
+    bg: https://docs.chatrix.one/terms/
+    en: https://docs.chatrix.one/en/terms/
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://chatrix.one/join
+  captcha: false
+  email_required: false
+  password_reset:
+    bg: https://docs.chatrix.one/account/change-password/
+    en: https://docs.chatrix.one/en/account/change-password/
+  archive_days: 28
+  upload_file_mb: 104
+  upload_total_mb: 1024
+  upload_days: 28
+  compliance: 100
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: txtng.eu
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '213.239.201.122'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: txtng.eu:5222
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

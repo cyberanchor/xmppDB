@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xabber.ru
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '139.162.240.38'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies
+org: Linode, LLC
+srv_client: morella.xabber.com:5222
+srv_server: morella.xabber.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

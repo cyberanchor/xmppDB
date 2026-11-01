@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: j.cz
+flag: 🇨🇿
+country: Czechia
+ip: '213.151.89.34'
+asn: AS29208 Quantcom, a.s.
+isp: Dial Telecom
+org: SPOJE.NET s.r.o.
+srv_client: jabber.j.cz:5222
+srv_server: jabber.j.cz:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

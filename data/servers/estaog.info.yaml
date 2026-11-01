@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: estaog.info
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '137.74.180.169'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH GmbH
+srv_client: xmpp.estaog.info:5222
+srv_server: xmpp.estaog.info:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

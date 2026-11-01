@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale | default "en" }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }} · {{ .Params.headline }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+<meta name="description" content="{{ .Params.description | default site.Params.description }}">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="icon" type="image/png" href="{{ "favicon.png" | relURL }}">
+<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+{{- /* Theme before the first paint: the saved choice, else the system setting. */}}
+<script>(function(){try{var t=localStorage.getItem("xdb-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}})()</script>
+{{- $css := resources.Get "xdb/xdb.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{- $js := resources.Get "xdb/xdb.js" | js.Build (dict "minify" true "target" "es2018") | fingerprint }}
+<script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+</head>
+<body>
+{{ partial "xdb/header.html" . }}
+<main class="xdb-main{{ if not .IsHome }} xdb-main-narrow{{ end }}">
+{{ block "main" . }}{{ end }}
+</main>
+{{ partial "xdb/footer.html" . }}
+</body>
+</html>

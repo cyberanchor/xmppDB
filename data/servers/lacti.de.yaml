@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: lacti.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '45.87.158.7'
+asn: AS48596 InterNetworX Management GmbH
+isp: InterNetworX Management GmbH
+org: InterNetworX Management GmbH
+ptr: url-redirector.inwx.net
+srv_client: a.lacti.de:5222
+srv_server: xmpp6.lacti.de:5269
+c2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:ipv6-only, not checked: the checking host has no IPv6'
+sources: [list]
+last_checked: '2026-11-01'

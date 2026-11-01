@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: prospace.cc
+flag: 🇿🇦
+country: South Africa
+ip: '129.151.181.45'
+asn: AS31898 Oracle Corporation
+isp: Oracle Corporation
+org: Oracle Cloud Infrastructure (af-johannesburg-1)
+srv_client: chat.prospace.cc:5222
+srv_server: chat.prospace.cc:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

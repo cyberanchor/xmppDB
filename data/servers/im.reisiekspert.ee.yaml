@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.reisiekspert.ee
+flag: 🇪🇪
+country: Estonia
+ip: '194.106.106.91'
+asn: AS3249 Telia Eesti AS
+isp: Telia Eesti
+org: Estpak
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

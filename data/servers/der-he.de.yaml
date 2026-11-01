@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: der-he.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '188.68.35.236'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: NETCUP-GMBH
+srv_client: tbb4msg.tbb4bonn2.nsupdate.info:5222
+srv_server: tbb4msg.tbb4bonn2.nsupdate.info:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,27 @@
+# xmppDB server record; fields are described in data/README.md
+domain: eigenlab.org
+flag: 🇱🇻
+country: Latvia
+ip: '94.140.121.116'
+asn: AS43513 Sia Nano IT
+isp: Sia Nano IT
+srv_client: xmpp.eigenlab.org:5222
+srv_server: xmpp.eigenlab.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: D
+  updated: '2025-09-19'
+  software: Prosody 13.0.1
+  green_hosting: false
+  inband: false
+  captcha: false
+  email_required: false
+  compliance: 82
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

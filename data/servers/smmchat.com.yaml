@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: smmchat.com
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '217.23.12.54'
+asn: AS49981 WorldStream B.V.
+isp: WorldStream B.V.
+srv_client: smmchat.com:5222
+srv_server: smmchat.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

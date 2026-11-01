@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: voip.epios.eu
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '151.236.14.126'
+asn: AS57169 EDIS GmbH
+isp: EDIS GmbH
+org: EDIS GmbH
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

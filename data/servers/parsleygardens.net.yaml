@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: parsleygardens.net
+flag: 🇸🇬
+country: Singapore
+ip: '165.22.62.37'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

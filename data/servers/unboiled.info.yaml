@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: unboiled.info
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '77.237.232.57'
+asn: AS51167 Contabo GmbH
+isp: Contabo GmbH
+org: Contabo GmbH
+srv_client: unboiled.info:5222
+srv_server: unboiled.info:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

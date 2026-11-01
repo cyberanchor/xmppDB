@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: justinvansteijn.nl
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '83.96.243.238'
+asn: AS35470 Signet B.V.
+isp: XL Network OS2
+org: XL  BV
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

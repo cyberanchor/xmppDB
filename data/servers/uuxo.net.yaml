@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: uuxo.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '49.13.118.183'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: uuxo.net:5222
+srv_server: uuxo.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

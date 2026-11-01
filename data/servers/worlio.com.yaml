@@ -1,0 +1,53 @@
+# xmppDB server record; fields are described in data/README.md
+domain: worlio.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '198.251.80.57'
+asn: AS53667 FranTech Solutions
+isp: FranTech Solutions
+org: FranTech Solutions
+srv_client: worlio.com:5222
+srv_server: worlio.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: B
+  since: '2023-03-07'
+  updated: '2026-09-04'
+  organization: company
+  software: Dendrite 0.15.0
+  locations: [us]
+  website:
+    en: https://xmpp.worlio.com
+  legal_notice:
+    en: https://xmpp.worlio.com/rules
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 2
+  inband: false
+  registration_web:
+    en: https://community.worlio.com/register
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://community.worlio.com/forgot
+  archive_days: 14
+  upload_file_mb: 134
+  upload_total_mb: 5000
+  upload_days: 14
+  compliance: 100
+  support_email:
+  - support@worlio.com
+  support_chat:
+  - kouya@worlio.com
+  support_groupchat:
+  - chat@muc.worlio.com
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ideasonboard.com
+flag: 🇱🇺
+country: Luxembourg
+ip: '213.167.242.64'
+asn: AS29169 GANDI SAS
+isp: GANDI is an ICANN accredited registrar
+srv_client: perceval.ideasonboard.com:5222
+srv_server: perceval.ideasonboard.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

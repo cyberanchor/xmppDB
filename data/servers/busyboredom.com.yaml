@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: busyboredom.com
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '2a11:6c7:f35:a0::2'
+asn: AS212895 Johannes Ernst
+isp: Johannes Ernst
+org: Route64 Tunnelbroker Transport Networks Torronto
+ptr: tb29630-cus.customer.route64.org
+errors:
+- 'c2s:ipv6-only, not checked: the checking host has no IPv6'
+- 's2s:ipv6-only, not checked: the checking host has no IPv6'
+sources: [list]
+last_checked: '2026-11-01'

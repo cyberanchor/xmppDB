@@ -1,0 +1,30 @@
+# xmppDB server record; fields are described in data/README.md
+domain: conversations.im
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '78.47.177.120'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+srv_client: xmpp.conversations.im:5222
+srv_server: xmpp.conversations.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: D
+  updated: '2026-10-27'
+  software: ejabberd 26.09.36-conversations.im
+  green_hosting: true
+  inband: true
+  captcha: true
+  email_required: false
+  upload_file_mb: 104
+  compliance: 100
+  support_email:
+  - support@conversations.im
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

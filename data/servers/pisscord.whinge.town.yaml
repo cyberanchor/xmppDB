@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pisscord.whinge.town
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '209.141.49.13'
+asn: AS53667 FranTech Solutions
+isp: FranTech Solutions
+org: FranTech Solutions
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

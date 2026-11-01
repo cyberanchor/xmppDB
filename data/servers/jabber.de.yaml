@@ -1,0 +1,48 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '176.9.122.105'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+ptr: jabber.de
+srv_client: jabber.de:5222
+srv_server: jabber.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: A
+  since: '2001-04-28'
+  updated: '2026-10-28'
+  organization: private person
+  software: Prosody 13.0.7
+  locations: [de]
+  website:
+    de: https://www.jabber.de
+  legal_notice:
+    de: https://www.jabber.de/impressum/
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 3
+  inband: true
+  captcha: false
+  email_required: false
+  archive_days: 60
+  upload_file_mb: 52
+  upload_total_mb: 0
+  upload_days: 7
+  compliance: 100
+  support_email:
+  - admin@jabber.de
+  support_chat:
+  - admin@jabber.de
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: schwend.us
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '45.56.99.171'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+srv_client: xmpp.schwend.us:5222
+srv_server: xmpp.schwend.us:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

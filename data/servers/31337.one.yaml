@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '31337.one'
+flag: 🇸🇪
+country: Sweden
+alliance: 14
+ip: '213.66.25.247'
+asn: AS3301 Telia Company AB
+isp: Telia Company AB
+srv_client: '31337.one:5222'
+srv_server: '31337.one:5269'
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: marevalo.net
+flag: 🇪🇸
+country: Spain
+alliance: 14
+ip: '79.117.116.4'
+asn: AS57269 DIGI SPAIN TELECOM S.A
+isp: Digi Spain Telecom S.A
+org: Digi Spain Telecom S.A
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

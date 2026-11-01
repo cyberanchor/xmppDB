@@ -1,0 +1,28 @@
+# xmppDB server record; fields are described in data/README.md
+domain: liberta.casa
+flag: 🇫🇮
+country: Finland
+ip: '65.109.25.85'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+srv_client: xmpp.liberta.casa:5222
+srv_server: xmpp.liberta.casa:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [ANONYMOUS, PLAIN]
+provider:
+  category: D
+  updated: '2025-08-13'
+  software: ejabberd 21.12
+  green_hosting: true
+  inband: false
+  registration_web:
+    en: https://sso.casa/
+  captcha: false
+  email_required: false
+  compliance: 95
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

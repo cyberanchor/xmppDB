@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tondellier.com
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '109.190.84.43'
+asn: AS35540 OVH SAS
+isp: OVH xDSL
+org: OVH Telecom
+srv_client: topaz.tondellier.com:5222
+srv_server: topaz.tondellier.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

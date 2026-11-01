@@ -1,0 +1,61 @@
+# xmppDB server record; fields are described in data/README.md
+domain: gayfr.live
+flag: 🇱🇹
+country: Lithuania
+ip: '46.202.191.199'
+asn: AS47583 Hostinger International Limited
+isp: HOSTINGER LT
+srv_client: gayfr.live:5222
+srv_server: gayfr.live:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: D
+  since: '2024-10-30'
+  updated: '2026-10-25'
+  organization: private person
+  software: ejabberd 26.9.0
+  locations: [lt, at]
+  website:
+    de: https://gayfr.online/de/live
+    en: https://gayfr.online/en/live
+    es: https://gayfr.online/es/live
+    fr: https://gayfr.online/fr/live
+    it: https://gayfr.online/it/live
+    nl: https://gayfr.online/nl/live
+    pt: https://gayfr.online/pt/live
+  legal_notice:
+    de: https://gayfr.online/de/policy
+    en: https://gayfr.online/en/policy
+    es: https://gayfr.online/es/policy
+    fr: https://gayfr.online/fr/policy
+    it: https://gayfr.online/it/policy
+    nl: https://gayfr.online/nl/policy
+    pt: https://gayfr.online/pt/policy
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://gayfr.online/contact
+  captcha: false
+  email_required: false
+  password_reset:
+    de: https://gayfr.online/de/contact
+    en: https://gayfr.online/en/contact
+    es: https://gayfr.online/es/contact
+    fr: https://gayfr.online/fr/contact
+    it: https://gayfr.online/it/contact
+    nl: https://gayfr.online/nl/contact
+    pt: https://gayfr.online/pt/contact
+  archive_days: 30
+  upload_file_mb: 104
+  upload_total_mb: 1000
+  upload_days: 0
+  compliance: 100
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

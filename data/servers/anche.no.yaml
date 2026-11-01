@@ -1,0 +1,11 @@
+# xmppDB server record; fields are described in data/README.md
+domain: anche.no
+srv_client: jabber.l.inventati.org:5222
+srv_server: jabber.l.inventati.org:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Name or service not known'
+- 's2s:connect-error: Name or service not known'
+sources: [list]
+last_checked: '2026-11-01'

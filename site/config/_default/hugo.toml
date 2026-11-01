@@ -1,0 +1,21 @@
+# xmppDB: Hugo, no theme. Build with ./build.sh; the site goes to public/.
+baseURL = "https://cyberanchor.github.io/xmppDB/site/public/"
+title = "xmppDB"
+locale = "en"
+disableKinds = ["taxonomy", "term", "rss", "sitemap", "robotsTXT", "404"]
+publishDir = "public"
+
+[params]
+  description = "Yet Another XMPP Server Comparison: where each public XMPP server runs, whether clients can connect, whether registration is open and how it authenticates."
+  repo = "https://github.com/cyberanchor/xmppDB"
+  [params.author]
+    name = "Cyberanchor"
+    url = "https://github.com/cyberanchor"
+
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
+# Server records from the repository root: ../data/servers/<domain>.yaml -> hugo.Data.servers
+[[module.mounts]]
+  source = "../data/servers"
+  target = "data/servers"

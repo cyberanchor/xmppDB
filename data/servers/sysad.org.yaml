@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: sysad.org
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '195.154.205.220'
+asn: AS12876 Scaleway SAS
+isp: Online SAS
+srv_client: sysad.org:5222
+srv_server: sysad.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,50 @@
+# xmppDB server record; fields are described in data/README.md
+domain: woodpeckersnest.space
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '213.136.74.177'
+asn: AS51167 Contabo GmbH
+isp: Contabo GmbH
+org: Contabo GmbH
+srv_client: woodpeckersnest.space:5222
+srv_server: woodpeckersnest.space:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: B
+  since: '2022-05-18'
+  updated: '2026-10-13'
+  organization: private person
+  software: Prosody 13.0.7
+  locations: [de]
+  website:
+    en: https://woodpeckersnest.space
+  legal_notice:
+    en: https://xmpp.woodpeckersnest.space/tos-en.txt
+    it: https://xmpp.woodpeckersnest.space/tos-it.txt
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://xmpp.woodpeckersnest.space/account-register/
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://xmpp.woodpeckersnest.space/reset/
+  archive_days: 7
+  upload_file_mb: 52
+  upload_total_mb: 100
+  upload_days: 10
+  compliance: 100
+  support_groupchat:
+  - wpn@chat.woodpeckersnest.space
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

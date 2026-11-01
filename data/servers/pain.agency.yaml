@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pain.agency
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '5.78.64.207'
+asn: AS212317 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+srv_client: pain.agency:5222
+srv_server: pain.agency:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

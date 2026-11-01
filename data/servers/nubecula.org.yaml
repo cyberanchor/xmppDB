@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: nubecula.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '85.214.156.20'
+asn: AS6724 Strato GmbH
+isp: Strato AG
+org: Strato AG
+srv_client: nubecula.org:5222
+srv_server: nubecula.org:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

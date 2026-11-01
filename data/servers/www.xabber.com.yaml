@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: www.xabber.com
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '139.162.194.123'
+asn: AS63949 Akamai Connected Cloud
+isp: LINODE-UK
+org: Linode, LLC
+c2s: false
+s2s: true
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

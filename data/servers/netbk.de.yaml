@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: netbk.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.247.144.196'
+asn: AS8881 1&1 Versatel GmbH
+isp: '1&1 Versatel GmbH'
+org: '1&1 Versatel Deutschland GmbH'
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

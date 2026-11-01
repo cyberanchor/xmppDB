@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: whitsup.eu
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '95.114.35.169'
+asn: AS6805 Telefonica Germany GmbH & Co.OHG
+isp: Telefonica Germany GmbH & Co. OHG
+org: Telefonica Germany GmbH & Co.
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

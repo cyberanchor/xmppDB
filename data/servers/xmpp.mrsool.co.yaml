@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.mrsool.co
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '15.224.90.24'
+asn: AS16509 Amazon.com, Inc.
+isp: Amazon.com, Inc.
+org: AWS EC2 (eu-west-3)
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

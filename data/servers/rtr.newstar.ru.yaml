@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: rtr.newstar.ru
+flag: 🇷🇺
+country: Russia
+ip: '91.238.10.5'
+asn: AS58072 Zenon-Region Ltd.
+isp: Zenon-Region Ltd.
+org: TTT-COMPANY Ltd.
+srv_client: rtr.newstar.ru:5222
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+errors:
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

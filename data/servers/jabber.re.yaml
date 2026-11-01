@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.re
+flag: 🇷🇺
+country: Russia
+ip: '91.226.31.35'
+asn: AS49981 WorldStream B.V.
+isp: WorldStream B.V.
+org: AUC
+srv_client: srv.jabber.re:5222
+srv_server: srv.jabber.re:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

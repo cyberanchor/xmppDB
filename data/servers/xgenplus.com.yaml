@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xgenplus.com
+flag: 🇮🇳
+country: India
+ip: '202.157.87.22'
+asn: AS17753 DATA INGENIOUS GLOBAL LIMITED
+isp: Data Infosys Ltd
+srv_client: chatserver.xgen.in:5222
+srv_server: chatserver.xgen.in:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

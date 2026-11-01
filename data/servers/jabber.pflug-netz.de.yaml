@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.pflug-netz.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.183.59.205'
+asn: AS13045 htp GmbH
+isp: htp GmbH
+org: htp GmbH
+srv_client: gw.bs.pflug-netz.de:5222
+srv_server: gw.bs.pflug-netz.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

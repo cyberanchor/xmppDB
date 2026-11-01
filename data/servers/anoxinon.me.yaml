@@ -1,0 +1,46 @@
+# xmppDB server record; fields are described in data/README.md
+domain: anoxinon.me
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '142.132.217.98'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+ptr: anoxinon.me
+srv_client: xmpp.anoxinon.me:5222
+srv_server: xmpp.anoxinon.me:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: B
+  since: '2018-10-04'
+  updated: '2026-05-29'
+  organization: non-governmental
+  software: ejabberd 26.4.0
+  locations: [de]
+  website:
+    de: https://anoxinon.de
+  legal_notice:
+    de: https://anoxinon.de/impressum/
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 4
+  inband: false
+  registration_web:
+    en: https://anoxinon.de/dienste/anoxinonmessenger/#register
+  captcha: false
+  email_required: false
+  archive_days: 14
+  upload_file_mb: 104
+  upload_total_mb: 100
+  upload_days: 14
+  compliance: 100
+  support_email:
+  - support@anoxinon.me
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

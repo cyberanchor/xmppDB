@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mrman.org
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '205.196.211.70'
+asn: AS26347 New Dream Network, LLC
+isp: New Dream Network
+org: DreamHost
+srv_client: jabber.pld-linux.org:5222
+srv_server: jabber.pld-linux.org:5269
+c2s: true
+s2s: true
+starttls: false
+registration: false
+errors:
+- c2s:tls-failed:SSLError
+sources: [list]
+last_checked: '2026-11-01'

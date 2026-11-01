@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: badarg.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '104.156.247.74'
+asn: AS20473 The Constant Company, LLC
+isp: The Constant Company
+org: Vultr Holdings, LLC
+srv_client: xmpp.badarg.com:443
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

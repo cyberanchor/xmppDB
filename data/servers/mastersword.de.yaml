@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mastersword.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '2.58.112.3'
+asn: AS209185 Tim Niemeyer
+isp: Tim Niemeyer
+srv_client: xmpp.home.tn-x.org:5222
+srv_server: xmpp.home.tn-x.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

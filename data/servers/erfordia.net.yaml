@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: erfordia.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '217.160.76.244'
+asn: AS8560 IONOS SE
+isp: IONOS SE
+org: De Ber Ionos Cloud Txl
+srv_client: erfordia.net:5222
+srv_server: erfordia.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: konuro.net
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '149.210.189.243'
+asn: AS20857 Signet B.V.
+isp: Signet B.V.
+org: TransIP BV
+srv_client: konuro.net:5222
+srv_server: konuro.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

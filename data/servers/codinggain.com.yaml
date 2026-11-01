@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: codinggain.com
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '188.166.158.22'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: Digitalocean
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

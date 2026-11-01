@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: incenp.org
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '51.254.143.22'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH
+srv_client: im.incenp.org:5222
+srv_server: im.incenp.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

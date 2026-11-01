@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: netlab.cz
+flag: 🇨🇿
+country: Czechia
+ip: '88.86.102.51'
+asn: AS39392 SH.cz s.r.o.
+isp: SH.cz s.r.o.
+org: SuperNetwork s.r.o
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

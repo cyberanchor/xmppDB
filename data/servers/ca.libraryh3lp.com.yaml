@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ca.libraryh3lp.com
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '148.113.178.73'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH Hosting, Inc
+srv_client: ca.libraryh3lp.com:5222
+srv_server: ca.libraryh3lp.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

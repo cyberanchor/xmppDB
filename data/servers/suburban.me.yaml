@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: suburban.me
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '146.190.226.150'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_client: atlas.vgworks.ru:5038
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

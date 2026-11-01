@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: immo.ru
+flag: 🇷🇺
+country: Russia
+ip: '185.165.123.206'
+asn: AS60922 Variti+ LLC
+isp: Variti+ LLC
+org: Tilda Publishing
+srv_client: jabber.immo.ru:5222
+srv_server: jabber.immo.ru:5269
+c2s: true
+s2s: true
+starttls: false
+registration: false
+errors:
+- c2s:tls-failed:SSLError
+sources: [list]
+last_checked: '2026-11-01'

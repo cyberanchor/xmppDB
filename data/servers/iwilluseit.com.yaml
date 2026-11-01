@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: iwilluseit.com
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '167.99.223.195'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_client: iwilluseit.com:5222
+srv_server: iwilluseit.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

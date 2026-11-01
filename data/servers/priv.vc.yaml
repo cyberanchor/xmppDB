@@ -1,0 +1,44 @@
+# xmppDB server record; fields are described in data/README.md
+domain: priv.vc
+flag: 🇸🇪
+country: Sweden
+alliance: 14
+ip: '172.234.115.5'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Akamai Technologies, Inc.
+ptr: '172-234-115-5.ip.linodeusercontent.com'
+srv_client: priv.vc:5222
+srv_server: priv.vc:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+provider:
+  category: C
+  since: '2026-02-01'
+  updated: '2026-10-14'
+  organization: private person
+  software: ejabberd 26.4.0
+  locations: [fi]
+  website:
+    en: https://priv.vc
+  legal_notice:
+    en: https://priv.vc/privacy.php
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 2
+  inband: true
+  captcha: true
+  email_required: false
+  archive_days: 30
+  upload_file_mb: 52
+  upload_total_mb: 0
+  upload_days: 7
+  compliance: 100
+  support_email:
+  - support@priv.vc
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

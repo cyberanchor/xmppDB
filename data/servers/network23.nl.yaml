@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: network23.nl
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '188.213.92.182'
+asn: AS206238 Freedom Internet BV
+isp: Freedom Internet BV
+org: Freedom Internet BV
+srv_client: xmpp.network23.nl:5222
+srv_server: xmpp.network23.nl:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

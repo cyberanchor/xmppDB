@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.schnied.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '80.69.46.132'
+asn: AS20755 net-lab GmbH
+isp: lab GmbH
+org: Schnied.net Colocation networks for hosts and services
+srv_client: jabber.schnied.net:5222
+srv_server: jabber.schnied.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

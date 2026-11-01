@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: showalters.net
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '104.237.150.30'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+srv_client: showalters.net:5222
+srv_server: showalters.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

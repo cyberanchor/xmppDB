@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.sevatel.com
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '185.243.113.17'
+asn: AS205406 Access2.IT Group B.V.
+isp: Access2.IT Group B.V.
+org: GWY IT PTY LTD
+srv_client: im.sevatel.com:5222
+srv_server: im.sevatel.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,35 @@
+# xmppDB server record; fields are described in data/README.md
+domain: sure.im
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '35.155.33.88'
+asn: AS16509 Amazon.com, Inc.
+isp: Amazon.com, Inc.
+org: AWS EC2 (us-west-2)
+srv_client: tigase.me:5222
+srv_server: tigase.me:5269
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: invalid-from'
+provider:
+  category: D
+  updated: '2026-09-12'
+  software: Tigase 8.5.0-SNAPSHOT-b16833/b4b70fe7
+  green_hosting: false
+  inband: true
+  captcha: true
+  email_required: true
+  upload_file_mb: 20
+  compliance: 95
+  support_email:
+  - support@tigase.net
+  support_groupchat:
+  - tigase@mix.tigase.im
+  - tigase@muc.tigase.org
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

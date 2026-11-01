@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: meejah.ca
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '104.236.166.239'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_server: xmpp.meejah.ca:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

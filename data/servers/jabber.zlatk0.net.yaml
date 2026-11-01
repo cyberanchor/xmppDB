@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.zlatk0.net
+flag: 🇦🇹
+country: Austria
+ip: '84.115.27.53'
+asn: AS8412 T-Mobile Austria GmbH
+isp: Liberty Global Operations B.V
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [CRAM-MD5, DIGEST-MD5, PADE, PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.clearview-intelligence.io
+flag: 🇮🇪
+country: Ireland
+ip: '52.212.159.37'
+asn: AS16509 Amazon.com, Inc.
+isp: Amazon.com, Inc.
+org: AWS EC2 (eu-west-1)
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

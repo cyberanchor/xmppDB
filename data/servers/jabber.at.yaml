@@ -1,0 +1,26 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.at
+flag: 🇦🇹
+country: Austria
+ip: '128.130.95.47'
+asn: AS679 Technische Universitat Wien
+isp: Technische Universitat Wien
+org: Technische Universitat Wien
+srv_client: xmpp.jabber.at:5222
+srv_server: xmpp.jabber.at:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: D
+  updated: '2026-05-04'
+  software: ejabberd 24.12-3+deb13u2
+  green_hosting: false
+  inband: false
+  captcha: false
+  email_required: false
+  compliance: 80
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

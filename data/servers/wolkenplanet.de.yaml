@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: wolkenplanet.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '188.68.38.222'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: NETCUP-GMBH
+ptr: ayuthay.wolkenplanet.de
+srv_client: ayuthay.wolkenplanet.de:5222
+srv_server: ayuthay.wolkenplanet.de:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

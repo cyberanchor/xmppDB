@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabberix.com
+flag: 🇮🇩
+country: Indonesia
+ip: '114.141.52.190'
+asn: AS38771 PT Cyberplus Media Pratama
+isp: PT Cyberplus Media Pratama
+srv_client: jabberix.com:5222
+srv_server: jabberix.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

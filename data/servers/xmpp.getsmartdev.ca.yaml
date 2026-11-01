@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.getsmartdev.ca
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '174.113.17.44'
+asn: AS812 Rogers Communications Canada Inc.
+isp: Rogers Communications Canada Inc.
+org: Rogers Communications Canada Inc
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

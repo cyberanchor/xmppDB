@@ -1,0 +1,50 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.club
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '51.210.215.98'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH
+ptr: mail.jabber.club
+srv_client: jabber.club:5222
+srv_server: jabber.club:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+provider:
+  category: D
+  since: '2026-07-22'
+  updated: '2026-10-25'
+  organization: private person
+  software: ejabberd 26.9.0
+  locations: [fr]
+  website:
+    en: https://jabber.club
+    ru: https://jabber.club/set-lang.php?lang=ru&back=%2F
+  legal_notice:
+    en: https://jabber.club/rules
+    ru: https://jabber.club/rules
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://jabber.club/register
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://jabber.club/rules
+    ru: https://jabber.club/rules
+  upload_file_mb: 104
+  upload_total_mb: 1153
+  upload_days: 14
+  compliance: 91
+  alternative_jids:
+  - xmpp.mx
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: x0z.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '202.61.229.186'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: x0z.de:5222
+srv_server: x0z.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

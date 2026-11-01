@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ishopper.info
+flag: 🇪🇬
+country: Egypt
+ip: '41.44.232.15'
+asn: AS8452 TE-AS
+isp: TE Data
+srv_client: xmpp.ishopper.info:5222
+srv_server: xmpp.ishopper.info:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

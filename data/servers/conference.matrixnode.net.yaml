@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: conference.matrixnode.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '88.99.137.155'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: conference.matrixnode.net:5222
+srv_server: conference.matrixnode.net:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

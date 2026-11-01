@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: imp.softphone.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '154.6.16.3'
+asn: AS54900 Alianza Inc.
+isp: Alianza Inc.
+org: LogicWeb Inc
+srv_client: imp.softphone.com:5222
+srv_server: imp.softphone.com:5269
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: invalid-from'
+sources: [list]
+last_checked: '2026-11-01'

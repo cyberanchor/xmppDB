@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: z-i-m-a.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '188.68.43.45'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: NETCUP-GMBH
+srv_client: wapakema.de:5222
+srv_server: wapakema.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

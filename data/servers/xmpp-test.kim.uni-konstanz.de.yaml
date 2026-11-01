@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp-test.kim.uni-konstanz.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '134.34.245.201'
+asn: AS553 BelWue-Koordination
+isp: Universitaet Konstanz
+org: UNI-KONSTANZ
+ptr: chat-proxy-test.kim.uni-konstanz.de
+srv_client: xmpp-test.kim.uni-konstanz.de:5222
+srv_server: xmpp-test.kim.uni-konstanz.de:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

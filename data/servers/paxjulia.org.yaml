@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: paxjulia.org
+flag: 🇵🇹
+country: Portugal
+ip: '148.71.79.5'
+asn: AS12353 Vodafone Portugal
+isp: Vodafone Portugal
+org: Vodafone Portugal - Communicacoes Pessoais S.A
+srv_client: paxjulia.org:5222
+srv_server: paxjulia.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

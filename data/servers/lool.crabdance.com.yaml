@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: lool.crabdance.com
+flag: 🇪🇸
+country: Spain
+alliance: 14
+ip: '85.87.140.92'
+asn: AS15704 XTRA TELECOM S.A.
+isp: EUSKALTEL
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

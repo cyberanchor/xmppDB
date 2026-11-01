@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.yiny.org
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '80.67.172.214'
+asn: AS20766 Association Gitoyen
+isp: Association Globenet
+org: Gitoyen
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

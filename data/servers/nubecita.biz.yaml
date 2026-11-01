@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: nubecita.biz
+flag: 🇲🇽
+country: Mexico
+ip: '187.188.230.197'
+asn: AS17072 TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.
+isp: TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.
+org: TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V
+ptr: fixed-187-188-230-197.totalplay.net
+srv_client: chat.nubecita.biz:5222
+srv_server: chat.nubecita.biz:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

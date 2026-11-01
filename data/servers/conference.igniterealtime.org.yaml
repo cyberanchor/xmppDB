@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: conference.igniterealtime.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '52.28.200.98'
+asn: AS16509 Amazon.com, Inc.
+isp: Amazon.com, Inc.
+org: AWS EC2 (eu-central-1)
+srv_server: xmpp.igniterealtime.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [ANONYMOUS, CRAM-MD5, DIGEST-MD5, HT-SHA-256-ENDP, HT-SHA-256-NONE, HT-SHA-512-ENDP, HT-SHA-512-NONE, HT-SHA3-512-ENDP, HT-SHA3-512-NONE, HT2-SHA-256-ENDP, HT2-SHA-256-NONE, HT2-SHA-512-ENDP, HT2-SHA-512-NONE, HT2-SHA3-512-ENDP, HT2-SHA3-512-NONE, JIVE-SHAREDSECRET, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

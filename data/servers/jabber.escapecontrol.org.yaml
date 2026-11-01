@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.escapecontrol.org
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '81.171.6.97'
+asn: AS60781 LeaseWeb Netherlands B.V.
+isp: LeaseWeb Netherlands B.V.
+org: LeaseWeb Netherlands B.V
+srv_client: jabber.escapecontrol.org:5222
+srv_server: jabber.escapecontrol.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

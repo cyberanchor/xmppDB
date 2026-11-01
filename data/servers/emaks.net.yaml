@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: emaks.net
+flag: 🇫🇮
+country: Finland
+ip: '65.109.168.126'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+ptr: mail.emaks.net
+srv_client: xmpp.emaks.net:5222
+srv_server: xmpp.emaks.net:5269
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

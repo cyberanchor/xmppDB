@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: odin.ws
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '104.21.17.147'
+asn: AS13335 Cloudflare, Inc.
+isp: Cloudflare, Inc.
+org: Cloudflare, Inc.
+srv_client: xmpp.odin.ws:5222
+srv_server: xmpp.odin.ws:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

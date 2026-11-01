@@ -1,0 +1,42 @@
+# xmppDB server record; fields are described in data/README.md
+domain: zinthos.dev
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '144.202.18.39'
+asn: AS20473 The Constant Company, LLC
+isp: The Constant Company
+org: Vultr Holdings, LLC
+ptr: out3.amberwoodlantern.com
+srv_client: xmpp.zinthos.dev:5222
+srv_server: xmpp.zinthos.dev:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+provider:
+  category: D
+  since: '2026-09-17'
+  updated: '2026-10-12'
+  organization: private person
+  software: Prosody 13.0.1
+  locations: [us]
+  website:
+    en: https://zinthos.dev
+  legal_notice:
+    en: https://zinthos.dev/privacy/
+  free: true
+  professional_hosting: false
+  green_hosting: false
+  bus_factor: 1
+  inband: false
+  captcha: false
+  email_required: false
+  archive_days: 365
+  upload_file_mb: 1073
+  upload_total_mb: 2048
+  upload_days: 30
+  compliance: 82
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

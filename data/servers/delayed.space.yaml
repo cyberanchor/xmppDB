@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: delayed.space
+flag: 🇮🇹
+country: Italy
+alliance: 14
+ip: '195.231.85.169'
+asn: AS31034 Aruba S.p.A.
+isp: Aruba S.p.A.
+org: Aruba S.p.A. - Cloud Services
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

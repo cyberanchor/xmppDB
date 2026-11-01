@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: not-g.net
+flag: 🇮🇹
+country: Italy
+alliance: 14
+ip: '77.241.2.29'
+asn: AS31263 MYNET S.R.L.
+isp: Mynet
+org: MNET s.r.l
+srv_client: xmpp.not-g.net:5222
+srv_server: xmpp.not-g.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

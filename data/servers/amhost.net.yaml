@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: amhost.net
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '37.48.119.83'
+asn: AS60781 LeaseWeb Netherlands B.V.
+isp: LeaseWeb Netherlands B.V.
+org: LeaseWeb Netherlands B.V.
+srv_client: jabber.amhost.net:5222
+srv_server: jabber.amhost.net:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

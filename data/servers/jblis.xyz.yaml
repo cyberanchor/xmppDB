@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jblis.xyz
+flag: 🇫🇮
+country: Finland
+ip: '65.109.6.14'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

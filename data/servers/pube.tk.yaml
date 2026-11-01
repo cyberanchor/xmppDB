@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pube.tk
+flag: 🇱🇻
+country: Latvia
+ip: '87.226.30.188'
+asn: AS20910 SIA BITE Latvija
+isp: SIA "BITE Latvija"
+org: Baltkom
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

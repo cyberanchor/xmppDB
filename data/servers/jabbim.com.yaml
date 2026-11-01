@@ -1,0 +1,26 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabbim.com
+flag: 🇨🇿
+country: Czechia
+ip: '95.168.217.72'
+asn: AS39392 SH.cz s.r.o.
+isp: SuperNetwork s.r.o.
+org: BackupLife s.r.o
+srv_client: lb.jabb.im:5222
+srv_server: lb.jabb.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+provider:
+  category: D
+  updated: '2024-12-12'
+  software: ejabberd 17.11
+  green_hosting: false
+  inband: true
+  captcha: true
+  email_required: false
+  compliance: 56
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

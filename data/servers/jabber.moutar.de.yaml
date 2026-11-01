@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.moutar.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '45.131.122.12'
+asn: AS207686 Martin Moutarde
+isp: Martin Moutarde
+org: Moutarde int infr srv
+srv_client: jabber.moutar.de:5222
+srv_server: jabber.moutar.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

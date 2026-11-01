@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: worcesterdivers.org
+flag: 🇵🇱
+country: Poland
+ip: '77.55.192.249'
+asn: AS15967 Nazwa.pl Sp.z.o.o.
+isp: Nazwa.pl Sp.z.o.o.
+org: Nazwa.pl Sp.z.o.o
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

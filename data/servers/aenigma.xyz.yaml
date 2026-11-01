@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: aenigma.xyz
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '51.159.109.30'
+asn: AS12876 Scaleway SAS
+isp: SCALEWAY
+org: ONLINE
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

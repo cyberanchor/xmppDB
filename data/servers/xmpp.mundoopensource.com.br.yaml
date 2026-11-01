@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.mundoopensource.com.br
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '157.245.44.191'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [CRAM-MD5, DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

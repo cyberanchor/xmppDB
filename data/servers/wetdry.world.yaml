@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: wetdry.world
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '152.53.166.107'
+asn: AS214996 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: xmpp.wetdry.world:5222
+srv_server: xmpp.wetdry.world:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

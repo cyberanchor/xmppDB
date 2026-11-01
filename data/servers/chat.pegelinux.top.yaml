@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.pegelinux.top
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '43.240.149.46'
+asn: AS214279 DASABO OU
+isp: DASABO OU
+org: Dasabo OU
+srv_client: chat.pegelinux.top:5222
+srv_server: chat.pegelinux.top:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

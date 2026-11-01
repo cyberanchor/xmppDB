@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: disasm.info
+flag: 🇫🇮
+country: Finland
+ip: '65.108.86.119'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+srv_client: jabber.disasm.info:5222
+srv_server: jabber.disasm.info:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

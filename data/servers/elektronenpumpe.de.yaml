@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: elektronenpumpe.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.160.0.248'
+asn: AS44066 firstcolo GmbH
+isp: firstcolo GmbH
+org: united hoster GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

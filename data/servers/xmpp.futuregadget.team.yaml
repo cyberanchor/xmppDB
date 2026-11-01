@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.futuregadget.team
+flag: 🇷🇺
+country: Russia
+ip: '194.58.114.199'
+asn: AS197695 Domain names registrar REG.RU, Ltd
+isp: '"Domain names registrar REG.RU", Ltd'
+org: Reg.Ru
+srv_client: xmpp.futuregadget.team:5222
+srv_server: xmpp.futuregadget.team:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.int.uplex.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '212.12.63.120'
+asn: AS9211 Nawork Internet Informationssysteme GmbH
+isp: n@work Internet Informationssysteme GmbH
+org: n@work Informationssysteme GmbH
+srv_client: jabber.int.uplex.de:5222
+srv_server: jabber.int.uplex.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

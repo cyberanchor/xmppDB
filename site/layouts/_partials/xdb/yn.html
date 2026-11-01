@@ -1,0 +1,5 @@
+{{- /* true → green "yes", false → red "no", missing → a muted dash. */ -}}
+{{- if eq . true -}}<span class="xdb-pill xdb-green">yes</span>
+{{- else if eq . false -}}<span class="xdb-pill xdb-red">no</span>
+{{- else -}}<span class="xdb-na">—</span>
+{{- end -}}

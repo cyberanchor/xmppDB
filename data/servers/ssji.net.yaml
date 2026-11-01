@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ssji.net
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '212.83.179.118'
+asn: AS12876 Scaleway SAS
+isp: Online
+org: Free SAS
+srv_client: frontend.ssji.net:5222
+srv_server: frontend.ssji.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

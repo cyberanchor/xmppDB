@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: lspe.org
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '35.214.43.230'
+asn: AS43515 Google Ireland Limited
+isp: Google Ireland Limited
+org: Google Cloud (europe-west2)
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

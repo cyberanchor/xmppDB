@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: asnelt.org
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '82.69.38.143'
+asn: AS13037 Zen Internet Ltd
+isp: Zen Internet Ltd
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

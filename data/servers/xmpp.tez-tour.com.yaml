@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.tez-tour.com
+flag: 🇷🇺
+country: Russia
+ip: '194.165.24.65'
+asn: AS5531 SINUM CURRUS LTD
+isp: Sinum Currus LTD
+org: TEZTOUR
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

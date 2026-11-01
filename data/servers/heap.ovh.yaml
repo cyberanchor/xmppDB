@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: heap.ovh
+flag: 🇨🇭
+country: Switzerland
+ip: '144.24.249.52'
+asn: AS31898 Oracle Corporation
+isp: Oracle Corporation
+org: Oracle Cloud Infrastructure (eu-zurich-1)
+srv_client: heap.ovh:5222
+srv_server: heap.ovh:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

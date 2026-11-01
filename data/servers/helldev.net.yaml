@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: helldev.net
+flag: 🇬🇷
+country: Greece
+ip: '185.243.214.26'
+asn: AS202448 MVPS LTD
+isp: Mvps LTD
+org: Mvps LTD
+srv_client: helldev.net:5222
+srv_server: helldev.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

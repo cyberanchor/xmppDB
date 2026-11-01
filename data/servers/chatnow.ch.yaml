@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chatnow.ch
+flag: 🇨🇭
+country: Switzerland
+ip: '88.84.28.34'
+asn: AS41549 Elektrizitaets- und Wasserwerk der Stadt Buchs SG
+isp: Elektrizitaets- und Wasserwerk der Stadt Buchs SG
+org: Ftth Internet Ewbuchs RII Seez
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: elektrine.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '95.173.206.45'
+asn: AS60068 Datacamp Limited
+isp: Datacamp Limited
+org: Cdn77 NYC
+srv_client: elektrine.com:5222
+srv_server: elektrine.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

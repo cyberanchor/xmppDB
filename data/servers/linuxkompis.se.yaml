@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: linuxkompis.se
+flag: 🇸🇪
+country: Sweden
+alliance: 14
+ip: '46.246.109.42'
+asn: AS42708 Glesys AB
+isp: GleSYS AB
+org: Glesys Customer Servers
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

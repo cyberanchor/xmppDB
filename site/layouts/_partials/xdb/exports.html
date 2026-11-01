@@ -1,0 +1,32 @@
+{{- /* Downloads next to the pages, published as files (so --minify leaves them as written). Called once from the
+       home page.
+         servers.json  the records as they are in data/servers/, sorted by domain
+         servers.csv   one row per server, every field quoted; lists joined with ";"
+*/ -}}
+{{- $d := partialCached "xdb/data.html" . "xdb" -}}
+{{- $recs := slice -}}
+{{- range $d -}}{{- $recs = $recs | append .rec -}}{{- end -}}
+{{- (resources.FromString "servers.json" (printf "%s\n" (jsonify (dict "indent" " " "noHTMLEscape" true) $recs))).Publish -}}
+
+{{- $cols := slice "domain" "state" "flag" "country" "alliance" "ip" "asn" "isp" "org" "ptr" "srv_client" "srv_server"
+  "c2s" "s2s" "starttls" "registration" "sasl" "errors" "category" "software" "last_checked" -}}
+{{- $q := slice -}}
+{{- range $cols -}}{{- $q = $q | append (printf "%q" .) -}}{{- end -}}
+{{- $lines := slice (delimit $q ",") -}}
+{{- range $s := $d -}}
+  {{- $r := $s.rec -}}
+  {{- $cells := slice -}}
+  {{- range $cols -}}
+    {{- $v := "" -}}
+    {{- if eq . "state" -}}{{- $v = $s.state -}}
+    {{- else if eq . "category" -}}{{- $v = $s.category -}}
+    {{- else if eq . "software" -}}{{- $v = index $s.p "software" | default "" -}}
+    {{- else -}}
+      {{- $x := index $r . -}}
+      {{- if reflect.IsSlice $x -}}{{- $v = delimit $x ";" -}}{{- else if ne $x nil -}}{{- $v = string $x -}}{{- end -}}
+    {{- end -}}
+    {{- $cells = $cells | append (printf "\"%s\"" (replace $v "\"" "\"\"")) -}}
+  {{- end -}}
+  {{- $lines = $lines | append (delimit $cells ",") -}}
+{{- end -}}
+{{- (resources.FromString "servers.csv" (printf "%s\n" (delimit $lines "\n"))).Publish -}}

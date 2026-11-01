@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ums-voznet.cwpanama.com
+flag: 🇵🇦
+country: Panama
+ip: '186.75.76.153'
+asn: AS11556 Cable & Wireless Panama
+isp: Cable & Wireless Panama
+org: Cable & Wireless Panama
+srv_client: ums1-voznet.cwpanama.com:5222
+srv_server: ums1-voznet.cwpanama.com:5269
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [ANONYMOUS, PLAIN]
+errors:
+- 's2s:stream-error: invalid-from'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: inspirenet.org
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '198.251.80.229'
+asn: AS53667 FranTech Solutions
+isp: FranTech Solutions
+org: FranTech Solutions
+srv_client: inspirenet.org:5222
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

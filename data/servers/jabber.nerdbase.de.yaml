@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.nerdbase.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.194.141.127'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+ptr: nc.nerdbase.de
+srv_client: jabber.nerdbase.de:5222
+srv_server: jabber.nerdbase.de:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

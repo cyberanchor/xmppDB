@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: phd.petrolink.net
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '66.151.249.219'
+asn: AS12179 Unitas Global
+isp: Unitas Global
+c2s: false
+s2s: false
+errors:
+- c2s:no-response
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

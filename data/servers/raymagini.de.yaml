@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: raymagini.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '37.120.171.125'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: NETCUP-GMBH
+srv_client: xmpp.raymagini.de:5222
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+errors:
+- s2s:no-target
+sources: [list]
+last_checked: '2026-11-01'

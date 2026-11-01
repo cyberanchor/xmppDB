@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: bone.digitalis.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '212.12.48.27'
+asn: AS13135 Wieske's Crew GmbH
+isp: Wieske's Crew GmbH
+org: Wieskes Crew GmbH
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

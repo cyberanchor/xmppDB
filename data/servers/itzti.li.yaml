@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: itzti.li
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '104.247.81.99'
+asn: AS206834 Team Internet AG
+isp: Team Internet AG
+org: Next Dimension Inc
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

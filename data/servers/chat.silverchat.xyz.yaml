@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.silverchat.xyz
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '172.105.157.12'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

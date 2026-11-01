@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: kanojo.de
+flag: 🇫🇮
+country: Finland
+ip: '95.216.78.222'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: HETZNER-DC
+srv_client: ram.en.it:5222
+srv_server: ram.en.it:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

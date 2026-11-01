@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '52.77.238.158'
+flag: 🇸🇬
+country: Singapore
+ip: '52.77.238.158'
+asn: AS16509 Amazon.com, Inc.
+isp: Amazon.com, Inc.
+org: AWS EC2 (ap-southeast-1)
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.by
+flag: 🇧🇾
+country: Belarus
+ip: '178.172.201.229'
+asn: AS6697 Republican Unitary Telecommunication Enterprise Beltelecom
+isp: Republican Unitary Telecommunication Enterprise Beltelecom
+org: Reliable Software, Ltd
+ptr: '178-172-201-229.hosterby.com'
+srv_client: xmpp.by:5222
+srv_server: xmpp.by:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

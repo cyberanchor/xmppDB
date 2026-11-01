@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: skorpil.cz
+flag: 🇨🇿
+country: Czechia
+ip: '78.80.90.224'
+asn: AS13036 T-Mobile Czech Republic a.s.
+isp: T-Mobile Czech Republic a.s.
+org: Tmcz Gpon
+ptr: '78-80-90-224.customers.tmcz.cz'
+srv_client: skorpil.cz:5222
+srv_server: skorpil.cz:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

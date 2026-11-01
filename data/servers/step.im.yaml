@@ -1,0 +1,43 @@
+# xmppDB server record; fields are described in data/README.md
+domain: step.im
+flag: 🇯🇵
+country: Japan
+ip: '180.235.43.236'
+asn: AS4685 Asahi Net
+isp: ASAHI Net, Inc.
+org: ASAHI
+srv_client: step.im:5222
+srv_server: step.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: D
+  since: '2011-02-18'
+  updated: '2026-10-07'
+  organization: private person
+  software: ejabberd 26.07
+  locations: [jp]
+  website:
+    ja: https://step.im
+  legal_notice:
+    ja: https://step.im/legal/
+  free: true
+  professional_hosting: false
+  green_hosting: false
+  bus_factor: 1
+  inband: true
+  captcha: true
+  email_required: false
+  archive_days: 33
+  upload_total_mb: 1000
+  upload_days: 63
+  compliance: 100
+  support_email:
+  - xmpp@step.im
+  support_chat:
+  - support@step.im
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

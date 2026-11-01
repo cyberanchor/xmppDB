@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: rooms.chinwag.im
+flag: 🇦🇺
+country: Australia
+alliance: 5
+ip: '119.17.159.140'
+asn: AS4764 Aussie Fibre Pty Ltd
+isp: Aussie Broadband
+srv_server: xmpp.chinwag.im:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

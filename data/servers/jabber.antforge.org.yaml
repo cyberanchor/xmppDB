@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.antforge.org
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '92.51.134.28'
+asn: AS8972 Host Europe GmbH
+isp: Host Europe GmbH
+org: HE-VPS
+c2s: true
+s2s: true
+starttls: false
+registration: false
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ums1s7.south.nextiva.im
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '208.89.110.54'
+asn: AS22103 Nextiva, Inc.
+isp: Nextiva, Inc.
+org: Nextiva, Inc.
+c2s: false
+s2s: false
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

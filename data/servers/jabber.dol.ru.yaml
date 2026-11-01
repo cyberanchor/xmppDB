@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.dol.ru
+flag: 🇷🇺
+country: Russia
+ip: '194.87.5.86'
+asn: AS2118 Reliable Communications s.r.o.
+isp: Reliable Communications s.r.o.
+org: Relcom HOST LLC
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

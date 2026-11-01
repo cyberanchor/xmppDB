@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: sutulo.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '23.94.111.106'
+asn: AS36352 HostPapa
+isp: HostPapa
+org: HostPapa
+srv_client: sutulo.com:5222
+srv_server: sutulo.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

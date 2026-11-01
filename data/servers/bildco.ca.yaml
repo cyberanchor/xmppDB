@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: bildco.ca
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '24.51.224.22'
+asn: AS7992 Cogeco Connexion Inc.
+isp: Cogeco Connexion Inc.
+org: Cogeco Cable Inc.
+srv_client: remote.bildco.ca:5222
+srv_server: remote.bildco.ca:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: talk.area49.net
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '172.234.154.197'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Akamai Technologies, Inc.
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

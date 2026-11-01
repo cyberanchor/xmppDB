@@ -1,0 +1,44 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.fr
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '178.170.40.189'
+asn: AS21409 Ikoula Net SAS
+isp: Ikoula Ripe
+srv_client: jabberfr.org:5222
+srv_server: jabberfr.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: A
+  since: '2004-11-30'
+  updated: '2026-11-01'
+  organization: non-governmental
+  software: Prosody hg:92b881186e99
+  locations: [fr]
+  website:
+    fr: https://jabberfr.org
+  legal_notice:
+    fr: https://jabberfr.org/legal.php
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 2
+  inband: true
+  captcha: false
+  email_required: false
+  archive_days: 14
+  upload_file_mb: 1073
+  upload_total_mb: 215
+  upload_days: 14
+  compliance: 100
+  support_groupchat:
+  - jabberfr@chat.jabberfr.org
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

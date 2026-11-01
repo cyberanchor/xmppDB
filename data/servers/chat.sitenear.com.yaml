@@ -1,0 +1,12 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.sitenear.com
+ip: '108.181.14.3'
+srv_client: sitenear.net:5222
+srv_server: sitenear.net:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

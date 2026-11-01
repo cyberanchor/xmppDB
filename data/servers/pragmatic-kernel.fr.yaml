@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pragmatic-kernel.fr
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '91.121.221.206'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH SAS
+srv_client: im.pragmatic-kernel.fr:5222
+srv_server: im.pragmatic-kernel.fr:5269
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [PLAIN, X-OAUTH2]
+errors:
+- s2s:not-xmpp
+sources: [list]
+last_checked: '2026-11-01'

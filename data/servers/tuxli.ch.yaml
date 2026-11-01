@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tuxli.ch
+flag: 🇨🇭
+country: Switzerland
+ip: '185.32.222.237'
+asn: AS51395 Datasource AG
+isp: Datasource AG
+org: ServerPool2
+srv_client: jabber.tuxli.ch:5222
+srv_server: jabber.tuxli.ch:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

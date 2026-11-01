@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: gwalton.net
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '162.248.144.47'
+asn: AS393301 ST. JOHN CO-OPERATIVE TELEPHONE AND TELEGRAPH COMPANY
+isp: ST. JOHN CO-OPERATIVE TELEPHONE AND TELEGRAPH COMPANY
+org: ST. JOHN CO-OPERATIVE TELEPHONE AND TELEGRAPH COMPANY
+srv_client: xmpp.gwalton.net:5222
+srv_server: xmpp.gwalton.net:5269
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+errors:
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

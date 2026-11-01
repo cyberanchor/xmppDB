@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tagline.pt
+flag: 🇵🇹
+country: Portugal
+ip: '185.95.221.24'
+asn: AS29003 IP TELECOM, SERVICOS DE TELECOMUNICACOES S.A.
+isp: IP TELECOM, SERVICOS DE TELECOMUNICACOES S.A.
+org: IPTelecom InfraD1
+srv_client: css.tagline.pt:5222
+srv_server: css.tagline.pt:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

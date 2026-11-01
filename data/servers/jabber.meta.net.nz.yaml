@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.meta.net.nz
+flag: 🇳🇿
+country: New Zealand
+alliance: 5
+ip: '114.23.226.193'
+asn: AS56030 Voyager Internet Ltd.
+isp: Voyager Internet Ltd.
+org: Voyager Internet Ltd
+srv_client: jabber.meta.net.nz:5222
+srv_server: jabber.meta.net.nz:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

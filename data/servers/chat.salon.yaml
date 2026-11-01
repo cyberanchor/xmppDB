@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.salon
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '103.224.182.248'
+asn: AS133618 Trellian Pty. Limited
+isp: Trellian Pty. Limited
+org: Trellian Pty. Limited
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: sviech.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '45.157.179.249'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: sviech.de:5222
+srv_server: sviech.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

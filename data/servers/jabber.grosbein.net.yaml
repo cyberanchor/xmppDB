@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.grosbein.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '116.203.149.156'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+c2s: true
+s2s: true
+starttls: false
+registration: false
+sources: [list]
+last_checked: '2026-11-01'

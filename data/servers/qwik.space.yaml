@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: qwik.space
+flag: 🇸🇪
+country: Sweden
+alliance: 14
+ip: '78.72.144.97'
+asn: AS3301 Telia Company AB
+isp: Telia Company AB
+org: Telia Company AB
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

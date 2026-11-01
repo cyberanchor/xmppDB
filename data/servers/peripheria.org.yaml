@@ -1,0 +1,48 @@
+# xmppDB server record; fields are described in data/README.md
+domain: peripheria.org
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '51.210.14.100'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH
+ptr: peripheria.org
+srv_client: peripheria.org:5222
+srv_server: peripheria.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: D
+  since: '2026-05-01'
+  updated: '2026-10-31'
+  organization: non-governmental
+  software: Prosody 0.12.3
+  locations: [fr]
+  website:
+    fr: https://peripheria.org
+  legal_notice:
+    fr: https://www.peripheria.org/cgu/
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://www.peripheria.org/creer-un-compte/
+  captcha: false
+  email_required: false
+  password_reset:
+    fr: https://www.peripheria.org/recup/
+  archive_days: 31
+  upload_file_mb: 109
+  upload_total_mb: 500
+  upload_days: 31
+  compliance: 100
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

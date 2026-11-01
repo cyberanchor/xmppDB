@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ssljabber.teamserver.at
+flag: 🇦🇹
+country: Austria
+ip: '213.145.228.141'
+asn: AS25575 Ledl.net GmbH & Co. KG
+isp: Ledl.net GmbH & Co. KG
+org: This is a assignment for Ledl.net GmbH
+c2s: true
+s2s: true
+starttls: false
+registration: false
+errors:
+- c2s:tls-failed:SSLError
+sources: [list]
+last_checked: '2026-11-01'

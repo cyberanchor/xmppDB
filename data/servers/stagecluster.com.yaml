@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: stagecluster.com
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '188.245.105.143'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: stagecluster.com.stagecluster.com:5222
+srv_server: stagecluster.com:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Name or service not known'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

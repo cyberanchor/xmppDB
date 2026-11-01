@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.anongoth.pl
+flag: 🇵🇱
+country: Poland
+ip: '46.248.190.62'
+asn: AS47544 IQ PL Sp. z o.o.
+isp: IQ PL Sp. z o.o
+org: IQ PL Sp. z o.o.
+c2s: false
+s2s: true
+errors:
+- c2s:connect-timeout
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

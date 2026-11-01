@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: znik.sk
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '185.95.31.186'
+asn: AS48635 Your Hosting B.V.
+isp: PCEXTREME
+org: PCextreme B.V.
+srv_client: znik.sk:5222
+srv_server: znik.sk:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

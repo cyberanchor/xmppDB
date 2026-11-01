@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chatrooms.emisocks.com
+flag: 🇫🇮
+country: Finland
+ip: '65.109.64.202'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [ANONYMOUS]
+errors:
+- 's2s:stream-error: policy-violation'
+sources: [list]
+last_checked: '2026-11-01'

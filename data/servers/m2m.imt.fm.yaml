@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: m2m.imt.fm
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '185.19.163.134'
+asn: AS60686 IMA PROTECT SAS
+isp: IMA PROTECT SAS
+org: IMA PROTECT
+c2s: false
+s2s: false
+errors:
+- 'c2s:stream-error: host-unknown'
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

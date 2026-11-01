@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ipipe.ru
+flag: 🇷🇺
+country: Russia
+ip: '88.214.230.230'
+asn: AS12695 LLC Digital Network
+isp: iPipe network in Dinet
+org: Overoptic Systems LTD
+srv_client: jabber.ipipe.ru:5222
+srv_server: jabber.ipipe.ru:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

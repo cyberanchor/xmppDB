@@ -1,0 +1,29 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.cat
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '45.9.60.169'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+ptr: garfield.jabber.cat
+srv_client: jabber.cat:443
+srv_server: jabber.cat:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: D
+  updated: '2026-07-04'
+  software: Prosody 0.12.4
+  green_hosting: true
+  inband: false
+  captcha: false
+  email_required: false
+  upload_file_mb: 20
+  compliance: 82
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

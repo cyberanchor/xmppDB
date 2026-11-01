@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: dazboga.in
+flag: 🇨🇿
+country: Czechia
+ip: '89.187.134.126'
+asn: AS35592 Coolhousing s.r.o.
+isp: Coolhousing s.r.o.
+org: COOLHOUSING Pavel Milar
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

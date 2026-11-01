@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: babbelbu.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '212.227.200.20'
+asn: AS8560 IONOS SE
+isp: IONOS SE
+org: De Rhr Bap Ngcs Public
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

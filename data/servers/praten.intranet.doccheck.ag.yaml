@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: praten.intranet.doccheck.ag
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '195.82.83.121'
+asn: AS8469 CANCOM Managed Services GmbH
+isp: MYRA
+org: DocCheck AG
+c2s: true
+s2s: false
+starttls: false
+registration: false
+errors:
+- c2s:tls-failed:SSLError
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

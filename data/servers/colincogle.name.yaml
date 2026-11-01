@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: colincogle.name
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '45.79.170.225'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+ptr: useast.colincogle.name
+srv_client: useast.colincogle.name:5222
+srv_server: useast.colincogle.name:5269
+c2s: false
+s2s: true
+errors:
+- c2s:connect-timeout
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

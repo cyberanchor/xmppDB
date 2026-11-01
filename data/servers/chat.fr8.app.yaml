@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.fr8.app
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '35.190.44.142'
+asn: AS396982 Google LLC
+isp: Google LLC
+org: Google Cloud
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

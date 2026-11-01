@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: p2.siacs.eu
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '78.47.177.120'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+srv_server: ganymede.siacs.eu:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

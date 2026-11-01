@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jon.eus
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '51.15.171.164'
+asn: AS12876 Scaleway SAS
+isp: SCALEWAY
+org: ONLINE
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

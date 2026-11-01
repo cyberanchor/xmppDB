@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ob-it.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.238.73.61'
+asn: AS34240 manitu GmbH
+isp: manitu GmbH
+org: manitu GmbH
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

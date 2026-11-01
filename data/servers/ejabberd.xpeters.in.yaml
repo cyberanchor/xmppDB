@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ejabberd.xpeters.in
+flag: 🇴🇲
+country: Oman
+ip: '5.36.246.233'
+asn: AS28885 OmanTel NAP
+isp: GTO-OMAN
+org: OmanTel Telecommunication company LLC
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

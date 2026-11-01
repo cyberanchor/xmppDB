@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: gammel.cloud
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.111.111.158'
+asn: AS212238 Datacamp Limited
+isp: Datacamp Limited
+org: DataCamp Limited
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

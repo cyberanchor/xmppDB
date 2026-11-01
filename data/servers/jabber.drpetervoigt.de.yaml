@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.drpetervoigt.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '94.16.115.126'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: drpetervoigt.de:5222
+srv_server: drpetervoigt.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

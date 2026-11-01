@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: unixjerk.org
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '165.232.155.152'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_client: animals.unixjerk.org:5222
+srv_server: animals.unixjerk.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

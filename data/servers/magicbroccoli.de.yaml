@@ -1,0 +1,45 @@
+# xmppDB server record; fields are described in data/README.md
+domain: magicbroccoli.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '188.68.38.55'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: NETCUP-GMBH
+srv_client: magicbroccoli.de:5222
+srv_server: magicbroccoli.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: A
+  since: '2014-06-20'
+  updated: '2026-10-31'
+  organization: private person
+  software: ejabberd 26.09.14-magicbroccoli.de
+  locations: [de]
+  website:
+    en: https://magicbroccoli.de
+  legal_notice:
+    de: https://magicbroccoli.de/datenschutz/
+    en: https://magicbroccoli.de/termsofuse/
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  inband: true
+  captcha: true
+  email_required: false
+  password_reset:
+    en: https://magicbroccoli.de/register
+  archive_days: 90
+  upload_file_mb: 52
+  upload_total_mb: 0
+  upload_days: 31
+  compliance: 100
+  support_groupchat:
+  - lobby@conference.magicbroccoli.de
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

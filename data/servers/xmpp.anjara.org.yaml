@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.anjara.org
+flag: 🇮🇹
+country: Italy
+alliance: 14
+ip: '5.39.63.115'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: . Hex IT Group
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

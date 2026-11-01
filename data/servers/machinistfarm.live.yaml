@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: machinistfarm.live
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '173.230.157.155'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+srv_client: chat.machinistfarm.live:5222
+srv_server: chat.machinistfarm.live:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

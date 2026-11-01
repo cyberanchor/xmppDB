@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.tokkee.org
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '193.37.152.234'
+asn: AS51167 Contabo GmbH
+isp: Contabo GmbH
+org: Contabo GmbH
+srv_client: jabber.tokkee.net:5222
+srv_server: jabber.tokkee.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

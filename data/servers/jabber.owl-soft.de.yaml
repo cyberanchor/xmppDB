@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.owl-soft.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '109.250.218.31'
+asn: AS8881 1&1 Versatel GmbH
+isp: Vt-dynamicpool West
+org: '1&1 Telecom GmbH'
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

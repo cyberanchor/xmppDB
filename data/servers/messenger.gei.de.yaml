@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: messenger.gei.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '193.175.255.14'
+asn: AS680 Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+org: Georg-Eckert-Institut fuer internationale Schulbuchforschung
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

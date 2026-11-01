@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.woffs.de
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '84.22.109.77'
+asn: AS196752 Tilaa B.V.
+isp: Tilaa B.V.
+org: Tilaa
+srv_client: jabber.woffs.de:5222
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,12 @@
+# xmppDB server record; fields are described in data/README.md
+domain: spot0.net
+ip: '189.203.133.47'
+srv_client: chat.spot0.net:5222
+srv_server: chat.spot0.net:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

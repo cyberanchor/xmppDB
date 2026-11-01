@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mh.am
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '152.53.37.65'
+asn: AS214996 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: xmpp.mh.am:5222
+srv_server: xmppl.mh.am:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

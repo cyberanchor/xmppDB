@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.analog.red
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '77.188.148.176'
+asn: AS6805 Telefonica Germany GmbH & Co.OHG
+isp: Telefonica O2 Germany
+org: Telefonica Germany GmbH & Co.
+srv_client: jabber.analog.red:5222
+srv_server: jabber.analog.red:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

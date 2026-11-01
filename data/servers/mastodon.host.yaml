@@ -1,0 +1,10 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mastodon.host
+srv_client: mastodon.host:5222
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Name or service not known'
+- s2s:no-target
+sources: [list]
+last_checked: '2026-11-01'

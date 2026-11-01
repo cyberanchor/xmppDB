@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: boisen.org
+flag: 🇦🇹
+country: Austria
+ip: '62.83.10.16'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: NETCUP-KVM
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

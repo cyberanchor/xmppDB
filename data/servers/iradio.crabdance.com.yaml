@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: iradio.crabdance.com
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '46.142.109.67'
+asn: AS8881 1&1 Versatel GmbH
+isp: '1&1 Versatel GmbH'
+org: '1&1 Versatel Deutschland GmbH'
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: valsania.it
+flag: 🇮🇹
+country: Italy
+alliance: 14
+ip: '188.10.244.129'
+asn: AS3269 Telecom Italia S.p.A.
+isp: Telecom Italia S.p.A.IPTV Broadband Services
+org: INTERBUSINESS
+srv_client: cgp1.valsania.it:5222
+srv_server: cgp1.valsania.it:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [LOGIN, PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

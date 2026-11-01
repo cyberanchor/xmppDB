@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: fleshless.org
+flag: 🇷🇺
+country: Russia
+ip: '188.246.231.162'
+asn: AS49505 JSC Selectel
+isp: JSC Selectel
+srv_client: cid.fleshless.org:5222
+srv_server: cid.fleshless.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

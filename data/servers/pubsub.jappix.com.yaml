@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pubsub.jappix.com
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '94.16.111.188'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: nl.movim.eu:5222
+srv_server: nl.movim.eu:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

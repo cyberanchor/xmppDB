@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: project.im
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '2.59.188.206'
+asn: AS49028 D-LAKE SAS
+isp: D-lake SAS
+org: D-LAKE
+srv_client: xmpp.project.im:47594
+srv_server: xmpp.project.im:15739
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

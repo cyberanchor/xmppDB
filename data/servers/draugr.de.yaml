@@ -1,0 +1,51 @@
+# xmppDB server record; fields are described in data/README.md
+domain: draugr.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '23.88.8.69'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+srv_client: jabberd.draugr.de:5222
+srv_server: jabberd.draugr.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: B
+  since: '2005-11-21'
+  updated: '2026-10-02'
+  organization: private person
+  software: ejabberd 26.9.0
+  locations: [de]
+  website:
+    de: https://www.draugr.de
+  legal_notice:
+    de: https://www.draugr.de/nutzungsbedingungen/
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://www.draugr.de/registrierung/
+  captcha: false
+  email_required: false
+  archive_days: 21
+  upload_file_mb: 104
+  upload_total_mb: 0
+  upload_days: 14
+  compliance: 100
+  support_email:
+  - info@draugr.de
+  alternative_jids:
+  - deshalbfrei.org
+  - ubuntu-jabber.de
+  - ubuntu-jabber.net
+  - verdammung.org
+  - xabber.de
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

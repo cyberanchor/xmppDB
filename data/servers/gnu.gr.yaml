@@ -1,0 +1,27 @@
+# xmppDB server record; fields are described in data/README.md
+domain: gnu.gr
+flag: 🇬🇷
+country: Greece
+ip: '83.212.169.120'
+asn: AS5408 National Infrastructures for Research and Technology S.A.
+isp: Deaggregated Space
+org: Greek Research and Technology Network (GRNET) S.A.
+ptr: jupiter.libreops.cc
+srv_client: gnu.gr:5222
+srv_server: gnu.gr:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+provider:
+  category: D
+  updated: '2024-12-12'
+  software: Prosody 0.12.4
+  green_hosting: false
+  inband: false
+  captcha: false
+  email_required: false
+  compliance: 39
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

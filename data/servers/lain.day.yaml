@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: lain.day
+flag: 🇮🇩
+country: Indonesia
+ip: '163.223.227.44'
+asn: AS199695 PT Anym Network Indonesia
+isp: PT Anym Network Indonesia
+org: PT Anym Network Indonesia
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

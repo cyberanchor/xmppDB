@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: staszic.waw.pl
+flag: 🇵🇱
+country: Poland
+ip: '31.179.213.38'
+asn: AS9141 P4 Sp. z o.o.
+isp: P4 Sp. z o.o.
+org: XIV LO im S Staszica w Warszawie
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

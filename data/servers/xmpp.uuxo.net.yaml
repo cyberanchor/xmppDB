@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.uuxo.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '49.13.118.183'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+c2s: false
+s2s: true
+errors:
+- c2s:no-response
+sources: [list]
+last_checked: '2026-11-01'

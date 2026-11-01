@@ -1,0 +1,28 @@
+# xmppDB server record; fields are described in data/README.md
+domain: elaon.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '82.139.198.212'
+asn: AS8820 tal.de GmbH
+isp: TAL.DE Klaus Internet Service GmbH
+org: BimeTal GmbH
+srv_client: xmpp.elaon.de:5222
+srv_server: xmpp.elaon.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: D
+  updated: '2026-03-17'
+  software: ejabberd 24.2.0
+  green_hosting: false
+  inband: false
+  upload_file_mb: 104
+  compliance: 95
+  support_email:
+  - alex+xmpp@elaon.de
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

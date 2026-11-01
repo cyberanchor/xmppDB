@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.nijika.org
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '99.189.175.70'
+asn: AS7018 AT&T Enterprises, LLC
+isp: AT&T Enterprises, LLC
+org: AT&T Corp
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

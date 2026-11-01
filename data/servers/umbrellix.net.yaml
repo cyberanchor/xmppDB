@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: umbrellix.net
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '170.39.230.46'
+asn: AS62513 GoCodeIT Inc
+isp: GoCodeIT Inc
+srv_client: invaincu.qc.ca.umbrellix.net:5222
+srv_server: invaincu.qc.ca.umbrellix.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

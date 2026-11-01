@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: komunikator.clarena.pl
+flag: 🇵🇱
+country: Poland
+ip: '212.160.139.38'
+asn: AS5617 Orange Polska Spolka Akcyjna
+isp: Orange Polska Spolka Akcyjna
+org: Poplawska Group Sp. z o.o. Sp.k.
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

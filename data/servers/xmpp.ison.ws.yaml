@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.ison.ws
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.26.156.238'
+asn: AS58010 uvensys GmbH
+isp: JonasPasche
+srv_client: xmpp.ison.ws:40480
+srv_server: xmpp.ison.ws:40481
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

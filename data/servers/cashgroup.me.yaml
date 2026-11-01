@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: cashgroup.me
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.125.129.254'
+asn: AS58061 Scalaxy B.V.
+isp: Scalaxy B.V.
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

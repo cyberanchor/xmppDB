@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: swisschat.free-solutions.org
+flag: 🇨🇭
+country: Switzerland
+ip: '94.103.99.223'
+asn: AS49457 Openbusiness S.A.
+isp: OpenBusiness Ltd / SwissCenter / SwissLink
+srv_client: swisschat.free-solutions.org:5223
+srv_server: swisschat.free-solutions.org:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

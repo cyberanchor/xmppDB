@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.wiva.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '35.201.89.26'
+asn: AS396982 Google LLC
+isp: Google LLC
+org: Google Cloud
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

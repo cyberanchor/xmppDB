@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: talk.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '195.242.206.27'
+asn: AS12830 InfraNet AG
+isp: InfraNet AG
+org: InfraNet AG
+srv_client: xmpp01.talk.de:5222
+srv_server: xmpp01.talk.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

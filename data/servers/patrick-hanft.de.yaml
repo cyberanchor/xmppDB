@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: patrick-hanft.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '37.221.194.105'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: NETCUP-GMBH
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

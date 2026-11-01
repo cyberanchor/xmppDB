@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: oss-it.ru
+flag: 🇨🇭
+country: Switzerland
+ip: '95.183.50.240'
+isp: Solar Communications GmbH
+org: Solar Communications GmbH
+srv_client: oss-it.ru:5222
+srv_server: oss-it.ru:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

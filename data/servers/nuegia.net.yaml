@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: nuegia.net
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '2600:3c0a:e002:bb00:d250:99ff:fe3f:3832'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+ptr: xmpp.nuegia.net
+srv_client: xmpp.nuegia.net:5222
+srv_server: xmpp.nuegia.net:5269
+errors:
+- 'c2s:ipv6-only, not checked: the checking host has no IPv6'
+- 's2s:ipv6-only, not checked: the checking host has no IPv6'
+sources: [list]
+last_checked: '2026-11-01'

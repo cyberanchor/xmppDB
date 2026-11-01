@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pbx01.primeline.cloud
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.206.91.60'
+asn: AS204704 primeLine Solutions GmbH
+isp: primeLine Solutions GmbH
+org: pL CUSTOMER NETWORK
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

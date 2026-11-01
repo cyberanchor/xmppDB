@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: senkals.one
+flag: 🇷🇴
+country: Romania
+ip: '185.165.171.27'
+asn: AS200651 FlokiNET ehf
+isp: FlokiNET ehf
+org: FlokiNET Romania
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: wwf.tl
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '207.154.239.170'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_client: jabber.wwf.tl:5222
+srv_server: jabber.wwf.tl:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

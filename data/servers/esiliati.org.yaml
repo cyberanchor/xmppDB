@@ -1,0 +1,45 @@
+# xmppDB server record; fields are described in data/README.md
+domain: esiliati.org
+flag: 🇦🇹
+country: Austria
+ip: '91.244.70.128'
+asn: AS215120 Evolus IT Solutions GmbH
+isp: Evolus IT Solutions GmbH
+org: Evolus IT Solutions GmbH
+srv_client: freon-papaya.rr.esiliati.org:5222
+srv_server: freon-papaya.rr.esiliati.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: D
+  since: '2012-01-01'
+  updated: '2026-11-01'
+  organization: non-governmental
+  locations: [it]
+  website:
+    it: https://www.esiliati.org
+  legal_notice:
+    it: https://www.esiliati.org/segreti/
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 1
+  inband: false
+  captcha: false
+  email_required: false
+  password_reset:
+    it: https://attrezzi.esiliati.org/utenza/
+  archive_days: 7
+  upload_file_mb: 104
+  upload_total_mb: 200
+  upload_days: 15
+  compliance: 91
+  support_chat:
+  - ciurma@esiliati.org
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

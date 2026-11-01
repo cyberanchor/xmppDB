@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: cascarilla.social
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '217.182.205.148'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH
+srv_client: cascarilla.social:5222
+srv_server: cascarilla.social:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

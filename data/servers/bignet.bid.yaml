@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: bignet.bid
+flag: 🇷🇴
+country: Romania
+ip: '79.118.115.180'
+asn: AS8708 RCS & RDS
+isp: RCS & RDS
+org: RCS & RDS Residential
+srv_client: bignet.bid:5222
+srv_server: bignet.bid:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

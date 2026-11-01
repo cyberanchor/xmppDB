@@ -1,0 +1,29 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mailbox.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.97.174.35'
+asn: AS199118 Heinlein Support GmbH
+isp: HEINLEIN-SERVICES
+org: Heinlein Services
+ptr: mailbox.org
+srv_client: xmpp.mailbox.org:5222
+srv_server: xmpp.mailbox.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+provider:
+  category: D
+  updated: '2025-11-20'
+  software: ejabberd 18.12.1-2
+  green_hosting: false
+  inband: false
+  captcha: false
+  email_required: false
+  upload_file_mb: 10
+  compliance: 78
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

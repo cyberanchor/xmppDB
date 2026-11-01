@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: beherit.pl
+flag: 🇵🇱
+country: Poland
+ip: '51.77.59.5'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH Sp. z o. o
+srv_client: xmpp.beherit.pl:5222
+srv_server: xmpp.beherit.pl:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

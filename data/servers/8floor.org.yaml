@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '8floor.org'
+flag: 🇷🇺
+country: Russia
+ip: '92.101.193.218'
+asn: AS12389 PJSC Rostelecom
+isp: Rostelecom networks
+org: OJSC North-West Telecom
+srv_client: xmpp.8floor.org:5222
+srv_server: xmpp.8floor.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

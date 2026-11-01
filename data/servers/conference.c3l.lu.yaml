@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: conference.c3l.lu
+flag: 🇷🇴
+country: Romania
+ip: '185.100.87.249'
+asn: AS200651 FlokiNET ehf
+isp: FlokiNET Ltd
+org: FlokiNET Ltd
+srv_server: xmpp.c3l.lu:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

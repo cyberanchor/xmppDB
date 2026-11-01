@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: eris.cc
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '152.53.21.254'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: ANX
+srv_client: eris.cc:5222
+srv_server: eris.cc:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

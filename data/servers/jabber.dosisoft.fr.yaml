@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.dosisoft.fr
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '109.190.212.180'
+asn: AS35540 OVH SAS
+isp: OVH xDSL
+org: OVH Telecom
+srv_client: jabber.dosisoft.fr:5222
+srv_server: jabber.dosisoft.fr:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

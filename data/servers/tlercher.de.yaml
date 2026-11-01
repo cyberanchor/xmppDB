@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tlercher.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '195.201.137.97'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+ptr: defiant.tlercher.de
+srv_client: xmpp.tlercher.de:5222
+srv_server: xmpp.tlercher.de:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

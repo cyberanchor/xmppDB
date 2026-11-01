@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ezvan.fr
+flag: 🇮🇪
+country: Ireland
+ip: '54.194.35.140'
+asn: AS16509 Amazon.com, Inc.
+isp: Amazon.com, Inc.
+org: AWS EC2 (eu-west-1)
+srv_client: mail.ezvan.fr:5222
+srv_server: mail.ezvan.fr:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

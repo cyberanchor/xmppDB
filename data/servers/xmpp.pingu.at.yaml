@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.pingu.at
+flag: 🇦🇹
+country: Austria
+ip: '85.236.254.140'
+asn: AS34318 ASAK Glasfaser GmbH
+isp: Flashnet GmbH
+org: MINNIBERGER
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: na-vcse-01.ivision.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '159.242.251.73'
+asn: AS30697 iVision, Inc.
+isp: iVision, Inc.
+org: iVision, Inc.
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sources: [list]
+last_checked: '2026-11-01'

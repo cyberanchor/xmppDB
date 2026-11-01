@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.sorch.info
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '144.24.171.152'
+asn: AS31898 Oracle Corporation
+isp: Oracle Corporation
+org: Oracle Cloud Infrastructure (eu-frankfurt-1)
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

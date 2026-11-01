@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '420blaze.it'
+flag: 🇷🇸
+country: Serbia
+ip: '37.120.193.123'
+asn: AS9009 M247 Europe SRL
+isp: M247 Europe
+org: M247 Ltd
+srv_client: xmpp.cock.li:5222
+srv_server: xmpp.cock.li:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

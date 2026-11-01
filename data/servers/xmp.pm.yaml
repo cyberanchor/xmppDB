@@ -1,0 +1,47 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmp.pm
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '188.114.96.3'
+asn: AS13335 Cloudflare, Inc.
+isp: Cloudflare, Inc.
+org: CloudFlare, Inc.
+srv_client: xmpp.xmp.pm:5222
+srv_server: xmpp.xmp.pm:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+provider:
+  category: C
+  since: '2026-06-14'
+  updated: '2026-07-05'
+  organization: private person
+  software: ejabberd 26.4.0
+  locations: [ch]
+  website:
+    en: https://xmp.pm
+  legal_notice:
+    en: https://xmp.pm/legal.html
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://xmp.pm/request
+  captcha: false
+  email_required: false
+  archive_days: 7
+  upload_file_mb: 104
+  upload_total_mb: 105
+  upload_days: 7
+  compliance: 100
+  support_email:
+  - vesselwave@protonmail.com
+  support_chat:
+  - admin@xmp.pm
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

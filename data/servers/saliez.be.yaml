@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: saliez.be
+flag: 🇧🇪
+country: Belgium
+alliance: 14
+ip: '77.109.97.94'
+asn: AS9031 EDPNET Belgium BV
+isp: EDPNET
+srv_client: oranje.lhp.saliez.be:5222
+srv_server: oranje.lhp.saliez.be:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

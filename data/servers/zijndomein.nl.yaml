@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: zijndomein.nl
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '93.186.181.219'
+asn: AS20559 Fundaments B.V.
+isp: Fundaments B.V.
+org: Oxilion
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,21 @@
+# xmppDB server record; fields are described in data/README.md
+domain: magierenklave.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '202.61.243.132'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: powered by ANX
+ptr: qhareman.magierenklave.de
+srv_client: qhareman.magierenklave.de:5222
+srv_server: qhareman.magierenklave.de:5269
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [PLAIN]
+errors:
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

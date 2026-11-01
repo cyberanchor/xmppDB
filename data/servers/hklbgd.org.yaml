@@ -1,0 +1,14 @@
+# xmppDB server record; fields are described in data/README.md
+domain: hklbgd.org
+flag: 🇷🇸
+country: Serbia
+ip: '89.216.27.209'
+asn: AS31042 Yettel d.o.o.
+isp: Serbia Broadband
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

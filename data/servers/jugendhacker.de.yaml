@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jugendhacker.de
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '62.171.162.141'
+asn: AS51167 Contabo GmbH
+isp: Contabo GmbH
+org: Contabo GmbH
+srv_client: snowden.jugendhacker.de:5222
+srv_server: snowden.jugendhacker.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

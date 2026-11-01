@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: conference.esiliati.org
+flag: 🇷🇴
+country: Romania
+ip: '193.168.141.144'
+asn: AS39622 ZERGRUSH SRL
+isp: Zergrush SRL
+org: Zergrush SRL
+srv_server: freon-papaya.rr.esiliati.org:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

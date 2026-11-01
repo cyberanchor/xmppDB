@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: python.03labs.com
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '74.12.9.64'
+asn: AS577 Bell Canada
+isp: Bell Canada
+org: Sympatico HSE
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

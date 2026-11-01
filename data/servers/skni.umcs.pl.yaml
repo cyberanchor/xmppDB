@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: skni.umcs.pl
+flag: 🇵🇱
+country: Poland
+ip: '212.182.24.240'
+asn: AS12324 Maria Curie-Sklodowska University
+isp: academic part of Lublin MAN
+srv_client: xmpp.skni.umcs.pl:5222
+srv_server: xmpp.skni.umcs.pl:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

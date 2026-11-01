@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ninetailed.net
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '217.155.16.237'
+asn: AS13037 Zen Internet Ltd
+isp: Zen Internet Ltd
+org: Chris Wilson
+srv_client: ninetailed.net:5222
+srv_server: ninetailed.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

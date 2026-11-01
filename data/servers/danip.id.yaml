@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: danip.id
+flag: 🇮🇩
+country: Indonesia
+ip: '141.11.25.41'
+asn: AS141968 PT Industri Kreatif Digital
+isp: PT Industri Kreatif Digital
+org: PT. INDUSTRI KREATIF DIGITAL
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

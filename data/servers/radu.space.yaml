@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: radu.space
+flag: 🇷🇴
+country: Romania
+ip: '89.46.101.117'
+asn: AS9009 M247 Europe SRL
+isp: M247 Europe SRL
+org: Clues IPs
+ptr: hermes.xeranet.ro
+srv_client: ginger.radu.space:5222
+srv_server: ginger.radu.space:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

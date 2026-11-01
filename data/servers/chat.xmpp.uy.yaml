@@ -1,0 +1,47 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.xmpp.uy
+flag: 🇺🇾
+country: Uruguay
+ip: '186.49.64.60'
+asn: AS6057 Administracion Nacional de Telecomunicaciones
+isp: Administracion Nacional de Telecomunicaciones
+org: Administracion Nacional de Telecomunicaciones
+ptr: r186-49-64-60.dialup.adsl.anteldata.net.uy
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: D
+  since: '2025-11-01'
+  updated: '2026-10-31'
+  organization: private person
+  software: Snikket Snikket release stable.20260611.1
+  locations: [uy]
+  website:
+    es: https://xmpp.uy
+  legal_notice:
+    es: https://xmpp.uy/servidor.html
+  free: true
+  professional_hosting: false
+  green_hosting: false
+  bus_factor: 1
+  inband: false
+  captcha: false
+  email_required: false
+  password_reset:
+    es: https://xmpp.uy/recuperar.html
+  archive_days: 14
+  upload_file_mb: 104
+  upload_total_mb: 50000
+  upload_days: 14
+  compliance: 100
+  support_email:
+  - contacto@xmpp.uy
+  support_chat:
+  - admin@chat.xmpp.uy
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

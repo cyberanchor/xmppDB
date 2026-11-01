@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: universe.myftp.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '91.11.67.63'
+asn: AS3320 Deutsche Telekom AG
+isp: Deutsche Telekom AG
+org: Deutsche Telekom AG
+srv_client: universe.myftp.org:5222
+srv_server: universe.myftp.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

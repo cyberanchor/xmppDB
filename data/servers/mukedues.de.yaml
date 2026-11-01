@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mukedues.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.182.102.43'
+asn: AS13045 htp GmbH
+isp: htp GmbH
+org: htp GmbH
+srv_client: deepspace.dedyn.io:15222
+srv_server: deepspace.dedyn.io:15269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

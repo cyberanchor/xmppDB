@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: my-chat.dev2.4k.com.ua
+flag: 🇺🇦
+country: Ukraine
+ip: '176.114.12.57'
+asn: AS56485 TheHost LLC
+isp: TheHost LLC
+org: TheHost-Network
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

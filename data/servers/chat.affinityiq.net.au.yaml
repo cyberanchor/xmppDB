@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.affinityiq.net.au
+flag: 🇦🇺
+country: Australia
+alliance: 5
+ip: '115.70.200.18'
+asn: AS10143 Exetel Pty Ltd
+isp: EXETEL-Broadband
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

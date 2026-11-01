@@ -1,0 +1,21 @@
+{{- define "main" }}
+{{- $d := partialCached "xdb/data.html" . "xdb" }}
+{{- $meta := partial "xdb/meta.html" . }}
+{{- $checked := slice }}{{ range $d }}{{ with .checked }}{{ $checked = $checked | append . }}{{ end }}{{ end }}
+{{- $countries := slice }}{{ range $d }}{{ with .country }}{{ $countries = $countries | append . }}{{ end }}{{ end }}
+<section class="xdb-intro">
+  <h1>{{ .Params.headline }}</h1>
+  <p class="xdb-lead">{{ .Params.lead }}</p>
+  <p class="xdb-stats">
+    <b>{{ len $d }}</b> servers
+    · <a href="#state=online" data-xdb-set="state=online"><b>{{ len (where $d "state" "online") }}</b> accept clients</a>
+    · <a href="#reg=open" data-xdb-set="reg=open"><b>{{ len (where $d "reg" "open") }}</b> with open in-band registration</a>
+    · <a href="#cat=listed" data-xdb-set="cat=listed"><b>{{ len (where $d "category" "ne" "") }}</b> listed by XMPP Providers</a>
+    · <b>{{ len ($countries | uniq) }}</b> countries
+    {{- with $checked }} · last check <b>{{ index (sort . "value" "desc") 0 }}</b>{{ end }}
+  </p>
+</section>
+{{ partial "xdb/table.html" . }}
+{{ partial "xdb/legend.html" . }}
+{{- partial "xdb/exports.html" . }}
+{{- end }}

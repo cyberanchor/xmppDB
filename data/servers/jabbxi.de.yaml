@@ -1,0 +1,31 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabbxi.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '78.94.73.74'
+asn: AS3209 Vodafone GmbH
+isp: Vodafone
+org: Vodafone NRW GmbH
+ptr: mail.jabbxi.de
+srv_client: jabbxi.de:5222
+srv_server: jabbxi.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+provider:
+  category: D
+  updated: '2026-10-23'
+  software: ejabberd 26.9.0
+  green_hosting: false
+  inband: true
+  captcha: true
+  email_required: false
+  upload_file_mb: 104
+  compliance: 100
+  support_email:
+  - xi@jabbxi.de
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: dev.dxmpp.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '165.22.2.38'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

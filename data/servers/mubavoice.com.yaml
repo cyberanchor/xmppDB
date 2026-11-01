@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mubavoice.com
+flag: 🇮🇳
+country: India
+ip: '139.84.136.115'
+asn: AS20473 The Constant Company, LLC
+isp: The Constant Company
+org: Vultr Holdings, LLC
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

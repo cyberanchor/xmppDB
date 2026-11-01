@@ -1,0 +1,49 @@
+# xmppDB server record; fields are described in data/README.md
+domain: movim.eu
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '94.16.111.188'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: movim.eu:5222
+srv_server: movim.eu:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+provider:
+  category: B
+  since: '2017-08-16'
+  updated: '2026-10-03'
+  organization: private person
+  software: ejabberd 26.9.0
+  locations: [de, fr]
+  website:
+    en: https://movim.eu
+  legal_notice:
+    en: https://join.movim.eu/legals
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://join.movim.eu/register
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://join.movim.eu/account/login
+  archive_days: 0
+  upload_file_mb: 20
+  upload_total_mb: 0
+  upload_days: 0
+  compliance: 100
+  support_groupchat:
+  - movim@conference.movim.eu
+  alternative_jids:
+  - jappix.com
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.minus273.org
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '109.73.65.14'
+asn: AS20860 IOMART CLOUD SERVICES LIMITED
+isp: IOMART
+org: Redstation Limited
+srv_client: jabber.minus273.org:5222
+srv_server: jabber.minus273.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

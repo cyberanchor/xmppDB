@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.itsfb.com
+flag: 🇵🇱
+country: Poland
+ip: '54.37.139.211'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH Sp. z o. o
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+errors:
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

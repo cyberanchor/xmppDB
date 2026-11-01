@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: meet.uc.v-tservices.com
+flag: 🇮🇹
+country: Italy
+alliance: 14
+ip: '185.128.28.38'
+asn: AS203601 VALUE TRANSFORMATION SERVICES S.P.A.
+isp: Value Transformation Services S.P.A.
+org: Vtservices Office LAN
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

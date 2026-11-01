@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.chat-secure.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '80.152.235.87'
+asn: AS3320 Deutsche Telekom AG
+isp: Deutsche Telekom AG
+org: Deutsche Telekom AG
+srv_client: xmpp.chat-secure.de:5222
+srv_server: xmpp.chat-secure.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

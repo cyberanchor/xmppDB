@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.markoviclan.info
+flag: 🇦🇹
+country: Austria
+ip: '151.236.30.182'
+asn: AS57169 EDIS GmbH
+isp: EDIS GmbH
+org: EDIS GmbH
+srv_client: jabber.markoviclan.info:5222
+srv_server: jabber.markoviclan.info:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

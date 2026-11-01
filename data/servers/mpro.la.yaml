@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mpro.la
+flag: 🇷🇺
+country: Russia
+ip: '151.248.125.105'
+asn: AS197695 Domain names registrar REG.RU, Ltd
+isp: Reg.Ru
+srv_client: mpro.la:5222
+srv_server: mpro.la:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: nvnet.cz
+flag: 🇨🇿
+country: Czechia
+ip: '31.31.240.134'
+asn: AS56566 SATT a.s.
+isp: SATT a.s.
+org: SATT
+srv_client: jabber.nvnet.cz:5222
+srv_server: jabber.nvnet.cz:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

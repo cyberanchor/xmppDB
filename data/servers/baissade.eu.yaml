@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: baissade.eu
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '46.105.75.11'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH SAS
+srv_client: zone3.dbaconsult.eu:5222
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

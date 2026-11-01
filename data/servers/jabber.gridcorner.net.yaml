@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.gridcorner.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '94.16.106.37'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

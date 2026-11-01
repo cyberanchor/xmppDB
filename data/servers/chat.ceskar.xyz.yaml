@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.ceskar.xyz
+flag: 🇨🇿
+country: Czechia
+ip: '31.31.72.85'
+asn: AS197019 WEDOS Internet, a.s.
+isp: WEDOS Internet
+org: WEDOS hosting services
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

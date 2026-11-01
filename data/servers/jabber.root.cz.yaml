@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.root.cz
+flag: 🇨🇿
+country: Czechia
+ip: '91.213.160.188'
+asn: AS24971 MasterDC s.r.o.
+isp: MasterDC s.r.o.
+org: Internet Info, s.r.o.
+srv_client: lb.jabb.im:5222
+srv_server: lb.jabb.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

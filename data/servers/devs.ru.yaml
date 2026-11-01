@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: devs.ru
+flag: 🇷🇺
+country: Russia
+ip: '95.165.28.177'
+asn: AS25513 PJSC Moscow city telephone network
+isp: Moscow Local Telephone Network (OAO MGTS)
+org: OAO Mgts)
+srv_client: xmpp.devs.ru:5222
+srv_server: xmpp.devs.ru:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

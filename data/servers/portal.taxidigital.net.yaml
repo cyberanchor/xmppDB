@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: portal.taxidigital.net
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '23.111.189.230'
+asn: AS29802 HIVELOCITY, Inc.
+isp: HIVELOCITY, Inc.
+org: HIVELOCITY, Inc
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [ANONYMOUS, CRAM-MD5, DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

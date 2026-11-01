@@ -1,0 +1,42 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.vg
+flag: 🇵🇪
+country: Peru
+ip: '161.132.50.216'
+asn: AS3132 Red Cientifica Peruana
+isp: Red Cientifica Peruana
+org: Red Cientifica Peruana
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: A
+  since: '2025-01-01'
+  updated: '2026-10-15'
+  organization: private person
+  locations: [pe]
+  website:
+    en: https://jabber.vg
+  legal_notice:
+    en: https://jabber.vg/legal.html
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  inband: true
+  captcha: false
+  email_required: false
+  archive_days: 30
+  upload_file_mb: 20
+  upload_total_mb: 100
+  upload_days: 7
+  compliance: 100
+  support_email:
+  - xmpp@jabber.vg
+  support_chat:
+  - xmpp@jabber.vg
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

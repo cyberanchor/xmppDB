@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: inax.fr
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '159.65.195.201'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_client: jabber.inax.fr:5222
+srv_server: jabber.inax.fr:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

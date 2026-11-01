@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: matthewwild.co.uk
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '176.126.241.194'
+asn: AS44684 Mythic Beasts Ltd
+isp: Mythic Beasts Ltd
+org: Bhost VM Cloud
+srv_client: matthewwild.co.uk:5222
+srv_server: matthewwild.co.uk:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

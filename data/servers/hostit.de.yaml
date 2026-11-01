@@ -1,0 +1,12 @@
+# xmppDB server record; fields are described in data/README.md
+domain: hostit.de
+ip: '84.134.0.6'
+srv_client: pro.hostit.de:5222
+srv_server: pro.hostit.de:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

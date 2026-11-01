@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: eviljab.me
+flag: 🇵🇱
+country: Poland
+ip: '83.8.160.247'
+asn: AS5617 Orange Polska Spolka Akcyjna
+isp: Orange Polska Spolka Akcyjna
+org: Orange Polska S.A.
+srv_client: eviljab.me:5222
+srv_server: eviljab.me:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

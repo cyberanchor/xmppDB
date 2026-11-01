@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.sys-eng.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '195.30.108.8'
+asn: AS5539 SpaceNet AG
+isp: SPACE
+org: Serverprofis GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

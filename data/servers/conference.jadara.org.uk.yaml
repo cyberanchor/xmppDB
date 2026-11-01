@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: conference.jadara.org.uk
+flag: 🇫🇮
+country: Finland
+ip: '95.216.82.218'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+srv_server: mercury.jabber.org.uk:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

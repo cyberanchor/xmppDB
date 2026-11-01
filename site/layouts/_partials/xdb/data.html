@@ -1,0 +1,79 @@
+{{- /*
+  Every server of data/servers/<domain>.yaml (hugo.Data.servers), sorted by domain, with the values the templates
+  show. Call it as partialCached "xdb/data.html" . "xdb"; it returns a slice of maps. A file with an unknown field,
+  or named after another domain, stops the build with a message (build.sh then keeps the last good site).
+  Fields: data/README.md. tools/xdbdata.py checks the types.
+*/ -}}
+{{- $all := hugo.Data.servers -}}
+{{- if not $all -}}{{- errorf "xdb/data: no server records were loaded (a YAML error above, or ../data/servers is not mounted as data/servers in hugo.toml)" -}}{{- end -}}
+{{- $known := slice "domain" "dead" "flag" "country" "alliance" "ip" "asn" "isp" "org" "ptr" "srv_client" "srv_server"
+  "c2s" "s2s" "starttls" "registration" "sasl" "errors" "provider" "sources" "last_checked" -}}
+{{- /* SASL mechanisms from strong to weak; the first one a server offers is shown in the table */ -}}
+{{- $mechs := slice "SCRAM-SHA-512-PLUS" "SCRAM-SHA-256-PLUS" "SCRAM-SHA-1-PLUS" "SCRAM-SHA-512" "SCRAM-SHA-256" "SCRAM-SHA-1"
+  "PLAIN" "DIGEST-MD5" "EXTERNAL" "ANONYMOUS" -}}
+{{- $slugs := newScratch -}}
+{{- $out := slice -}}
+{{- range $file, $r := $all -}}
+  {{- $f := printf "data/servers/%s.yaml" $file -}}
+  {{- if not (reflect.IsMap $r) -}}{{- errorf "xdb/data: %s is not a map of fields" $f -}}{{- end -}}
+  {{- range $k, $_ := $r -}}
+    {{- if not (in $known $k) -}}{{- errorf "xdb/data: %s: unknown field %q (fields: data/README.md)" $f $k -}}{{- end -}}
+  {{- end -}}
+  {{- $domain := string ($r.domain | default "") -}}
+  {{- if ne $domain $file -}}{{- errorf "xdb/data: %s holds %q; name the file after the domain" $f $domain -}}{{- end -}}
+  {{- $slug := replace $domain "." "-" -}}
+  {{- with $slugs.Get $slug -}}{{- errorf "xdb/data: %s and %s get the same page address /servers/%s/" . $f $slug -}}{{- end -}}
+  {{- $slugs.Set $slug $f -}}
+
+  {{- $state := "unchecked" -}}
+  {{- if $r.dead -}}{{- $state = "gone" -}}
+  {{- else if $r.c2s -}}{{- $state = "online" -}}
+  {{- else if $r.s2s -}}{{- $state = "federation" -}}
+  {{- else if or (isset $r "c2s") (isset $r "s2s") -}}{{- $state = "offline" -}}
+  {{- end -}}
+
+  {{- $sasl := $r.sasl | default slice -}}
+  {{- $auth := "" -}}{{- $authRank := 99 -}}
+  {{- range $i, $m := $mechs -}}{{- if and (not $auth) (in $sasl $m) -}}{{- $auth = $m -}}{{- $authRank = $i -}}{{- end -}}{{- end -}}
+  {{- if and (not $auth) $sasl -}}{{- $auth = index $sasl 0 -}}{{- $authRank = 50 -}}{{- end -}}
+  {{- $cAuth := "none" -}}
+  {{- if strings.HasSuffix $auth "-PLUS" -}}{{- $cAuth = "green" -}}
+  {{- else if strings.HasPrefix $auth "SCRAM" -}}{{- $cAuth = "yellow" -}}
+  {{- else if in (slice "PLAIN" "DIGEST-MD5") $auth -}}{{- $cAuth = "red" -}}
+  {{- end -}}
+
+  {{- $p := $r.provider | default dict -}}
+  {{- $web := "" -}}
+  {{- with $p.registration_web -}}{{- range $lang, $u := . -}}{{- if not $web -}}{{- $web = $u -}}{{- end -}}{{- end -}}{{- with .en -}}{{- $web = . -}}{{- end -}}{{- end -}}
+  {{- $reg := "" -}}
+  {{- if $r.registration -}}{{- $reg = "open" -}}
+  {{- else if $web -}}{{- $reg = "web" -}}
+  {{- else if isset $r "registration" -}}{{- $reg = "closed" -}}
+  {{- end -}}
+
+  {{- $asn := $r.asn | default "" -}}
+  {{- $asNum := "" -}}{{- $asName := $asn -}}
+  {{- with findRESubmatch `^(AS\d+)\s*(.*)$` $asn 1 -}}{{- $asNum = index (index . 0) 1 -}}{{- $asName = index (index . 0) 2 -}}{{- end -}}
+  {{- $network := $asName | default $r.org | default $r.isp | default "" -}}
+
+  {{- $eyes := "" -}}{{- $cEyes := "none" -}}
+  {{- with $r.alliance -}}{{- $eyes = string . -}}{{- $cEyes = index (dict "5" "red" "9" "yellow" "14" "purple") $eyes -}}{{- end -}}
+
+  {{- $search := lower (delimit (slice $domain ($r.country | default "") $asn ($r.isp | default "") ($r.org | default "")
+      ($r.ptr | default "") ($r.ip | default "") ($p.software | default "")) " ") -}}
+  {{- $out = $out | append (dict
+      "domain" $domain "slug" $slug "file" $f "rec" $r
+      "state" $state "dead" ($r.dead | default false)
+      "flag" ($r.flag | default "") "country" ($r.country | default "")
+      "eyes" $eyes "cEyes" $cEyes
+      "ip" ($r.ip | default "") "asn" $asn "asNum" $asNum "network" $network
+      "c2s" (index $r "c2s") "s2s" (index $r "s2s") "starttls" (index $r "starttls") "registration" (index $r "registration")
+      "reg" $reg "regWeb" $web
+      "sasl" $sasl "auth" $auth "authRank" $authRank "cAuth" $cAuth
+      "errors" ($r.errors | default slice)
+      "p" $p "category" ($p.category | default "")
+      "checked" ($r.last_checked | default "")
+      "search" $search
+    ) -}}
+{{- end -}}
+{{- return sort $out "domain" -}}

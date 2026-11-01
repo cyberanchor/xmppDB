@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.sfconservancy.org
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '51.161.87.91'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH Hosting, Inc.
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

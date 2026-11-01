@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.rz.wg1337.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '217.197.84.246'
+asn: AS29670 Individual Network Berlin (IN-Berlin) e.V.
+isp: IN-BERLIN
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

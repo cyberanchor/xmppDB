@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: fediflix.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.194.239.250'
+asn: AS48314 Michael Sebastian Schinzel trading as IP-Projects GmbH & Co. KG
+isp: IP- www.accelerated.de
+org: IP-Projects GmbH & Co.
+srv_client: fediflix.org:52222
+srv_server: fediflix.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

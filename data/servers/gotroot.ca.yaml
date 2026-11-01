@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: gotroot.ca
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '199.182.221.110'
+asn: AS19171 Stargate Connections Inc.
+isp: Stargate Connections Inc.
+org: Stargate Connections Inc.
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-256]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

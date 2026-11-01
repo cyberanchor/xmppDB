@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mellium.chat
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '51.161.87.91'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH Hosting, Inc.
+srv_client: freedomware-muc.cheogram.com:5222
+srv_server: freedomware-muc.cheogram.com:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

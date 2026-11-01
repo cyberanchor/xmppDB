@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: klimach.family
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.26.156.79'
+asn: AS58010 uvensys GmbH
+isp: JonasPasche
+srv_client: xmpp.klimach.family:46660
+srv_server: xmpp.klimach.family:46661
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: syriatalk.info
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '198.244.232.41'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH Ltd
+c2s: true
+s2s: false
+starttls: false
+registration: false
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: invalid-namespace'
+sources: [list]
+last_checked: '2026-11-01'

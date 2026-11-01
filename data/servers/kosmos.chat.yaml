@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: kosmos.chat
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '148.251.237.73'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_server: xmpp.kosmos.org:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

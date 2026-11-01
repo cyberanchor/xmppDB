@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: wgmd.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.58.61.181'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: Netcup Kvm At
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

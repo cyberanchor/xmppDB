@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: afcprima.co.id
+flag: 🇮🇩
+country: Indonesia
+ip: '101.255.104.107'
+asn: AS38511 PT Remala Abadi
+isp: PT Remala Abadi
+srv_client: mail.afcprima.co.id:5222
+srv_server: mail.afcprima.co.id:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.breezeproduction.se
+flag: 🇮🇪
+country: Ireland
+ip: '34.243.30.213'
+asn: AS16509 Amazon.com, Inc.
+isp: Amazon Technologies Inc.
+org: AWS EC2 (eu-west-1)
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, X-OAUTH2]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

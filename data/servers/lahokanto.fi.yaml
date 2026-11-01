@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: lahokanto.fi
+flag: 🇫🇮
+country: Finland
+ip: '86.60.154.126'
+asn: AS39699 Lounea Palvelut Oy
+isp: Lounea Oy
+org: Salon Seudun Puhelin Oy
+srv_client: prosody.lahokanto.fi:5222
+srv_server: prosody.lahokanto.fi:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

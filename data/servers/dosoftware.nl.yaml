@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: dosoftware.nl
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '77.162.199.123'
+asn: AS1136 KPN B.V.
+isp: KPN N.V.
+srv_client: xmpp.dosoftware.nl:5222
+srv_server: xmpp.dosoftware.nl:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: k-fortytwo.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '92.117.10.165'
+asn: AS8881 1&1 Versatel GmbH
+isp: VT-POOL Customer West
+org: '1&1 Telecom GmbH'
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

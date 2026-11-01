@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: kawaihae.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.30.32.193'
+asn: AS48324 webgo GmbH
+isp: webgo GmbH
+org: webgo GmbH
+srv_client: xmpp.mailbox.org:5222
+srv_server: xmpp.mailbox.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

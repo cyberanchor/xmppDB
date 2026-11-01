@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.franciliens.net
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '79.143.250.2'
+asn: AS29608 Ovea SAS
+isp: ABSOLIGHT
+srv_client: limbo.franciliens.net:5222
+srv_server: limbo.franciliens.net:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

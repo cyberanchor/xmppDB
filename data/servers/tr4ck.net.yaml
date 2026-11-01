@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tr4ck.net
+flag: 🇪🇸
+country: Spain
+alliance: 14
+ip: '185.179.143.89'
+asn: AS206642 Quasar Soluciones Tecnologicas, S.L.U.
+isp: Quasar Soluciones Tecnologicas, S.L.U.
+org: Quasar Soluciones Tecnologicas, S.L.U
+srv_client: oink.tr4ck.net:5222
+srv_server: oink.tr4ck.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

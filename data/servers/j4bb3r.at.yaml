@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: j4bb3r.at
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '136.243.23.139'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+ptr: static.139.23.243.136.clients.your-server.de
+srv_client: j4bb3r.at:5222
+srv_server: j4bb3r.at:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,45 @@
+# xmppDB server record; fields are described in data/README.md
+domain: rows.im
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '45.79.221.76'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+srv_client: rows.im:5222
+srv_server: rows.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+provider:
+  category: C
+  since: '2019-01-01'
+  updated: '2026-10-09'
+  organization: private person
+  software: ejabberd 26.4.0
+  locations: [de]
+  website:
+    en: https://www.rows.im
+  legal_notice:
+    en: https://rows.im/legal.php
+  free: true
+  professional_hosting: false
+  green_hosting: false
+  bus_factor: 3
+  inband: true
+  captcha: true
+  email_required: false
+  archive_days: 30
+  upload_file_mb: 52
+  upload_total_mb: 1000
+  upload_days: 30
+  compliance: 100
+  support_email:
+  - support@rows.im
+  support_chat:
+  - support@rows.im
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

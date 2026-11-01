@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: nicolosus.chat
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '104.225.219.20'
+asn: AS29802 HIVELOCITY, Inc.
+isp: HIVELOCITY, Inc.
+org: Strasmore, Inc.
+srv_client: nicolosus.chat:5222
+srv_server: nicolosus.chat:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

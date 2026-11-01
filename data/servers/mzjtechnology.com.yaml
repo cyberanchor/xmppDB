@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mzjtechnology.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '143.244.202.36'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_client: '161.35.236.252:5222'
+srv_server: '161.35.236.252:5269'
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

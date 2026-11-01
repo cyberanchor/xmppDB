@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: blabla.itopie.ch
+flag: 🇨🇭
+country: Switzerland
+ip: '85.195.218.238'
+asn: AS13030 Init7 (Switzerland) Ltd.
+isp: Init7 (Switzerland) Ltd.
+org: Init7 (Switzerland) Ltd
+srv_client: blabla.itopie.ch:5222
+srv_server: blabla.itopie.ch:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

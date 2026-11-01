@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: raccoon.army
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '82.22.204.252'
+asn: AS397423 Tier.Net Technologies LLC
+isp: Tier.Net Technologies LLC
+org: Tier.Net Technologies LLC
+srv_client: raccoon.army:5222
+srv_server: raccoon.army:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

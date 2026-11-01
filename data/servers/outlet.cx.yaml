@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: outlet.cx
+flag: 🇷🇺
+country: Russia
+ip: '62.109.23.177'
+asn: AS29182 JSC IOT
+isp: JSC IOT
+org: JSC Datacenter
+srv_client: xmpp.outlet.cx:5222
+srv_server: xmpp.outlet.cx:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

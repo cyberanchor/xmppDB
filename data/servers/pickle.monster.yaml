@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pickle.monster
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '50.39.160.111'
+asn: AS20055 Wholesail networks LLC
+isp: Wholesail networks LLC
+org: Ziply Fiber
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: vimja.chat
+flag: 🇨🇭
+country: Switzerland
+ip: '185.85.125.183'
+asn: AS48461 stepping stone AG
+isp: stepping stone GmbH
+org: stepping stone GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

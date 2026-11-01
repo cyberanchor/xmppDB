@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: opgsff.info
+flag: 🇷🇺
+country: Russia
+ip: '109.173.124.114'
+asn: AS42610 OJSC National Cable Networks
+isp: NCNET
+srv_client: opgsff.info:5222
+srv_server: opgsff.info:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

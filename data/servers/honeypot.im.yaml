@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: honeypot.im
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '46.226.107.220'
+asn: AS203476 GANDI SAS
+isp: GANDI is an ICANN accredited registrar
+srv_client: honeypot.im:4222
+srv_server: honeypot.im:4269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [EXTERNAL, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,45 @@
+# xmppDB server record; fields are described in data/README.md
+domain: yax.im
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '130.162.58.145'
+asn: AS31898 Oracle Corporation
+isp: Oracle Corporation
+org: Oracle Cloud Infrastructure (eu-frankfurt-1)
+srv_client: xmpp.yax.im:5222
+srv_server: xmpp.yax.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: A
+  since: '2013-11-17'
+  updated: '2026-10-29'
+  organization: non-governmental
+  software: Prosody 13.0 nightly build 100 (2026-09-24, cafd74b9c5ea)
+  locations: [de]
+  website:
+    en: https://yaxim.org/yax.im/
+  legal_notice:
+    en: https://yaxim.org/yax.im/tos/
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 3
+  inband: true
+  captcha: false
+  email_required: false
+  archive_days: 14
+  upload_file_mb: 80
+  upload_total_mb: 500
+  upload_days: 30
+  compliance: 100
+  support_groupchat:
+  - yaxim@chat.yax.im
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

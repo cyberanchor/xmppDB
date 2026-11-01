@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: lore.bra.it4freedom.net
+flag: 🇧🇪
+country: Belgium
+alliance: 14
+ip: '78.24.120.106'
+asn: AS209725 Localitel bvba
+isp: Localitel bvba
+org: Fastfiber
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

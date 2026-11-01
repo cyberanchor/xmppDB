@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: muc.fossgalaxy.com
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '79.137.51.183'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: Joseph Walton-Rivers
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

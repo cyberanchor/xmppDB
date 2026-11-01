@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: bkleemann.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '145.239.2.203'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH GmbH
+srv_client: chat.bkleemann.de:5222
+srv_server: chat.bkleemann.de.bkleemann.de:5269
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:connect-error: Name or service not known'
+sources: [list]
+last_checked: '2026-11-01'

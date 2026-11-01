@@ -1,0 +1,43 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chinwag.im
+flag: 🇦🇺
+country: Australia
+alliance: 5
+ip: '119.17.159.140'
+asn: AS4764 Aussie Fibre Pty Ltd
+isp: Aussie Broadband
+srv_client: xmpp.chinwag.im:5222
+srv_server: xmpp.chinwag.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: C
+  since: '2015-05-13'
+  updated: '2026-10-25'
+  organization: commercial person
+  software: Prosody 13.0.6
+  locations: [au]
+  legal_notice:
+    en: https://chinwag.au/privacy/
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  inband: false
+  registration_web:
+    en: https://xmpp.chinwag.im/register/
+  captcha: false
+  email_required: false
+  archive_days: 0
+  upload_file_mb: 50
+  upload_total_mb: 50
+  upload_days: 0
+  compliance: 100
+  support_email:
+  - admin@chinwag.im
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

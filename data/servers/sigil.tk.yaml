@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: sigil.tk
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '188.226.208.113'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: Digital Ocean
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

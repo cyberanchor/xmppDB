@@ -1,0 +1,50 @@
+# xmppDB server record; fields are described in data/README.md
+domain: durare.org
+flag: 🇫🇮
+country: Finland
+ip: '95.216.198.16'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: HETZNER-DC
+srv_client: durare.org:443
+srv_server: durare.org:5269
+c2s: false
+s2s: true
+errors:
+- c2s:no-response
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: B
+  since: '2015-03-26'
+  updated: '2026-10-19'
+  organization: non-governmental
+  software: Prosody 13.0.7
+  locations: [fi]
+  website:
+    en: https://durare.org
+  legal_notice:
+    en: https://durare.org/notice.html
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 5
+  inband: false
+  registration_web:
+    en: https://app.formbricks.com/s/cmh2lbx7a06fyad01nbv1i58l
+  captcha: false
+  email_required: false
+  archive_days: 180
+  upload_file_mb: 31
+  upload_total_mb: 1024
+  upload_days: 180
+  compliance: 100
+  support_email:
+  - hello@durare.org
+  support_chat:
+  - praveen@diasp.in
+  - weepingclown@diasp.in
+  - buster@durare.org
+  support_groupchat:
+  - diasp.in@conference.diasp.in
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

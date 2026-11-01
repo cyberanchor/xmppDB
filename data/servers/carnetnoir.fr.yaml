@@ -1,0 +1,46 @@
+# xmppDB server record; fields are described in data/README.md
+domain: carnetnoir.fr
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '146.59.209.152'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH
+ptr: cluster031.hosting.ovh.net
+srv_client: xmpp.carnetnoir.fr:5222
+srv_server: xmpp.carnetnoir.fr:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: C
+  since: '2026-10-05'
+  updated: '2026-10-18'
+  organization: private person
+  software: Prosody 13.0.6
+  locations: [fr]
+  website:
+    fr: https://carnetnoir.fr
+  legal_notice:
+    fr: https://carnetnoir.fr/?page_id=49
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: true
+  captcha: false
+  email_required: false
+  archive_days: 7
+  upload_file_mb: 20
+  upload_total_mb: 0
+  upload_days: 7
+  compliance: 100
+  support_email:
+  - contact@carnetnoir.fr
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

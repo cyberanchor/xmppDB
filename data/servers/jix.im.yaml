@@ -1,0 +1,50 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jix.im
+flag: 🇵🇱
+country: Poland
+ip: '51.77.59.5'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH Sp. z o. o
+ptr: server.beherit.pl
+srv_client: xmpp.jix.im:5222
+srv_server: xmpp.jix.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+provider:
+  category: D
+  since: '2014-04-27'
+  updated: '2026-10-25'
+  organization: private person
+  software: ejabberd 26.9.0
+  locations: [de]
+  website:
+    en: https://jix.im/en/
+    pl: https://jix.im/pl/
+  legal_notice:
+    en: https://jix.im/en/privacy-policy/
+    pl: https://jix.im/pl/polityka-prywatnosci/
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://jix.im/signup/
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://jix.im/en/account/reset-password/
+    pl: https://jix.im/pl/konto/zresetuj-haslo/
+  archive_days: 180
+  upload_file_mb: 20
+  upload_total_mb: 150
+  upload_days: 14
+  compliance: 100
+  alternative_jids:
+  - jabber.eu.org
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

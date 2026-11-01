@@ -1,0 +1,52 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.lt
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '85.17.151.168'
+asn: AS60781 LeaseWeb Netherlands B.V.
+isp: LEASEWEB
+org: LeaseWeb Netherlands B.V.
+srv_client: server.xmpp.lt:5222
+srv_server: server.xmpp.lt:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: C
+  since: '2026-08-28'
+  updated: '2026-09-26'
+  organization: private person
+  software: Prosody 13.0.7
+  locations: [nl]
+  website:
+    en: https://xmpp.lt/en
+    lt: https://xmpp.lt
+  legal_notice:
+    en: https://xmpp.lt/en/terms
+    lt: https://xmpp.lt/lt/terms
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 2
+  inband: false
+  registration_web:
+    en: https://xmpp.lt
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://xmpp.lt/en/account
+    lt: https://xmpp.lt/lt/account
+  archive_days: 90
+  upload_file_mb: 26
+  upload_total_mb: 5000
+  upload_days: 30
+  compliance: 100
+  support_email:
+  - support@xmpp.lt
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

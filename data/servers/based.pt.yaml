@@ -1,0 +1,50 @@
+# xmppDB server record; fields are described in data/README.md
+domain: based.pt
+flag: 🇵🇹
+country: Portugal
+ip: '176.79.32.98'
+asn: AS3243 MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A.
+isp: PT Comunicacoes S.A.
+org: PT Comunicacoes S.A.
+ptr: dsl-32-98.bl27.telepac.pt
+srv_server: based.pt:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: B
+  since: '2024-01-01'
+  updated: '2026-09-15'
+  organization: private person
+  software: Prosody 13.0.5
+  locations: [pt]
+  website:
+    en: https://based.pt
+  legal_notice:
+    en: https://based.pt
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://based.pt/
+  captcha: false
+  email_required: false
+  archive_days: 7
+  upload_file_mb: 5368
+  upload_total_mb: 0
+  upload_days: 7
+  compliance: 100
+  support_email:
+  - bacalhau@based.pt
+  support_chat:
+  - bacalhau@based.pt
+  support_groupchat:
+  - support@muc.based.pt
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: guardianphone.org
+flag: 🇷🇴
+country: Romania
+ip: '93.115.53.71'
+asn: AS205275 ROMARG SRL
+isp: Romarg SRL
+org: Romarg SRL
+srv_client: guardianphone.org:5222
+srv_server: guardianphone.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

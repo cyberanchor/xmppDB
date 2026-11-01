@@ -1,0 +1,27 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.no
+flag: 🇳🇴
+country: Norway
+alliance: 9
+ip: '109.163.15.39'
+asn: AS25400 Telia Norge AS
+isp: Telia Norge
+org: Interhost
+srv_client: jabber.no:5222
+srv_server: jabber.no:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: D
+  updated: '2026-10-13'
+  software: ejabberd 26.9.0
+  green_hosting: false
+  inband: false
+  captcha: false
+  email_required: false
+  compliance: 86
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

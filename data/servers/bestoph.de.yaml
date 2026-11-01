@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: bestoph.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.238.65.251'
+asn: AS34240 manitu GmbH
+isp: manitu GmbH
+org: manitu GmbH
+srv_client: im.omfa.de:5222
+srv_server: im.omfa.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

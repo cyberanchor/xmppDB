@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: creep.im
+flag: 🇷🇺
+country: Russia
+ip: '193.124.176.51'
+asn: AS209641 IHOR HOSTING LTD
+isp: Ihor Hosting LTD
+org: POWER-SERVERS-ROLE-ORG
+srv_client: creep.im:5222
+srv_server: creep.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

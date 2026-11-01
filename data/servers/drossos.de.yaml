@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: drossos.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '95.90.150.181'
+asn: AS3209 Vodafone GmbH
+isp: Vodafone Kabel Deutschland
+org: Vodafone Kabel Deutschland GmbH
+ptr: ip-095-090-150-181.vkd79.pools.vodafone-ip.de
+srv_client: drossos.v6.rocks:5222
+srv_server: drossos.v6.rocks:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

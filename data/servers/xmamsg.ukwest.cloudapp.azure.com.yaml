@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmamsg.ukwest.cloudapp.azure.com
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '51.141.103.82'
+asn: AS8075 Microsoft Corporation
+isp: Microsoft Corporation
+org: Microsoft Azure Cloud (ukwest)
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [CRAM-MD5, DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

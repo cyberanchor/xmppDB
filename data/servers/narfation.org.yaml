@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: narfation.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '213.160.73.56'
+asn: AS12574 Hosting.de GmbH
+isp: Hosting.de GmbH
+org: .net
+srv_client: jabber.narfation.org:5222
+srv_server: jabber.narfation.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

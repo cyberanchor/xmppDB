@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: fi.cz
+flag: 🇨🇿
+country: Czechia
+ip: '185.175.9.202'
+asn: AS204668 ASTANA Technologies s.r.o.
+isp: ASTANA Technologies s.r.o.
+org: Ovalink
+srv_client: fi.cz:5222
+srv_server: fi.cz:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

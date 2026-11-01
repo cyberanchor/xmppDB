@@ -1,0 +1,21 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tigerhead.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '131.188.40.32'
+asn: AS680 Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+org: Friedrich-Alexander-Universitaet Erlangen-Nuernberg
+ptr: tigerhead.informatik.uni-erlangen.de
+srv_client: tigerhead.net:5222
+srv_server: tigerhead.net:5269
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [PLAIN, X-OAUTH2]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

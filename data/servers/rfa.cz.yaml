@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: rfa.cz
+flag: 🇨🇿
+country: Czechia
+ip: '185.175.8.72'
+asn: AS204668 ASTANA Technologies s.r.o.
+isp: ASTANA Technologies s.r.o.
+org: Astana
+srv_client: zelena.rfa.cz:5222
+srv_server: zelena.rfa.cz:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: queer-spark.org
+flag: 🇸🇪
+country: Sweden
+alliance: 14
+ip: '198.167.212.189'
+asn: AS39287 Materialism s.r.l.
+isp: Materialism s.r.l.
+org: '1337 Services LLC'
+srv_client: queer-spark.org:5222
+srv_server: queer-spark.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

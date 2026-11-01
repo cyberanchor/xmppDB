@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.in-ulm.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '217.10.8.26'
+asn: AS25538 Internet Ulm/Neu-Ulm e.V.
+isp: Internet Ulm/Neu-Ulm e.V
+org: Internet Ulm/Neu-Ulm e.V.
+srv_client: im.in-ulm.de:5222
+srv_server: im.in-ulm.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

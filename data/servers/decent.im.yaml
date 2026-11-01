@@ -1,0 +1,51 @@
+# xmppDB server record; fields are described in data/README.md
+domain: decent.im
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '82.39.94.8'
+asn: AS212683 Olilo UK & Ireland Ltd.
+isp: Olilo UK & Ireland Ltd
+org: Olilo UK & Ireland Ltd
+srv_client: decent.im:5222
+srv_server: decent.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: C
+  since: '2015-11-16'
+  updated: '2026-06-30'
+  organization: commercial person
+  software: Prosody 0.12.4
+  locations: [de]
+  website:
+    en: https://decent.im
+  legal_notice:
+    en: https://decent.im/privacy_policy/
+  free: false
+  professional_hosting: false
+  green_hosting: false
+  bus_factor: 1
+  inband: false
+  registration_web:
+    en: https://decent.im/register/
+  captcha: false
+  email_required: false
+  archive_days: 0
+  upload_file_mb: 1
+  upload_total_mb: 2000
+  upload_days: 0
+  compliance: 100
+  support_email:
+  - andrey_utkin@fastmail.com
+  support_chat:
+  - andrey.utkin@decent.im
+  support_groupchat:
+  - support@chat.decent.im
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

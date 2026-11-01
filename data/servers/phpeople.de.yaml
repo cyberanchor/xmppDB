@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: phpeople.de
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '35.186.223.251'
+asn: AS396982 Google LLC
+isp: Google LLC
+org: Google Cloud
+srv_client: xmpp-hosting.conversations.im:5222
+srv_server: xmpp-hosting.conversations.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

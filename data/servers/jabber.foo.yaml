@@ -1,0 +1,47 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.foo
+flag: 🇸🇪
+country: Sweden
+alliance: 14
+ip: '207.2.120.97'
+asn: AS214640 Hostup AB
+isp: Hostup AB
+org: Dfdb LLC
+srv_client: jabber.foo:5222
+srv_server: jabber.foo:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: C
+  since: '2026-06-01'
+  updated: '2026-10-01'
+  organization: private person
+  software: Prosody 13.0.6
+  locations: [se]
+  website:
+    en: https://jabber.foo
+  legal_notice:
+    en: https://jabber.foo
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 2
+  inband: true
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://jabber.foo
+  archive_days: 10
+  upload_file_mb: 26
+  upload_total_mb: 100
+  upload_days: 10
+  compliance: 100
+  support_email:
+  - contact@jabber.foo
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

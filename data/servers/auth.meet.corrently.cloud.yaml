@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: auth.meet.corrently.cloud
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '108.61.210.201'
+asn: AS20473 The Constant Company, LLC
+isp: Choopa
+org: Vultr Holdings, LLC
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

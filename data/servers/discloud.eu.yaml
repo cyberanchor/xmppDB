@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: discloud.eu
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '185.24.221.96'
+asn: AS196752 Tilaa B.V.
+isp: Tilaa B.V.
+srv_server: xmpp.discloud.eu:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

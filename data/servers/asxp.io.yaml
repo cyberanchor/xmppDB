@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: asxp.io
+flag: 🇫🇮
+country: Finland
+ip: '135.181.27.77'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+srv_client: xmpp.asxp.io:5222
+srv_server: xmpp.asxp.io:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

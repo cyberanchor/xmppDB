@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: improxy1.cloudpbx.dev.shawbusiness.ca
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '64.59.142.250'
+asn: AS6327 Shaw Communications
+isp: Shaw Communications
+org: Shaw Communications Inc.
+c2s: false
+s2s: false
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

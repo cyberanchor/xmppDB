@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.chaosfield.at
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '45.11.248.194'
+asn: AS58299 Openfactory GmbH
+isp: Openfactory GmbH
+org: Openfactory
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

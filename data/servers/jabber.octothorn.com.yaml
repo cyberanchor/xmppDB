@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.octothorn.com
+flag: 🇦🇺
+country: Australia
+alliance: 5
+ip: '115.70.65.18'
+asn: AS38195 Superloop
+isp: SUPERLOOP (AUSTRALIA) PTY LTD
+org: Superloop (australia) PTY LTD
+srv_client: jabber.octothorn.com:5222
+srv_server: jabber.octothorn.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

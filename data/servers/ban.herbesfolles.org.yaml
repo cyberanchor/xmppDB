@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ban.herbesfolles.org
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '45.13.107.243'
+asn: AS2027 MilkyWan Association
+isp: MilkyWan Association
+org: MilkyWan
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

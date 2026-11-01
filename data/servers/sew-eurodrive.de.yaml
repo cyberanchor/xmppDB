@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: sew-eurodrive.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '23.53.40.201'
+asn: AS20940 Akamai International B.V.
+isp: Akamai International B.V.
+org: Akamai International, BV
+srv_client: dedmzexe1.sew-eurodrive.de:5222
+srv_server: dedmzexe1.sew-eurodrive.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [CISCO-VTG-TOKEN, OAUTHBEARER]
+sources: [list]
+last_checked: '2026-11-01'

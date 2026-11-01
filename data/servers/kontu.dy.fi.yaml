@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: kontu.dy.fi
+flag: 🇫🇮
+country: Finland
+ip: '109.204.187.234'
+asn: AS202246 Valoo Oy
+isp: Valoo Oy
+org: Valoo Oy
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

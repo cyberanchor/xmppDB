@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ebalaskas.gr
+flag: 🇬🇷
+country: Greece
+ip: '192.71.166.12'
+asn: AS8280 SYNAPSECOM TELECOMS S.A.
+isp: SYNAPSECOM S.A. Provider of Telecommunications and Internet Services
+org: EDIS GmbH
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

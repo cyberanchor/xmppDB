@@ -1,0 +1,53 @@
+# xmppDB server record; fields are described in data/README.md
+domain: lain.rocks
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '144.91.78.106'
+asn: AS51167 Contabo GmbH
+isp: Contabo GmbH
+org: Contabo GmbH
+ptr: lain.rocks
+srv_client: lain.rocks:5222
+srv_server: lain.rocks:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: A
+  since: '2025-06-25'
+  updated: '2026-10-08'
+  organization: private person
+  software: Prosody 13.0.4
+  locations: [cz]
+  website:
+    en: https://lain.rocks
+  legal_notice:
+    en: https://lain.rocks/sites/tos.html
+    ru: https://lain.rocks/sites/tos.ru.html
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 2
+  inband: true
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://lain.rocks/tos.html
+  archive_days: 7
+  upload_file_mb: 10737
+  upload_total_mb: 0
+  upload_days: 7
+  compliance: 100
+  support_email:
+  - tyt4real@protonmail.com
+  support_chat:
+  - tyt4real@lain.rocks
+  support_groupchat:
+  - cabanu@chatroom.lain.rocks
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

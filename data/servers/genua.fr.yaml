@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: genua.fr
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '94.23.214.121'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH SAS
+srv_client: jabber.genua.fr:5222
+srv_server: jabber.genua.fr:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

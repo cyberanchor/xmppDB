@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: its.valsania.it
+flag: 🇮🇹
+country: Italy
+alliance: 14
+ip: '188.10.244.129'
+asn: AS3269 Telecom Italia S.p.A.
+isp: Telecom Italia S.p.A.IPTV Broadband Services
+org: INTERBUSINESS
+srv_client: mail1.its.valsania.it:5222
+srv_server: mail1.its.valsania.it:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [ANONYMOUS, CRAM-MD5, DIGEST-MD5, LOGIN, NTLM, PLAIN, SCRAM-SHA-1, SCRAM-SHA-224, SCRAM-SHA-256, SCRAM-SHA-384, SCRAM-SHA-512]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,14 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ijabber.win
+flag: 🇮🇩
+country: Indonesia
+ip: '103.150.190.186'
+asn: AS133800 PT Biznet Gio Nusantara
+isp: PT Biznet Gio Nusantara
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [CRAM-MD5, DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

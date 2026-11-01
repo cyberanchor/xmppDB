@@ -1,0 +1,13 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ams.vtrnegocios.com
+ip: '201.239.253.228'
+srv_client: ams1.vtrnegocios.com:5222
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [MAX-PLAIN, PLAIN, X-OAUTH]
+errors:
+- s2s:no-target
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: testald.dk
+flag: 🇩🇰
+country: Denmark
+alliance: 9
+ip: '62.116.195.87'
+asn: AS31027 GlobalConnect A/S
+isp: nianet
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

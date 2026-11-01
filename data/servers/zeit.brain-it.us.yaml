@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: zeit.brain-it.us
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '96.228.32.252'
+asn: AS701 Verizon Business
+isp: Verizon Business
+org: Verizon Business
+srv_client: zeit.brain-it.us:5222
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

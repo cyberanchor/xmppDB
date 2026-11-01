@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: schloemp.me
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '212.227.205.138'
+asn: AS8560 IONOS SE
+isp: IONOS SE
+org: De Rhr Bap Ngcs Public
+srv_client: schloemp.me:5222
+srv_server: schloemp.me:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,32 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.5july.net
+flag: 🇸🇪
+country: Sweden
+alliance: 14
+ip: '98.128.186.123'
+asn: AS8473 Bahnhof AB
+isp: Bahnhof AB
+org: General Corporate
+srv_client: jabber.5july.net:5222
+srv_server: jabber.5july.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: D
+  updated: '2026-08-07'
+  software: Prosody 0.12 nightly build 236 (2026-04-29, 5011e4bc95d7)
+  green_hosting: false
+  inband: false
+  captcha: false
+  email_required: false
+  upload_file_mb: 10
+  compliance: 86
+  support_email:
+  - info@5july.org
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

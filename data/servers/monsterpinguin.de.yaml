@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: monsterpinguin.de
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '92.51.150.226'
+asn: AS8972 Host Europe GmbH
+isp: Host Europe GmbH
+org: HE-VPS
+ptr: monsterpinguin.de
+srv_client: jabber.quux.de:5222
+srv_server: jabber.quux.de:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

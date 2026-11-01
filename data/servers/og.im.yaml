@@ -1,0 +1,45 @@
+# xmppDB server record; fields are described in data/README.md
+domain: og.im
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '91.99.164.196'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: og.im:5222
+srv_server: og.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+provider:
+  category: A
+  since: '2019-07-01'
+  updated: '2026-10-09'
+  organization: company
+  software: ejabberd 26.4.0
+  locations: [dk]
+  website:
+    en: https://www.og.im
+  legal_notice:
+    en: https://og.im/legal.php
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: true
+  captcha: true
+  email_required: false
+  archive_days: 14
+  upload_file_mb: 52
+  upload_total_mb: 0
+  upload_days: 0
+  compliance: 100
+  support_email:
+  - info@og.im
+  support_chat:
+  - info@og.im
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

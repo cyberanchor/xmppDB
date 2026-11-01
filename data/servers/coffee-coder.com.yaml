@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: coffee-coder.com
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '45.142.178.237'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: moon.coffee-coder.com:5222
+srv_server: moon.coffee-coder.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

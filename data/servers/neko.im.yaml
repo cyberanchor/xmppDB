@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: neko.im
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '166.84.7.108'
+asn: AS2033 Panix
+isp: Panix
+org: Panix Public Access Internet
+srv_client: xmpp01.acra.io:5222
+srv_server: xmpp01.acra.io:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

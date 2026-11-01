@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tityos.eu
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.194.239.78'
+asn: AS48314 Michael Sebastian Schinzel trading as IP-Projects GmbH & Co. KG
+isp: IP- www.accelerated.de
+org: IP-Projects GmbH & Co.
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-256]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

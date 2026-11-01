@@ -1,0 +1,47 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pimux.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '93.181.37.148'
+asn: AS42965 net services Beteiligungsgesellschaft mbH trading as net services GmbH & Co. KG
+isp: net services Beteiligungsgesellschaft mbH trading as GmbH & Co. KG
+org: NTS
+srv_client: xmpp.pimux.de:5222
+srv_server: xmpp.pimux.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: D
+  since: '2016-01-31'
+  updated: '2026-09-25'
+  organization: private person
+  software: Prosody 13.0.7
+  locations: [de]
+  website:
+    en: https://pimux.de
+  legal_notice:
+    en: https://pimux.de/about-pimux-de
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 1
+  inband: false
+  captcha: false
+  email_required: false
+  archive_days: 30
+  upload_file_mb: 1073
+  upload_total_mb: 0
+  upload_days: 30
+  compliance: 100
+  support_email:
+  - finn@pimux.de
+  support_chat:
+  - finn@pimux.de
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

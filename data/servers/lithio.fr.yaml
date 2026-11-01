@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: lithio.fr
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '82.65.210.155'
+asn: AS12322 Free SAS
+isp: Proxad / Free SAS
+org: ProXad network / Free SA
+srv_client: lithio.fr:5222
+srv_server: lithio.fr:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

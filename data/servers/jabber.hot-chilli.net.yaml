@@ -1,0 +1,67 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.hot-chilli.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '144.76.136.87'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+ptr: titania.hot-chilli.net
+srv_client: jabber.hot-chilli.net:5222
+srv_server: jabber.hot-chilli.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: B
+  since: '2005-03-19'
+  updated: '2026-10-28'
+  organization: company
+  software: Prosody 13.0 nightly build 101 (2026-10-25, 38499c0d6796)
+  locations: [de]
+  website:
+    de: https://jabber.hot-chilli.net/de/
+    en: https://jabber.hot-chilli.net
+  legal_notice:
+    de: https://jabber.hot-chilli.net/de/impressum/
+    en: https://jabber.hot-chilli.net/legal/
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 2
+  inband: false
+  registration_web:
+    en: https://jabber.hot-chilli.net/forms/create/
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://jabber.hot-chilli.net/forms/resetpw/
+  archive_days: 31
+  upload_file_mb: 536
+  upload_total_mb: 1024
+  upload_days: 31
+  compliance: 100
+  support_email:
+  - jabber@hot-chilli.net
+  support_groupchat:
+  - support@conference.jabber.hot-chilli.net
+  alternative_jids:
+  - jabber.hot-chilli.eu
+  - hot-chilli.net
+  - hot-chilli.eu
+  - hot-chilli.im
+  - im.hot-chilli.net
+  - im.hot-chilli.eu
+  - jabb3r.de
+  - jabb3r.org
+  - jabber-hosting.de
+  - xmpp-hosting.de
+  - openim.de
+  - openim.eu
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

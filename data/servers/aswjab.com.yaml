@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: aswjab.com
+flag: 🇸🇬
+country: Singapore
+ip: '209.97.171.110'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_client: aswjab.com:5222
+srv_server: aswjab.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

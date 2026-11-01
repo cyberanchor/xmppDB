@@ -1,0 +1,28 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.systemausfall.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '51.75.71.249'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH GmbH
+srv_client: jabber.systemausfall.org:5222
+srv_server: jabber.systemausfall.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: D
+  updated: '2026-06-13'
+  software: ejabberd 24.12-3+deb13u2
+  green_hosting: true
+  inband: false
+  captcha: false
+  email_required: false
+  upload_file_mb: 104
+  compliance: 95
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

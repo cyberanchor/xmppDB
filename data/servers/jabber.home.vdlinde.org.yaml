@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.home.vdlinde.org
+flag: 🇦🇹
+country: Austria
+ip: '89.58.16.138'
+asn: AS47147 ANEXIA Internetdienstleistungs GmbH
+isp: netcup GmbH
+org: Netcup
+ptr: extsys-11.vdlinde.org
+srv_server: jabber.home.vdlinde.org:5269
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

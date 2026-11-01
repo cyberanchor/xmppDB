@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: debalance.de
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '173.249.5.31'
+asn: AS51167 Contabo GmbH
+isp: Contabo GmbH
+org: Contabo GmbH
+ptr: vps1.debalance.de
+srv_client: jabberv6.debalance.de:5222
+srv_server: jabberv6.debalance.de:5269
+errors:
+- 'c2s:ipv6-only, not checked: the checking host has no IPv6'
+- 's2s:ipv6-only, not checked: the checking host has no IPv6'
+sources: [list]
+last_checked: '2026-11-01'

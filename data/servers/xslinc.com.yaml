@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xslinc.com
+flag: 🇷🇺
+country: Russia
+ip: '46.17.45.194'
+asn: AS51659 LLC Baxet
+isp: LLC BAXET
+org: LLC Baxet
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: froth.zone
+flag: 🇫🇮
+country: Finland
+ip: '95.216.99.249'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: HETZNER-DC
+srv_client: froth.zone:5222
+srv_server: froth.zone:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,7 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jackal.im
+dead: true
+errors:
+- dns:nxdomain
+sources: [list]
+last_checked: '2026-11-01'

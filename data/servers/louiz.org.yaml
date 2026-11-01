@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: louiz.org
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '163.172.68.91'
+asn: AS12876 Scaleway SAS
+isp: Scaleway SAS
+org: ONLINE
+ptr: '163-172-68-91.rev.poneytelecom.eu'
+srv_client: tomate.louiz.org:5222
+srv_server: tomate.louiz.org:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

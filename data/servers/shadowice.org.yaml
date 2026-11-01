@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: shadowice.org
+flag: 🇫🇮
+country: Finland
+ip: '95.216.8.22'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner Online GmbH
+srv_client: xmpp.shadowice.org:5222
+srv_server: xmpp.shadowice.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

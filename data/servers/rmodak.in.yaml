@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: rmodak.in
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '216.239.32.21'
+asn: AS15169 Google LLC
+isp: Google LLC
+org: Google LLC
+srv_client: xmpp.rmodak.in:5222
+srv_server: xmpp.rmodak.in:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [EXTERNAL, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

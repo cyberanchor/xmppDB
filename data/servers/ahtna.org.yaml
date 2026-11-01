@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ahtna.org
+flag: 🇪🇸
+country: Spain
+alliance: 14
+ip: '92.222.138.128'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: Angelinetti Nahuel
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

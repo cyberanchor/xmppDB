@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xyis.info
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '91.223.123.134'
+asn: AS21100 ROUTE 95 LLC
+isp: Fortis Media Inc VPS
+org: Friendhosting LTD
+srv_client: xyis.info:7052
+srv_server: xyis.info:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

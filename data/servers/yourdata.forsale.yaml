@@ -1,0 +1,43 @@
+# xmppDB server record; fields are described in data/README.md
+domain: yourdata.forsale
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '164.92.225.87'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_client: yourdata.forsale:5222
+srv_server: yourdata.forsale:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+provider:
+  category: D
+  since: '2017-01-01'
+  updated: '2026-10-06'
+  organization: non-governmental
+  software: ejabberd 26.09
+  locations: [de]
+  website:
+    en: https://yourdata.forsale
+  legal_notice:
+    en: https://yourdata.forsale/pp.html
+  free: true
+  professional_hosting: false
+  green_hosting: false
+  bus_factor: 2
+  inband: true
+  captcha: true
+  email_required: false
+  password_reset:
+    en: https://yourdata.forsale/faq.html
+  archive_days: 7
+  upload_file_mb: 40
+  upload_total_mb: 0
+  upload_days: 1
+  compliance: 100
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

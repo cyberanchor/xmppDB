@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.simplify360.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '3.232.14.189'
+asn: AS14618 Amazon.com, Inc.
+isp: Amazon Technologies Inc.
+org: AWS EC2 (us-east-1)
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: vop.li
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '192.52.167.192'
+asn: AS199959 GWY IT PTY LTD
+isp: GWY IT PTY LTD
+srv_client: vop.li:5222
+srv_server: vop.li:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

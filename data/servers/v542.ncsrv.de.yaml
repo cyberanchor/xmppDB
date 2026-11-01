@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: v542.ncsrv.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.110.146.46'
+asn: AS15830 Equinix (EMEA) Acquisition Enterprises B.V.
+isp: NCL
+org: netclusive GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: breakvolt.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '192.227.249.232'
+asn: AS36352 HostPapa
+isp: HostPapa
+org: RackNerd LLC
+srv_client: breakvolt.com:5222
+srv_server: breakvolt.com:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.helge-brunkhorst.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '95.112.193.143'
+asn: AS6805 Telefonica Germany GmbH & Co.OHG
+isp: Telefonica Germany GmbH & Co. OHG
+org: Telefonica Germany GmbH & Co.
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-256]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

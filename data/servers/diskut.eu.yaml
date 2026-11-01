@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: diskut.eu
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '62.210.124.225'
+asn: AS12876 Scaleway SAS
+isp: Scaleway SAS
+org: ONLINE
+srv_client: xmpp.diskut.eu:5222
+srv_server: xmpp.diskut.eu:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

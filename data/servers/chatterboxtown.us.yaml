@@ -1,0 +1,42 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chatterboxtown.us
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '66.179.139.185'
+asn: AS8560 IONOS SE
+isp: IONOS SE
+org: IONOS Inc
+srv_client: chatterboxtown.us:5222
+srv_server: chatterboxtown.us:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+provider:
+  category: D
+  since: '2020-10-14'
+  updated: '2026-10-25'
+  organization: private person
+  software: ejabberd 26.7.0
+  locations: [us]
+  website:
+    en: https://chatterboxtown.us
+  legal_notice:
+    en: https://chatterboxtown.us/#policy
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  inband: true
+  captcha: true
+  email_required: false
+  password_reset:
+    en: https://chatterboxtown.us:5443/register/change_password/
+  archive_days: 30
+  upload_file_mb: 536
+  upload_total_mb: 1028
+  upload_days: 7
+  compliance: 100
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

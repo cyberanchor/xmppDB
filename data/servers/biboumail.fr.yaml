@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: biboumail.fr
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '192.99.33.178'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH Hosting, Inc.
+srv_client: biboumail.fr:5222
+srv_server: biboumail.fr:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

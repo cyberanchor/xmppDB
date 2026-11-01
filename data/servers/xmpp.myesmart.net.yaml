@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.myesmart.net
+flag: 🇮🇪
+country: Ireland
+ip: '54.76.204.176'
+asn: AS16509 Amazon.com, Inc.
+isp: Amazon.com, Inc.
+org: AWS EC2 (eu-west-1)
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+errors:
+- 's2s:stream-error: invalid-namespace'
+sources: [list]
+last_checked: '2026-11-01'

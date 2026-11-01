@@ -1,0 +1,49 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabbers.one
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '81.16.18.113'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: jabbers.one:5222
+srv_server: jabbers.one:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: D
+  since: '2014-04-28'
+  updated: '2026-09-30'
+  organization: private person
+  software: Prosody 13.0.7
+  locations: [de]
+  website:
+    de: https://jabbers.one/de/
+    en: https://jabbers.one/en/
+  legal_notice:
+    de: https://www.jabbers.one/de/impressum.php
+    en: https://www.jabbers.one/en/site_notice.php
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: false
+  captcha: false
+  email_required: false
+  archive_days: 30
+  upload_file_mb: 52
+  upload_total_mb: 200
+  upload_days: 10
+  compliance: 100
+  support_email:
+  - info@jabbers.one
+  support_groupchat:
+  - support@conference.jabbers.one
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

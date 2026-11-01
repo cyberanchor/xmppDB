@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: riccardi.pro
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '94.23.209.11'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH SAS
+srv_client: xmpp-gw.riccardi.pro:5222
+srv_server: xmpp-gw.riccardi.pro:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

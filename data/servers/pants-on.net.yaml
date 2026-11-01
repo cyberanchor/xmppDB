@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: pants-on.net
+flag: 🇮🇪
+country: Ireland
+ip: '54.73.98.29'
+asn: AS16509 Amazon.com, Inc.
+isp: Amazon.com, Inc.
+org: AWS EC2 (eu-west-1)
+ptr: woodtick.eu-west-1.pants-on.net
+srv_client: xmpp.pants-on.net:5222
+srv_server: xmpp.pants-on.net:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

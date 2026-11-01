@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: primis.org
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '38.81.236.22'
+asn: AS400164 Ripple Fiber Inc.
+isp: Ripple Fiber Inc.
+org: Ripple Fiber Inc
+srv_client: xmpp.primis.org:5222
+srv_server: xmpp.primis.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

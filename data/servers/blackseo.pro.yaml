@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: blackseo.pro
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '188.166.98.137'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: Digital Ocean
+srv_client: blackseo.pro:5222
+srv_server: blackseo.pro:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

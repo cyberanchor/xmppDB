@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: fujabber.com
+flag: 🇮🇩
+country: Indonesia
+ip: '141.11.160.106'
+asn: AS141968 PT Industri Kreatif Digital
+isp: PT Industri Kreatif Digital
+org: PT. INDUSTRI KREATIF DIGITAL
+srv_client: fujabber.com:5222
+srv_server: fujabber.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [CRAM-MD5, DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

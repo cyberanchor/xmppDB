@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: whynothugo.nl
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '46.23.92.106'
+asn: AS60131 High5! B.V.
+isp: High5! B.V.
+org: High5 Obsdams
+srv_client: xmpp.whynothugo.nl:5222
+srv_server: xmpp.whynothugo.nl:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

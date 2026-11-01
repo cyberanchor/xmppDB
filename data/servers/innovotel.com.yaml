@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: innovotel.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '173.230.145.167'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+srv_client: xmpp.innovotel.com:5222
+srv_server: xmpp.innovotel.com:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

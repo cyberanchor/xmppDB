@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: gibshare.no-ip.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '188.34.204.84'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

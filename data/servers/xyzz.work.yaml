@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xyzz.work
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '172.93.160.76'
+asn: AS18450 WebNX, Inc.
+isp: Nexeon Technologies
+org: '365 Group'
+srv_client: xmpp.xyzz.work:5222
+srv_server: xmpp.xyzz.work:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: of1.kongregate.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '52.88.117.140'
+asn: AS16509 Amazon.com, Inc.
+isp: Amazon.com, Inc.
+org: AWS EC2 (us-west-2)
+c2s: true
+s2s: false
+starttls: false
+registration: false
+sasl: [PLAIN]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

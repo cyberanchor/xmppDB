@@ -1,0 +1,51 @@
+# xmppDB server record; fields are described in data/README.md
+domain: nixnet.services
+flag: 🇫🇮
+country: Finland
+ip: '135.181.177.46'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+ptr: hel1.srv1.nixnet.services
+srv_client: xmpp.nixnet.services:5222
+srv_server: xmpp.nixnet.services:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: A
+  since: '2019-01-08'
+  updated: '2026-10-24'
+  organization: private person
+  software: ejabberd 26.9.0
+  locations: [de]
+  website:
+    en: https://wiki.nixnet.services/hypha/xmpp
+  legal_notice:
+    en: https://wiki.nixnet.services/hypha/XMPP/Terms
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 2
+  inband: true
+  captcha: true
+  email_required: false
+  archive_days: 0
+  upload_file_mb: 100
+  upload_total_mb: 1000
+  upload_days: 14
+  compliance: 100
+  support_email:
+  - support@nixnet.services
+  support_chat:
+  - support@nixnet.services
+  support_groupchat:
+  - nixnet@muc.nixnet.services
+  alternative_jids:
+  - paranoid.network
+  - linux.monster
+  - pwned.life
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mingdada.xyz
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '178.104.5.214'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: mingdada.xyz:5222
+srv_server: mingdada.xyz:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

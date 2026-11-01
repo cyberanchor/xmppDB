@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.radioactive-unicorn.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '217.92.226.5'
+asn: AS3320 Deutsche Telekom AG
+isp: Deutsche Telekom AG
+org: Deutsche Telekom AG
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

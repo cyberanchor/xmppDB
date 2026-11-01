@@ -1,0 +1,31 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.chaostreffbern.ch
+flag: 🇨🇭
+country: Switzerland
+ip: '217.197.129.239'
+asn: AS15576 NTS workspace AG
+isp: Cirrax GmbH NTS Workspace AG
+org: Cirrax GmbH
+srv_client: jabber.chaostreffbern.ch:5222
+srv_server: jabber.chaostreffbern.ch:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: D
+  updated: '2025-11-29'
+  software: Prosody 0.12.5
+  green_hosting: false
+  inband: false
+  captcha: false
+  email_required: false
+  upload_file_mb: 134
+  compliance: 100
+  support_chat:
+  - vimja@jabber.chaostreffbern.ch
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

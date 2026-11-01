@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: fr.tild3.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '157.90.196.56'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

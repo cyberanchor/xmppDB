@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.in.ua
+flag: 🇺🇦
+country: Ukraine
+ip: '45.154.116.31'
+asn: AS56485 TheHost LLC
+isp: TheHost LLC
+org: TheHost LLC
+srv_client: xmpp.in.ua:5222
+srv_server: xmpp.in.ua:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

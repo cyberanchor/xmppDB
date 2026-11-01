@@ -1,0 +1,50 @@
+# xmppDB server record; fields are described in data/README.md
+domain: trung.fun
+flag: 🇻🇳
+country: Vietnam
+ip: '14.224.204.66'
+asn: AS45899 VNPT Corp
+isp: VNPT
+org: Vietnam Posts and Telecommunications Group
+srv_client: chat.trung.fun:5222
+srv_server: chat.trung.fun:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: D
+  since: '2022-06-16'
+  updated: '2026-10-27'
+  organization: private person
+  software: Prosody trunk nightly build 2095 (2026-10-26, dc111000a9c5)
+  locations: [vn]
+  website:
+    en: https://chat.trung.fun/index.en.html
+    vi: https://chat.trung.fun/index.html
+  legal_notice:
+    en: https://chat.trung.fun/hop-dong.en.html
+    vi: https://chat.trung.fun/hop-dong.html
+  free: true
+  professional_hosting: false
+  green_hosting: false
+  bus_factor: 1
+  inband: false
+  captcha: false
+  email_required: false
+  archive_days: 7
+  upload_file_mb: 104
+  upload_total_mb: 104
+  upload_days: 3
+  compliance: 100
+  support_email:
+  - xmpp@trung.fun
+  support_chat:
+  - trần.h.trung@trung.fun
+  support_groupchat:
+  - alltopic@hall.trung.fun
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

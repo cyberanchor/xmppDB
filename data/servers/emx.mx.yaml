@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: emx.mx
+flag: 🇸🇪
+country: Sweden
+alliance: 14
+ip: '153.92.126.94'
+asn: AS63473 HostHatch, LLC
+isp: HostHatch
+org: HostHatch LLC
+srv_client: xmpp.emx.mx:5222
+srv_server: xmpp.emx.mx:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

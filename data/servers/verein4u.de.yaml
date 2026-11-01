@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: verein4u.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '85.215.252.232'
+asn: AS8560 IONOS SE
+isp: IONOS SE
+org: Strato AG
+srv_client: xmpp.verein4u.de:5322
+srv_server: xmpp.verein4u.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

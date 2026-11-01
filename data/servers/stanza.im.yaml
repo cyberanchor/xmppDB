@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: stanza.im
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '91.224.149.20'
+asn: AS197422 Tetaneutral.net Association declaree
+isp: Tetaneutral.net Association declaree
+org: Tetaneutral.net
+srv_client: stanza.im:5222
+srv_server: stanza.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

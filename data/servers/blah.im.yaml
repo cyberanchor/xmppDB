@@ -1,0 +1,23 @@
+# xmppDB server record; fields are described in data/README.md
+domain: blah.im
+dead: true
+errors:
+- dns:no-address
+provider:
+  category: D
+  since: '2009-01-01'
+  updated: '2026-01-24'
+  organization: private person
+  locations: [fi]
+  website:
+    en: https://blah.im
+  free: true
+  professional_hosting: false
+  green_hosting: false
+  inband: false
+  captcha: false
+  email_required: false
+  archive_days: 7
+  compliance: 91
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

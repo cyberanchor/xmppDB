@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: kita-doberlug.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '45.156.84.78'
+asn: AS206996 ZAP-Hosting GmbH
+isp: ZAP-Hosting GmbH
+org: ZAP-Hosting GmbH & Co. KG
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

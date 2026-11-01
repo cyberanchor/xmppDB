@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: zashm.org
+flag: 🇺🇦
+country: Ukraine
+ip: '91.245.76.29'
+asn: AS49824 PC "Astra-net"
+isp: PC "Astra-net"
+org: PC "Astra-net"
+srv_client: zashm.org:5222
+srv_server: zashm.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

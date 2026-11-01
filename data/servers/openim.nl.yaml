@@ -1,0 +1,49 @@
+# xmppDB server record; fields are described in data/README.md
+domain: openim.nl
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '46.224.1.63'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+ptr: static.63.1.224.46.clients.your-server.de
+srv_client: openim.nl:5222
+srv_server: openim.nl:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+provider:
+  category: A
+  since: '2024-10-01'
+  updated: '2026-10-14'
+  organization: company
+  software: ejabberd 26.9.0
+  locations: [de]
+  website:
+    en: https://openim.nl
+  legal_notice:
+    en: https://openim.nl/terms/
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  inband: true
+  captcha: true
+  email_required: false
+  password_reset:
+    en: https://openim.nl/register/reset
+  archive_days: 30
+  upload_file_mb: 40
+  upload_total_mb: 250
+  upload_days: 30
+  compliance: 100
+  support_email:
+  - admin@openim.nl
+  support_chat:
+  - admin@openim.nl
+  alternative_jids:
+  - q7d5cnhotu5wgynyn3dtd342t3gvsvsuch72ikkek4a5m33lcj7r3ryd.onion
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

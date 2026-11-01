@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chronowerks.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '84.38.78.47'
+asn: AS204119 ispOne business GmbH
+isp: ispOne business GmbH
+org: ispOne business GmbH
+srv_client: chronowerks.de:5222
+srv_server: chronowerks.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

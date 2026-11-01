@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: andreasschulze.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '178.25.147.247'
+asn: AS3209 Vodafone GmbH
+isp: Vodafone Kabel Deutschland
+org: Vodafone Kabel Deutschland GmbH
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

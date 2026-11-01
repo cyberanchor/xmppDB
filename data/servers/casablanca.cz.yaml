@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: casablanca.cz
+flag: 🇨🇿
+country: Czechia
+ip: '81.0.241.10'
+asn: AS15685 CASABLANCA INT a.s.
+isp: Casablanca INT fraction
+org: Casablanca INT
+srv_client: im.casablanca.cz:5222
+srv_server: im.casablanca.cz:5269
+c2s: true
+s2s: true
+starttls: false
+registration: false
+errors:
+- c2s:tls-failed:SSLError
+sources: [list]
+last_checked: '2026-11-01'

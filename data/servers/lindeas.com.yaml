@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: lindeas.com
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '91.121.36.27'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH SAS
+srv_client: lindeas.com:5222
+srv_server: lindeas.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

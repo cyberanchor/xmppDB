@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: talk.srvfarm.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.118.198.33'
+asn: AS204028 Dolphin IT-Systeme e.K.
+isp: Dolphin IT-Systeme e.K.
+org: Dolphin IT-Systeme e.K.
+srv_client: jabber-host01.talk.srvfarm.net:5222
+srv_server: jabber-host01.talk.srvfarm.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

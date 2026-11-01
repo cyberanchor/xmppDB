@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: starbeamrainbowlabs.com
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '5.196.73.75'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH
+srv_client: starbeamrainbowlabs.com:5222
+srv_server: starbeamrainbowlabs.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

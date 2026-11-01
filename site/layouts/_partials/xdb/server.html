@@ -1,0 +1,122 @@
+{{- /* Body of one server page. The page context comes from the content adapter (Params.slug). */ -}}
+{{- $meta := partial "xdb/meta.html" . -}}
+{{- $s := index (partialCached "xdb/index.html" . "xdb-index") .Params.slug -}}
+{{- if not $s -}}{{- errorf "xdb/server: no record for %q" .Params.slug -}}{{- end -}}
+{{- $r := $s.rec -}}
+{{- $p := $s.p -}}
+{{- $m := index $meta $s.state -}}
+{{- $home := site.Home.RelPermalink -}}
+{{- $site := "" -}}
+{{- with $p.website -}}{{- range $lang, $u := . -}}{{- if not $site -}}{{- $site = $u -}}{{- end -}}{{- end -}}{{- with .en -}}{{- $site = . -}}{{- end -}}{{- end -}}
+{{- $days := dict -}}
+{{- range $k := slice "archive_days" "upload_days" -}}
+  {{- with index $p $k -}}{{- $days = merge $days (dict $k (printf "%d %s" . (cond (eq . 1) "day" "days"))) -}}
+  {{- else -}}{{- if eq (index $p $k) 0 -}}{{- $days = merge $days (dict $k "unlimited") -}}{{- end -}}{{- end -}}
+{{- end -}}
+{{- $mb := dict -}}
+{{- range $k := slice "upload_file_mb" "upload_total_mb" -}}
+  {{- with index $p $k -}}{{- $mb = merge $mb (dict $k (printf "%d MB" .)) -}}
+  {{- else -}}{{- if eq (index $p $k) 0 -}}{{- $mb = merge $mb (dict $k "unlimited") -}}{{- end -}}{{- end -}}
+{{- end -}}
+<article class="xdb-server{{ if $s.dead }} xdb-dead{{ end }}">
+  <nav class="xdb-path" aria-label="Breadcrumb"><a href="{{ $home }}#servers">servers</a> / <span>{{ $s.domain }}</span></nav>
+
+  <header class="xdb-head">
+    <h1>{{ with $s.flag }}<span class="xdb-flag" aria-hidden="true">{{ . }}</span> {{ end }}{{ if $s.dead }}<s>{{ $s.domain }}</s>{{ else }}{{ $s.domain }}{{ end }}</h1>
+    <p class="xdb-badges">
+      <span class="xdb-pill xdb-{{ $m.color }}" title="{{ $m.long }}"><span class="xdb-dot xdb-{{ $m.color }}"></span>{{ $m.label }}</span>
+      {{- if eq $s.reg "open" }} <span class="xdb-pill xdb-green">in-band registration</span>{{ end }}
+      {{- if eq $s.reg "web" }} <span class="xdb-pill xdb-blue">registration on the web</span>{{ end }}
+      {{- if eq $s.reg "closed" }} <span class="xdb-pill xdb-grey">registration closed</span>{{ end }}
+      {{- with $s.category }} <a class="xdb-cat xdb-cat-{{ lower . }}" href="https://providers.xmpp.net/provider/{{ $s.domain }}/" rel="noopener" title="XMPP Providers category {{ . }}">{{ . }}</a>{{ end }}
+      {{- with $s.eyes }} {{ partial "xdb/pill.html" (dict "text" (printf "%s Eyes" .) "color" $s.cEyes) }}{{ end }}
+    </p>
+    <p class="xdb-actions">
+      {{- if eq $s.reg "open" }}<a class="xdb-btn xdb-btn-main" href="xmpp:{{ $s.domain }}?register">Sign up in an XMPP app</a>{{ end }}
+      {{- with $s.regWeb }}<a class="xdb-btn" href="{{ . }}" rel="noopener nofollow">Sign-up page ↗</a>{{ end }}
+      {{- with $site }}<a class="xdb-btn" href="{{ . }}" rel="noopener nofollow">Website ↗</a>{{ end }}
+      {{- if $s.category }}<a class="xdb-btn" href="https://providers.xmpp.net/provider/{{ $s.domain }}/" rel="noopener">XMPP Providers ↗</a>{{ end }}
+    </p>
+  </header>
+
+  {{- if $s.dead }}
+  <p class="xdb-card xdb-gone">The domain does not resolve{{ with $s.errors }} (<span class="xdb-mono">{{ delimit . ", " }}</span>){{ end }}{{ with $s.checked }}, checked {{ . }}{{ end }}. The record is kept so that the server can come back.</p>
+  {{- else }}
+  <div class="xdb-grid">
+    <section class="xdb-card" aria-labelledby="xdb-s-conn">
+      <h2 id="xdb-s-conn">Connection</h2>
+      <dl class="xdb-dl">
+        <div><dt>Clients (C2S)</dt><dd>{{ partial "xdb/yn.html" $s.c2s }}</dd></div>
+        <div><dt>Federation (S2S)</dt><dd>{{ partial "xdb/yn.html" $s.s2s }}</dd></div>
+        <div><dt>STARTTLS</dt><dd>{{ partial "xdb/yn.html" $s.starttls }}</dd></div>
+        <div><dt>In-band registration</dt><dd>{{ partial "xdb/yn.html" $s.registration }}</dd></div>
+        <div><dt>SASL</dt><dd>{{ range $s.sasl }}<span class="xdb-chip{{ if strings.HasSuffix . "-PLUS" }} xdb-chip-good{{ end }}">{{ . }}</span>{{ else }}<span class="xdb-na">—</span>{{ end }}</dd></div>
+        <div><dt>Client SRV</dt><dd class="xdb-mono">{{ $r.srv_client | default "—" }}</dd></div>
+        <div><dt>Server SRV</dt><dd class="xdb-mono">{{ $r.srv_server | default "—" }}</dd></div>
+        <div><dt>Errors</dt><dd>{{ range $s.errors }}<span class="xdb-err xdb-mono">{{ . }}</span>{{ else }}<span class="xdb-na">none</span>{{ end }}</dd></div>
+        <div><dt>Last checked</dt><dd>{{ $s.checked | default "—" }}</dd></div>
+      </dl>
+    </section>
+    <section class="xdb-card" aria-labelledby="xdb-s-loc">
+      <h2 id="xdb-s-loc">Location</h2>
+      <dl class="xdb-dl">
+        <div><dt>Country</dt><dd>{{ with $s.flag }}{{ . }} {{ end }}{{ $s.country | default "—" }}</dd></div>
+        <div><dt>Alliance</dt><dd>{{ with $s.eyes }}{{ partial "xdb/pill.html" (dict "text" (index (dict "5" "Five Eyes" "9" "Nine Eyes" "14" "Fourteen Eyes") .) "color" $s.cEyes) }}{{ else }}{{ if $s.country }}<span class="xdb-na">not in the Fourteen Eyes</span>{{ else }}<span class="xdb-na">—</span>{{ end }}{{ end }}</dd></div>
+        <div><dt>Address</dt><dd class="xdb-mono">{{ $s.ip | default "—" }}</dd></div>
+        <div><dt>Reverse DNS</dt><dd class="xdb-mono">{{ $r.ptr | default "—" }}</dd></div>
+        <div><dt>Network</dt><dd>{{ with $s.asNum }}<a href="https://bgp.he.net/{{ . }}" rel="noopener nofollow" class="xdb-mono">{{ . }}</a> {{ end }}{{ $s.network | default "—" }}</dd></div>
+        <div><dt>ISP</dt><dd>{{ $r.isp | default "—" }}</dd></div>
+        <div><dt>Organisation</dt><dd>{{ $r.org | default "—" }}</dd></div>
+      </dl>
+    </section>
+  </div>
+  {{- end }}
+
+  {{- with $p }}
+  <section class="xdb-card" aria-labelledby="xdb-s-prov">
+    <h2 id="xdb-s-prov">XMPP Providers <a class="xdb-h2-link" href="https://providers.xmpp.net/provider/{{ $s.domain }}/" rel="noopener">providers.xmpp.net ↗</a></h2>
+    <dl class="xdb-dl xdb-dl-cols">
+      <div><dt>Category</dt><dd><span class="xdb-cat xdb-cat-{{ lower .category }}">{{ .category }}</span></dd></div>
+      <div><dt>Established</dt><dd>{{ .since | default "—" }}</dd></div>
+      <div><dt>Run by</dt><dd>{{ with .organization }}{{ strings.FirstUpper . }}{{ else }}—{{ end }}</dd></div>
+      <div><dt>Bus factor</dt><dd>{{ with .bus_factor }}{{ . }} {{ cond (eq . 1) "person" "people" }}{{ else }}—{{ end }}</dd></div>
+      <div><dt>Free of charge</dt><dd>{{ partial "xdb/yn.html" .free }}</dd></div>
+      <div><dt>Professional hosting</dt><dd>{{ partial "xdb/yn.html" .professional_hosting }}</dd></div>
+      <div><dt>Green hosting</dt><dd>{{ partial "xdb/yn.html" .green_hosting }}</dd></div>
+      <div><dt>Server locations</dt><dd>{{ range .locations }}<span class="xdb-chip">{{ upper . }}</span>{{ else }}—{{ end }}</dd></div>
+      <div><dt>Software</dt><dd>{{ .software | default "—" }}</dd></div>
+      <div><dt>In-band registration</dt><dd>{{ partial "xdb/yn.html" .inband }}</dd></div>
+      <div><dt>CAPTCHA</dt><dd>{{ partial "xdb/yn.html" .captcha }}</dd></div>
+      <div><dt>Email address needed</dt><dd>{{ partial "xdb/yn.html" .email_required }}</dd></div>
+      <div><dt>Message archive</dt><dd>{{ index $days "archive_days" | default "—" }}</dd></div>
+      <div><dt>File size limit</dt><dd>{{ index $mb "upload_file_mb" | default "—" }}</dd></div>
+      <div><dt>Total upload space</dt><dd>{{ index $mb "upload_total_mb" | default "—" }}</dd></div>
+      <div><dt>Files kept</dt><dd>{{ index $days "upload_days" | default "—" }}</dd></div>
+      <div><dt>Compliance</dt><dd>{{ with .compliance }}<a href="https://compliance.conversations.im/server/{{ $s.domain }}/" rel="noopener nofollow">{{ . }}%</a>{{ else }}—{{ end }}</dd></div>
+      <div><dt>Last change</dt><dd>{{ .updated | default "—" }}</dd></div>
+    </dl>
+    {{- $links := slice (dict "k" "website" "t" "website") (dict "k" "legal_notice" "t" "legal notice") (dict "k" "registration_web" "t" "sign-up page") (dict "k" "password_reset" "t" "password reset") }}
+    <dl class="xdb-links">
+      {{- range $l := $links }}{{ with index $p $l.k }}
+      <div><dt>{{ $l.t }}</dt><dd>{{ range $lang, $u := . }}<a href="{{ $u }}" rel="noopener nofollow">{{ $u }}</a> <span class="xdb-na">{{ upper $lang }}</span><br>{{ end }}</dd></div>
+      {{- end }}{{ end }}
+      {{- /* the URL schemes are written out: html/template drops xmpp: links built from data */}}
+      {{- with .support_email }}
+      <div><dt>support email</dt><dd>{{ range . }}<a href="mailto:{{ . }}" rel="nofollow">{{ . }}</a><br>{{ end }}</dd></div>
+      {{- end }}
+      {{- with .support_chat }}
+      <div><dt>support chat</dt><dd>{{ range . }}<a href="xmpp:{{ . }}" rel="nofollow">{{ . }}</a><br>{{ end }}</dd></div>
+      {{- end }}
+      {{- with .support_groupchat }}
+      <div><dt>support group chat</dt><dd>{{ range . }}<a href="xmpp:{{ . }}?join" rel="nofollow">{{ . }}</a><br>{{ end }}</dd></div>
+      {{- end }}
+      {{- with .alternative_jids }}
+      <div><dt>other domains</dt><dd>{{ range . }}<span class="xdb-chip xdb-mono">{{ . }}</span>{{ end }}</dd></div>
+      {{- end }}
+    </dl>
+  </section>
+  {{- end }}
+
+  <p class="xdb-sources">Sources: {{ range $i, $src := $r.sources }}{{ if $i }}, {{ end }}{{ index (dict "list" "the original list" "xmpp-providers" "XMPP Providers" "manual" "added by hand") $src | default $src }}{{ end }}{{ with $r.sources }}{{ else }}—{{ end }}</p>
+  <p class="xdb-back"><a href="{{ $home }}#servers">← all servers</a></p>
+</article>

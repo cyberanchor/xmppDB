@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: f.haeder.net
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '188.138.90.169'
+asn: AS29066 velia.net Internetdienste GmbH
+isp: velia.net Internetdienste GmbH
+org: velia.net Internetdienste GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

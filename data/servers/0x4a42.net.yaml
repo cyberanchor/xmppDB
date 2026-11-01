@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '0x4a42.net'
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '89.58.27.28'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+ptr: n.0x01.eu
+srv_client: ipv6.n.0x01.eu:5222
+srv_server: n.0x01.eu:5269
+s2s: true
+errors:
+- 'c2s:ipv6-only, not checked: the checking host has no IPv6'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

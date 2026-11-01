@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '9mmtylenol.me'
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '104.168.9.3'
+asn: AS36352 HostPapa
+isp: HostPapa
+org: RackNerd LLC
+srv_client: '9mmtylenol.me:5222'
+srv_server: '9mmtylenol.me:5269'
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

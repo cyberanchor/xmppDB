@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: parleur.net
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '192.99.100.7'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH Hosting, Inc.
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

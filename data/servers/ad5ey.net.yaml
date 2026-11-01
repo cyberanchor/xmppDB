@@ -1,0 +1,21 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ad5ey.net
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '96.126.100.165'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+ptr: tensor.subspacedynamics.net
+srv_client: tensor.ad5ey.net:5222
+srv_server: tensor.ad5ey.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [LOGIN, PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

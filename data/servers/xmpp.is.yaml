@@ -1,0 +1,55 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.is
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '23.191.201.4'
+asn: AS401720 Unredacted Inc
+isp: Unredacted Inc
+org: Unredacted Inc
+srv_client: prosody.xmpp.is:5222
+srv_server: prosody.xmpp.is:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+provider:
+  category: B
+  since: '2015-05-19'
+  updated: '2026-09-28'
+  organization: company
+  software: Prosody 13.0.7
+  locations: [ro, us]
+  website:
+    en: https://xmpp.is
+  legal_notice:
+    en: https://xmpp.is/about/tos-aup/
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  inband: false
+  registration_web:
+    en: https://xmpp.is/account/register/
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://xmpp.is/account/recovery/
+  archive_days: 30
+  upload_file_mb: 104
+  upload_total_mb: 0
+  upload_days: 7
+  compliance: 100
+  support_email:
+  - support@xmpp.is
+  alternative_jids:
+  - xmpp.chat
+  - xmpp.co
+  - xmpp.cx
+  - xmpp.fi
+  - xmpp.si
+  - xmpp.xyz
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

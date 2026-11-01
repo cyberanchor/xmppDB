@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: bhtooefr.org
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '173.189.157.139'
+asn: AS7029 Windstream Communications LLC
+isp: Windstream Communications LLC
+org: Windstream Communications LLC
+srv_client: bhtooefr.org:5222
+srv_server: bhtooefr.org:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.way2cloud.gocurb.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '208.1.103.16'
+asn: AS14679 Curb Mobility, LLC
+isp: Sprint
+org: Verifone Transportation System
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

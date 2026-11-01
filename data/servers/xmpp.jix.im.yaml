@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.jix.im
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '51.89.22.123'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH GmbH
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

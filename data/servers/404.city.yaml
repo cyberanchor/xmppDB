@@ -1,0 +1,41 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '404.city'
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '188.114.96.3'
+asn: AS13335 Cloudflare, Inc.
+isp: Cloudflare, Inc.
+org: CloudFlare, Inc.
+srv_client: j.404.city:5222
+srv_server: j.404.city:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: D
+  since: '2015-03-20'
+  updated: '2026-10-20'
+  software: ejabberd 26.9.0
+  locations: [de]
+  website:
+    en: https://404.city
+  legal_notice:
+    en: https://wiki.404.city/404.city/privacy_policy
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  inband: false
+  captcha: false
+  email_required: false
+  password_reset:
+    en: https://404.city
+  archive_days: 30
+  upload_file_mb: 256
+  upload_total_mb: 512
+  upload_days: 30
+  compliance: 95
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

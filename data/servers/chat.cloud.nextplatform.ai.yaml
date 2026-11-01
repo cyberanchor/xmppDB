@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.cloud.nextplatform.ai
+flag: 🇮🇩
+country: Indonesia
+ip: '49.128.184.168'
+asn: AS131745 PT. Cybertechtonic Pratama
+isp: PT Poros Network Nusantara
+srv_client: chat.cloud.nextplatform.ai:5222
+srv_server: chat.cloud.nextplatform.ai:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

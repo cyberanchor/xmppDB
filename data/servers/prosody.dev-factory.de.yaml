@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: prosody.dev-factory.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '80.242.138.207'
+asn: AS61157 PlusServer GmbH
+isp: PlusServer GmbH
+org: PlusServer GmbH
+srv_client: prosody.dev-factory.de:5222
+srv_server: prosody.dev-factory.de:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

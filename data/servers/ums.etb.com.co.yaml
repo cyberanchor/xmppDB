@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ums.etb.com.co
+flag: 🇨🇴
+country: Colombia
+ip: '201.245.193.168'
+asn: AS19429 ETB - Colombia
+isp: ETB - Colombia
+org: ETB - Colombia
+srv_client: bocuhcums01.etb.com.co:5222
+srv_server: bocuhcums01.etb.com.co:5269
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: invalid-from'
+sources: [list]
+last_checked: '2026-11-01'

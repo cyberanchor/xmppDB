@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: novoa.nagoya
+flag: 🇲🇽
+country: Mexico
+ip: '216.238.68.98'
+asn: AS20473 The Constant Company, LLC
+isp: The Constant Company
+org: VULTR-MEXICO
+srv_client: novoa.nagoya:5222
+srv_server: novoa.nagoya:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

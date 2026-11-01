@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.lu
+flag: 🇱🇺
+country: Luxembourg
+ip: '195.28.160.4'
+asn: AS5577 root SA
+isp: root SA
+org: Optimal Security SARL
+srv_client: i1.xmpp.lu:5222
+srv_server: i1.xmpp.lu:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

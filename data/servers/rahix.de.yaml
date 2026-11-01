@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: rahix.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.170.115.47'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

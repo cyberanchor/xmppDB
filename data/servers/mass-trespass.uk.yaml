@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mass-trespass.uk
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '116.203.117.198'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+ptr: websrv3.mass-trespass.uk
+srv_client: mass-trespass.uk:5222
+srv_server: mass-trespass.uk:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

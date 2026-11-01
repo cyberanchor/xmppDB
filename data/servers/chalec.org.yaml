@@ -1,0 +1,41 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chalec.org
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '80.67.160.153'
+asn: AS20766 Association Gitoyen
+isp: Association "Gitoyen"
+org: French Data Network
+srv_client: xmpp.chalec.org:5222
+srv_server: xmpp.chalec.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: D
+  since: '2022-08-10'
+  updated: '2026-10-25'
+  organization: non-governmental
+  software: ejabberd 26.9.0
+  locations: [fr]
+  website:
+    fr: https://www.chalec.org/services/xmpp/
+  legal_notice:
+    fr: https://www.chalec.org/mentions-legales.html
+  free: true
+  professional_hosting: true
+  green_hosting: false
+  bus_factor: 3
+  inband: true
+  captcha: true
+  email_required: false
+  archive_days: 30
+  upload_file_mb: 500
+  upload_total_mb: 500
+  upload_days: 30
+  compliance: 100
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

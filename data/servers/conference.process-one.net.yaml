@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: conference.process-one.net
+flag: 🇮🇪
+country: Ireland
+ip: '52.213.172.32'
+asn: AS16509 Amazon.com, Inc.
+isp: Amazon.com, Inc.
+org: AWS EC2 (eu-west-1)
+srv_server: chat.process-one.net:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

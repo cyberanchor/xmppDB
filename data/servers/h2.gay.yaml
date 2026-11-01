@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: h2.gay
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '153.92.127.76'
+asn: AS63473 HostHatch, LLC
+isp: HostHatch
+org: HostHatch LLC
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

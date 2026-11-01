@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.fu-berlin.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '130.133.8.10'
+asn: AS680 Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+isp: Freie Universitaet Berlin
+org: Freie Universitaet Berlin
+srv_client: access.jabber.fu-berlin.de:80
+srv_server: jabber.fu-berlin.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

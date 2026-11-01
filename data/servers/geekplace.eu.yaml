@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: geekplace.eu
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '5.45.100.158'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: NETCUP-GMBH
+srv_client: zulu.geekplace.eu:5222
+srv_server: zulu.geekplace.eu:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

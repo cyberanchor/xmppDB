@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: krap.dk
+flag: 🇩🇰
+country: Denmark
+alliance: 9
+ip: '185.38.24.54'
+asn: AS62113 Kracon ApS
+isp: Kracon ApS
+org: Kracon Hosting Network
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '17network.net'
+flag: 🇧🇬
+country: Bulgaria
+ip: '13.140.29.64'
+asn: AS203380 DA International Group Ltd.
+isp: DA International Group Ltd.
+org: DA International Group Ltd
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

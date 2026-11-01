@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: sermotec.at
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '78.47.184.13'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner
+org: Harald Petrovitsch
+srv_client: xmpp.sermotec.at:5222
+srv_server: xmpp.sermotec.at:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

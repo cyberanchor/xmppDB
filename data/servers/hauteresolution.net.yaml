@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: hauteresolution.net
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '91.194.60.84'
+asn: AS28855 Octopuce s.a.r.l.
+isp: Octopuce s.a.r.l.
+org: Octopuce s.a.r.l
+ptr: stationmaster.hauteresolution.net
+srv_client: stationmaster.hauteresolution.net:5222
+srv_server: stationmaster.hauteresolution.net:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

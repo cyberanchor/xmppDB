@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: baufinanzierungspool.crown.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '85.10.216.251'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner
+org: Crown Software GmbH
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

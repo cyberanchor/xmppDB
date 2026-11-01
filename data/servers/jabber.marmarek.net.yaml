@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.marmarek.net
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '51.254.128.205'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH
+srv_client: xmpp-hosting.conversations.im:5222
+srv_server: xmpp-hosting.conversations.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

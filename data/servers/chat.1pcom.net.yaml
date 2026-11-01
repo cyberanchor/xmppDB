@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.1pcom.net
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '208.85.248.113'
+asn: AS23422 Endstream Communications, LLC
+isp: Endstream Communications, LLC
+org: Endstream Communications, LLC
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '3o3g.net'
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '144.76.225.175'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: '3o3g.net:5222'
+srv_server: '3o3g.net:5269'
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

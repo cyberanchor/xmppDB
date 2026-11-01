@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: owncloud.smart-kvm.com
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '188.65.144.53'
+asn: AS209480 Smart Weblications GmbH
+isp: Smart Weblications GmbH
+org: SMART-WEB
+srv_client: owncloud.smart-kvm.com:5222
+srv_server: owncloud.smart-kvm.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

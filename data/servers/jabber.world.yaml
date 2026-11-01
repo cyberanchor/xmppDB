@@ -1,0 +1,52 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.world
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '152.53.86.140'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: AT Anxholding2
+ptr: mail.mainzzero.de
+srv_client: jabber.world:5222
+srv_server: jabber.world:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS, SCRAM-SHA-512, SCRAM-SHA-512-PLUS, X-OAUTH2]
+provider:
+  category: D
+  since: '2026-06-14'
+  updated: '2026-10-25'
+  organization: private person
+  software: ejabberd 26.9.6
+  locations: [de]
+  website:
+    en: https://jabber.world
+  legal_notice:
+    en: https://jabber.world/privacy-policy.html
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 2
+  inband: true
+  captcha: false
+  email_required: false
+  archive_days: 90
+  upload_file_mb: 104
+  upload_total_mb: 750
+  upload_days: 90
+  compliance: 100
+  alternative_jids:
+  - jabbermainz.de
+  - hagelloch.de
+  - aus-hagello.ch
+  - jabberzueri.ch
+  - in-mai.nz
+  - aus-mai.nz
+  - aus-nehren.de
+  - in-muenchen.it
+  - aus-harpolingen.de
+sources: [xmpp-providers]
+last_checked: '2026-11-01'

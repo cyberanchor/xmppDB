@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: erasmo.info
+flag: 🇧🇷
+country: Brazil
+ip: '172.233.1.155'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Akamai Technologies, Inc.
+srv_client: erasmo.info:5222
+srv_server: erasmo.info:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

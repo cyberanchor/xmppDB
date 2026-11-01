@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: fusselkater.org
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '202.61.246.70'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: powered by ANX
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

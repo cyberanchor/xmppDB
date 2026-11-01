@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: staf.best
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '89.36.231.127'
+asn: AS215381 ROCKHOSTER PRIVATE LIMITED
+isp: Rockhoster Private Limited
+org: Rockhoster Private Limited
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

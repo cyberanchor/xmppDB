@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: diasp.in
+flag: 🇫🇮
+country: Finland
+ip: '95.216.198.16'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: HETZNER-DC
+srv_client: diasp.in:5222
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.strategyobject.net
+flag: 🇧🇬
+country: Bulgaria
+ip: '85.187.62.143'
+asn: AS31287 IPACCT CABLE Ltd
+isp: IPACCT CABLE Ltd
+org: PON.BG Ltd
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [PLAIN]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

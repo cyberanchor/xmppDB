@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.n3u14nd.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.26.156.176'
+asn: AS58010 uvensys GmbH
+isp: JonasPasche
+srv_client: xmpp.jabber.n3u14nd.de:45260
+srv_server: xmpp.jabber.n3u14nd.de:45261
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

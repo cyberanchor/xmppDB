@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tobiaswiese.com
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '185.244.192.195'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+srv_client: new-babbage.server.tobiaswiese.net:5222
+srv_server: new-babbage.server.tobiaswiese.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

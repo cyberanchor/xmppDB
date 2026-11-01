@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: newan.net
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '79.143.250.84'
+asn: AS29608 Ovea SAS
+isp: ABSOLIGHT
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

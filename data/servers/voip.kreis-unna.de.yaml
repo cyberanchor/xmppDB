@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: voip.kreis-unna.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '87.130.7.188'
+asn: AS3320 Deutsche Telekom AG
+isp: Deutsche Telekom AG
+org: Kreis Unna
+srv_client: voip.kreis-unna.de:5222
+c2s: true
+s2s: false
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

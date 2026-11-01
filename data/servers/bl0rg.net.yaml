@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: bl0rg.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '88.99.241.247'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: jabber.bl0rg.net:5222
+srv_server: jabber.bl0rg.net:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: No route to host'
+- 's2s:connect-error: No route to host'
+sources: [list]
+last_checked: '2026-11-01'

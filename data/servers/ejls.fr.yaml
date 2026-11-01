@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: ejls.fr
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '51.15.8.18'
+asn: AS12876 Scaleway SAS
+isp: SCALEWAY
+org: Online SAS NL
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

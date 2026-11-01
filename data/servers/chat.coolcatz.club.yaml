@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.coolcatz.club
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '94.16.123.242'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: netcup GmbH
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

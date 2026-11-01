@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmppdev01.xabber.com
+flag: 🇬🇧
+country: United Kingdom
+alliance: 5
+ip: '178.79.171.37'
+asn: AS63949 Akamai Connected Cloud
+isp: Linode
+org: Linode, LLC
+srv_client: xmppdev01.xabber.com:5222
+srv_server: xmppdev01.xabber.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DEVICES-OCRA, HOTP, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

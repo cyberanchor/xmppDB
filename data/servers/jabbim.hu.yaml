@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabbim.hu
+flag: 🇭🇺
+country: Hungary
+ip: '87.229.73.121'
+asn: AS29278 Rackhost Zrt.
+isp: Rackhost Zrt
+org: Deninet kft.
+srv_client: xmpp.jabbim.hu:5222
+srv_server: xmpp.jabbim.hu:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

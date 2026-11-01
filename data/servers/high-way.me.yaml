@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: high-way.me
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '194.8.133.22'
+asn: AS216333 NetDev UG (haftungsbeschraenkt)
+isp: NetDev UG (haftungsbeschraenkt)
+org: NetDev UG (haftungsbeschraenkt)
+srv_client: xmpp.high-way.me:5222
+srv_server: xmpp.high-way.me:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: inittab.org
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '51.254.149.154'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH
+srv_client: etc.inittab.org:5222
+srv_server: etc.inittab.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-256]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,45 @@
+# xmppDB server record; fields are described in data/README.md
+domain: dismail.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '116.203.7.146'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: xmpp.dismail.de:5222
+srv_server: xmpp.dismail.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+provider:
+  category: D
+  since: '2015-10-29'
+  updated: '2026-08-01'
+  organization: private person
+  software: ejabberd 26.07
+  locations: [de]
+  website:
+    en: https://dismail.de
+  legal_notice:
+    de: https://dismail.de/impressum.html
+  free: true
+  professional_hosting: true
+  green_hosting: true
+  bus_factor: 1
+  inband: false
+  captcha: false
+  email_required: false
+  archive_days: 7
+  upload_file_mb: 104
+  upload_total_mb: 0
+  upload_days: 31
+  compliance: 100
+  support_email:
+  - support@dismail.de
+  support_chat:
+  - support@dismail.de
+sources: [list, xmpp-providers]
+last_checked: '2026-11-01'

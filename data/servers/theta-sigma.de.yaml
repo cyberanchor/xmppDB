@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: theta-sigma.de
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '87.230.14.88'
+asn: AS8972 Host Europe GmbH
+isp: Host Europe GmbH
+org: Hosteurope GmbH
+srv_server: theta-sigma.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

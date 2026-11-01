@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: henze-online.de
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '5.35.251.154'
+asn: AS8972 Host Europe GmbH
+isp: Host Europe GmbH
+org: GD MASS Network
+srv_client: host01.henze-online.de:5222
+srv_server: host01.henze-online.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

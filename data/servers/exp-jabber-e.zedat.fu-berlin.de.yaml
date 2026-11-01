@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: exp-jabber-e.zedat.fu-berlin.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '160.45.15.161'
+asn: AS680 Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+org: Freie Universitaet Berlin
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sources: [list]
+last_checked: '2026-11-01'

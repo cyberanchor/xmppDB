@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: hotmilk.space
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '162.233.34.155'
+asn: AS7018 AT&T Enterprises, LLC
+isp: AT&T Enterprises, LLC
+org: AT&T Enterprises, LLC
+srv_client: hotmilk.space:5222
+srv_server: hotmilk.space:5269
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: faibatalk.co.ke
+flag: 🇰🇪
+country: Kenya
+ip: '197.232.49.4'
+asn: AS36866 Jamii Telecommunications Limited
+isp: Jamii Telecommunications Limited
+org: Faiba Enterprise
+srv_client: faibatalk.co.ke:5222
+srv_server: faibatalk.co.ke:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-256]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

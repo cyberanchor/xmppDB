@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: fkurz.net
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '88.99.84.60'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-256]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

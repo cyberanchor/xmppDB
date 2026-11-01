@@ -1,4 +1,8 @@
+__pycache__/
+*.pyc
+site/.hugo_build.lock
+site/resources/
+# local leftovers of the pipeline before the YAML data (2026-11-01): dnspython venv and run cache
 tools/venv/
 tools/work/
-tools/__pycache__/
 tools/resolve_snapshot.json

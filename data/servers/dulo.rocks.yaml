@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: dulo.rocks
+flag: 🇷🇺
+country: Russia
+ip: '78.24.221.88'
+asn: AS29182 JSC IOT
+isp: JSC IOT
+org: AOIOT
+srv_client: dulo.rocks:5222
+srv_server: dulo.rocks:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

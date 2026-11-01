@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: '00dani.me'
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '104.236.116.148'
+asn: AS14061 DigitalOcean, LLC
+isp: DigitalOcean, LLC
+org: DigitalOcean, LLC
+srv_client: xmpp.00dani.me:5222
+srv_server: xmpp.00dani.me:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

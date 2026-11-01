@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: exmpp.org
+flag: 🇷🇺
+country: Russia
+ip: '78.136.220.85'
+asn: AS31363 JSC ER-Telecom Holding
+isp: JSC "ER-Telecom Holding" Moscow region
+org: JSC "ER-Telecom Holding"
+c2s: false
+s2s: false
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

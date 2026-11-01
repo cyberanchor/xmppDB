@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mbl.social
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '155.138.226.183'
+asn: AS20473 The Constant Company, LLC
+isp: The Constant Company
+org: Vultr Holdings, LLC
+srv_client: mbl.social:5222
+srv_server: mbl.social:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

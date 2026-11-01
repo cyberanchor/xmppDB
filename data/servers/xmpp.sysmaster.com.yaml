@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.sysmaster.com
+flag: 🇧🇬
+country: Bulgaria
+ip: '217.145.84.129'
+asn: AS20665 Varna Net Ltd.
+isp: Varna Net Ltd.
+org: Varnanet
+c2s: false
+s2s: true
+errors:
+- 'c2s:stream-error: host-unknown'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

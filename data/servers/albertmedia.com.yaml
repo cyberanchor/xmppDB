@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: albertmedia.com
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '195.30.108.27'
+asn: AS5539 SpaceNet AG
+isp: SPACE
+org: Serverprofis GmbH
+srv_client: xmpp.albertmedia.com:5222
+srv_server: xmpp.albertmedia.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

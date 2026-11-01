@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: chat.gayfr.social
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '82.29.168.102'
+asn: AS47583 Hostinger International Limited
+isp: Hostinger International Limited
+org: Hostinger
+c2s: false
+s2s: true
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:stream-error: host-unknown'
+sources: [list]
+last_checked: '2026-11-01'

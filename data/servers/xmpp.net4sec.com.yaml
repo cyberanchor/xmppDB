@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.net4sec.com
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '103.234.235.34'
+asn: AS12886 LEW TelNet GmbH
+isp: LEW TelNet GmbH
+org: net4sec UG
+srv_client: xmpp.net4sec.com:5222
+srv_server: xmpp.net4sec.com:5269
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

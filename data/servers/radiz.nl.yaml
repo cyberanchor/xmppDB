@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: radiz.nl
+flag: 🇳🇱
+country: The Netherlands
+alliance: 9
+ip: '109.207.172.85'
+isp: ITGLOBAL.COM NL B.V.
+org: ITGLOBAL.COM NL B.V
+srv_client: radiz.nl:5222
+srv_server: radiz.nl:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

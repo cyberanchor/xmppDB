@@ -1,0 +1,21 @@
+# xmppDB server record; fields are described in data/README.md
+domain: tu-darmstadt.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '130.83.47.245'
+asn: AS8365 Man-da.de GmbH
+isp: TU-DARMSTADT via MANDA
+org: Technische Universitaet Darmstadt
+ptr: hrz-srd01.hrz.tu-darmstadt.de
+srv_client: cup2.net.hrz.tu-darmstadt.de:5222
+srv_server: cup1.net.hrz.tu-darmstadt.de:5269
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [CISCO-VTG-TOKEN, OAUTHBEARER, PLAIN]
+errors:
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: lumpi.kilroi.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '5.45.105.197'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: NETCUP-GMBH
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

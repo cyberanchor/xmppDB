@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: hi-low.eu
+flag: 🇵🇱
+country: Poland
+ip: '46.171.244.86'
+asn: AS5617 Orange Polska Spolka Akcyjna
+isp: Orange Polska Spolka Akcyjna
+org: Orange Polska S.A.
+srv_client: xmpp.hi-low.eu:5222
+srv_server: xmpp.hi-low.eu:5269
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [ANONYMOUS, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS, SCRAM-SHA-256, SCRAM-SHA-256-PLUS]
+errors:
+- 's2s:stream-error: invalid-from'
+sources: [list]
+last_checked: '2026-11-01'

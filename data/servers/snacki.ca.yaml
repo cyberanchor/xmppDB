@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: snacki.ca
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '75.154.237.109'
+asn: AS852 TELUS Communications Inc.
+isp: TELUS Communications Inc.
+org: TELUS-HSIA-VCTABC01
+srv_client: snacki.ca:5223
+srv_server: snacki.ca:5269
+c2s: false
+s2s: false
+errors:
+- c2s:connect-timeout
+- s2s:connect-timeout
+sources: [list]
+last_checked: '2026-11-01'

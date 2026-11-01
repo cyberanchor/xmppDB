@@ -1,0 +1,14 @@
+# xmppDB server record; fields are described in data/README.md
+domain: libra.akhdani.net
+flag: 🇮🇩
+country: Indonesia
+ip: '103.30.247.46'
+asn: AS131745 PT. Cybertechtonic Pratama
+isp: PT. Cybertechtonic Pratama
+c2s: false
+s2s: false
+errors:
+- 'c2s:connect-error: Connection refused'
+- 's2s:connect-error: Connection refused'
+sources: [list]
+last_checked: '2026-11-01'

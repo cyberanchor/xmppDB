@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: adamcik.at
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '94.130.183.196'
+asn: AS24940 Hetzner Online GmbH
+isp: Hetzner Online GmbH
+org: Hetzner
+srv_client: xmpp.adamcik.at:5222
+srv_server: xmpp.adamcik.at:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

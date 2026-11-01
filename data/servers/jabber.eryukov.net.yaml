@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabber.eryukov.net
+flag: 🇨🇿
+country: Czechia
+ip: '178.248.249.4'
+asn: AS48926 Pe3ny Net s.r.o.
+isp: Pe3ny Net s.r.o.
+org: Pe3ny
+srv_client: jabber.eryukov.net:5222
+srv_server: jabber.eryukov.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-256]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

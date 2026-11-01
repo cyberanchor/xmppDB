@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: s3miclassical.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '99.47.69.163'
+asn: AS7018 AT&T Enterprises, LLC
+isp: AT&T Enterprises, LLC
+org: AT&T Internet Services
+srv_client: xmpp.s3miclassical.com:5222
+srv_server: xmpp.s3miclassical.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

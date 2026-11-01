@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.beneth.fr
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '82.67.9.34'
+asn: AS12322 Free SAS
+isp: Proxad / Free SAS
+org: ProXad network / Free SA
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

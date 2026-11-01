@@ -1,0 +1,12 @@
+# xmppDB server record; fields are described in data/README.md
+domain: xmpp.fishbowler.net
+srv_client: xmpp.fishbowler.net:5222
+srv_server: xmpp.fishbowler.net:5269
+c2s: false
+s2s: false
+errors:
+- dns:nxdomain
+- 'c2s:connect-error: Name or service not known'
+- 's2s:connect-error: Name or service not known'
+sources: [list]
+last_checked: '2026-11-01'

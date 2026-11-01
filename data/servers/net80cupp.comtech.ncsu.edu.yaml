@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: net80cupp.comtech.ncsu.edu
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '152.7.139.250'
+asn: AS11442 North Carolina State University
+isp: North Carolina State University
+org: North Carolina State University
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [CISCO-VTG-TOKEN, OAUTHBEARER, PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

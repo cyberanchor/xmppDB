@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: best.net.pl
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '178.33.49.166'
+asn: AS16276 OVH SAS
+isp: OVH SAS
+org: OVH Sp. z o. o
+srv_client: jabber.best.net.pl:5222
+srv_server: jabber.best.net.pl:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

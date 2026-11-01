@@ -1,0 +1,13 @@
+# xmppDB server record; fields are described in data/README.md
+domain: kchat.port0.org
+flag: 🇯🇵
+country: Japan
+ip: '240d:1d:15:7200:ba27:ebff:fe58:5f7e'
+asn: AS2527 Sony Network Communications Inc.
+isp: Japan Network Information Center
+org: So-net Service
+errors:
+- 'c2s:ipv6-only, not checked: the checking host has no IPv6'
+- 's2s:ipv6-only, not checked: the checking host has no IPv6'
+sources: [list]
+last_checked: '2026-11-01'

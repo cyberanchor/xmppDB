@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: dylex.net
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '23.92.18.85'
+asn: AS63949 Akamai Connected Cloud
+isp: Akamai Technologies, Inc.
+org: Linode
+srv_client: jabber.dylex.net:5222
+srv_server: jabber.dylex.net:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [OAUTHBEARER, PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'

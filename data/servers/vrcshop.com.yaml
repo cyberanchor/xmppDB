@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: vrcshop.com
+flag: 🇮🇩
+country: Indonesia
+ip: '36.89.98.27'
+asn: AS7713 PT Telekomunikasi Indonesia
+isp: Telekomunikasi Indonesia
+org: Telekomunikasi Indonesia
+srv_client: xmpp.vrcshop.com:5222
+srv_server: xmpp.vrcshop.com:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [CRAM-MD5, DIGEST-MD5, PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

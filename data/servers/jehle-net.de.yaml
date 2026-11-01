@@ -1,0 +1,17 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jehle-net.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '152.53.22.165'
+asn: AS197540 netcup GmbH
+isp: netcup GmbH
+org: ANX
+srv_server: jehle-net.de:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

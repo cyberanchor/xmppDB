@@ -1,0 +1,14 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jb.dflash.co.id
+flag: 🇸🇬
+country: Singapore
+ip: '95.111.197.51'
+asn: AS202053 UpCloud Ltd
+isp: UpCloud Ltd
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+sources: [list]
+last_checked: '2026-11-01'

@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: whanau.org
+flag: 🇳🇿
+country: New Zealand
+alliance: 5
+ip: '114.23.104.161'
+asn: AS56030 Voyager Internet Ltd.
+isp: VOYAGER
+srv_server: whanau.org:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [EXTERNAL, PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

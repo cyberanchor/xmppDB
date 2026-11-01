@@ -1,0 +1,15 @@
+# xmppDB server record; fields are described in data/README.md
+domain: jabbe.ru
+flag: 🇷🇺
+country: Russia
+ip: '91.226.31.36'
+asn: AS49981 WorldStream B.V.
+isp: WorldStream B.V.
+org: AUC
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [DIGEST-MD5, PLAIN, SCRAM-SHA-1, X-OAUTH2]
+sources: [list]
+last_checked: '2026-11-01'

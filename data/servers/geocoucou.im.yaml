@@ -1,0 +1,18 @@
+# xmppDB server record; fields are described in data/README.md
+domain: geocoucou.im
+flag: 🇨🇦
+country: Canada
+alliance: 5
+ip: '104.21.10.152'
+asn: AS13335 Cloudflare, Inc.
+isp: Cloudflare, Inc.
+org: Cloudflare, Inc.
+srv_client: xmpp.geocoucou.im:5222
+srv_server: xmpp.geocoucou.im:5269
+c2s: true
+s2s: true
+starttls: true
+registration: true
+sasl: [PLAIN, SCRAM-SHA-1, SCRAM-SHA-1-PLUS]
+sources: [list]
+last_checked: '2026-11-01'

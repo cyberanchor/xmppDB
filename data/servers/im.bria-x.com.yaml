@@ -1,0 +1,19 @@
+# xmppDB server record; fields are described in data/README.md
+domain: im.bria-x.com
+flag: 🇺🇸
+country: United States
+alliance: 5
+ip: '154.6.16.12'
+asn: AS54900 Alianza Inc.
+isp: Alianza Inc.
+org: LogicWeb Inc
+srv_client: im.bria-x.com:5222
+c2s: true
+s2s: false
+starttls: true
+registration: true
+sasl: [PLAIN]
+errors:
+- 's2s:stream-error: invalid-from'
+sources: [list]
+last_checked: '2026-11-01'

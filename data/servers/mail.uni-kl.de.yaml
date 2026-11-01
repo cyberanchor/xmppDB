@@ -1,0 +1,16 @@
+# xmppDB server record; fields are described in data/README.md
+domain: mail.uni-kl.de
+flag: 🇩🇪
+country: Germany
+alliance: 14
+ip: '131.246.120.212'
+asn: AS199578 Rheinland-Pfaelzische Technische Universitaet Kaiserslautern-Landau
+isp: Technische Universitaet Kaiserslautern
+org: Technische Universitaet Kaiserslautern
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [LOGIN, PLAIN]
+sources: [list]
+last_checked: '2026-11-01'

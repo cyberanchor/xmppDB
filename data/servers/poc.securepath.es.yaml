@@ -1,0 +1,20 @@
+# xmppDB server record; fields are described in data/README.md
+domain: poc.securepath.es
+flag: 🇫🇷
+country: France
+alliance: 9
+ip: '134.119.179.118'
+asn: AS29066 velia.net Internetdienste GmbH
+isp: velia.net
+org: Secure Path SL
+srv_client: poc.securepath.es:5222
+srv_server: poc.securepath.es:5269
+c2s: true
+s2s: true
+starttls: true
+registration: false
+sasl: [PLAIN, SCRAM-SHA-1]
+errors:
+- 's2s:stream-error: undefined-condition'
+sources: [list]
+last_checked: '2026-11-01'
