@@ -1,0 +1,4 @@
+tools/venv/
+tools/work/
+tools/__pycache__/
+tools/resolve_snapshot.json
